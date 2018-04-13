@@ -6,7 +6,7 @@
 
  
  
-function aes_international_preprocess_page(&$vars) { 
+function aesinternational_preprocess_page(&$vars) { 
     // template files called page--contenttype.tpl.php 
     if (isset($vars['node']->type)) { 
         $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->type; 
@@ -16,7 +16,7 @@ function aes_international_preprocess_page(&$vars) {
 	drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/fade-text.js');
 }
 
-function aes_international_theme(){
+function aesinternational_theme(){
 	$items=array();
 	
 	$items['user_login']=array(
@@ -30,7 +30,7 @@ function aes_international_theme(){
 	return $items;
 }
 
-function aes_international_preprocess_node(&$variables) {
+function aesinternational_preprocess_node(&$variables) {
   $node = $variables['node'];
   $date = format_date($node->created, 'custom', 'F j, Y');
   $variables['submitted'] = t('Submitted by !username on !datetime', array('!username' => $variables['name'], '!datetime' => $date));
