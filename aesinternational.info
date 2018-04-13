@@ -1,4 +1,4 @@
-name = aes_international
+name = aesinternational
 description = International sub-sub theme
 core = 7.x
 base theme = aesbs337
@@ -10,12 +10,12 @@ base theme = aesbs337
 
 regions[navigation]     = 'Navigation'
 regions[navigation_col] = 'Navigation Collapsible'
-regions[preface]		= 'Preface'
+regions[preface]		    = 'Preface'
 regions[header]         = 'Top Bar'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'
-regions[suffix]			= 'Suffix'
+regions[suffix]			    = 'Suffix'
 regions[sidebar_first]  = 'Primary'
 regions[sidebar_second] = 'Secondary'
 regions[postscript_fir] = 'Postscript First'
