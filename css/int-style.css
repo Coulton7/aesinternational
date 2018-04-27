@@ -1,3 +1,7 @@
-/**
- * Place your custom styles here.
- */
+.object-fit-cover{
+	object-fit:cover;
+	height:100%;
+	width:100%;
+	object-position:50% 50%;
+	transform:translateY(-40%);
+}
