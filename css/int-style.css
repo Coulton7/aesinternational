@@ -81,3 +81,112 @@
 	color:#d34836;
 	font-size: 2.5em;
 }/*Fontawesome Google logo*/
+@media screen and (max-width: 767px) {
+
+.map-icon ul li:nth-child(1) a:after{
+	padding-right:0.8em;
+}/*padding bewteen the icons*/
+
+.map-icon ul li:nth-child(2) a:after{
+	padding-right:0.8em;
+}/*padding bewteen the icons*/
+
+.socialmedia ul li:nth-child(1) a:after{
+	padding-right:0.8em;
+	z-index:4;
+}/*padding bewteen the icons*/
+
+.socialmedia ul li:nth-child(2) a:after{
+	padding-right:0.8em;
+	z-index:4;
+}/*padding bewteen the icons*/
+
+.socialmedia ul li:nth-child(3) a:after{
+	padding-right:0.8em;
+	z-index:4;
+}/*padding bewteen the icons*/
+
+.socialmedia ul li:nth-child(4) a:after{
+	padding-right:0.8em;
+	z-index:4;
+}/*padding bewteen the icons*/
+
+.socialmedia ul li:nth-child(5) a:after{
+	padding-right:0.8em;
+	z-index: 4;
+}/*padding bewteen the icons*/
+}
+
+@media screen and (min-width: 768px) {
+
+	.map-icon ul li:nth-child(1) a:after{
+		padding-right:0.7em;
+	}/*padding bewteen the icons*/
+
+	.map-icon ul li:nth-child(2) a:after{
+		padding-right:0.8em;
+	}/*padding bewteen the icons*/
+
+	.socialmedia ul li:nth-child(1) a:after{
+		padding-right:0.7em;
+		z-index:4;
+	}/*padding bewteen the icons*/
+
+	.socialmedia ul li:nth-child(2) a:after{
+		padding-right:0.8em;
+		z-index:4;
+	}/*padding bewteen the icons*/
+
+	.socialmedia ul li:nth-child(3) a:after{
+		padding-right:0.8em;
+		z-index:4;
+	}/*padding bewteen the icons*/
+
+	.socialmedia ul li:nth-child(4) a:after{
+		padding-right:0.8em;
+		z-index:4;
+	}/*padding bewteen the icons*/
+
+	.socialmedia ul li:nth-child(5) a:after{
+		padding-right:0.8em;
+		z-index: 4;
+	}/*padding bewteen the icons*/
+}
+
+@media screen and (min-width: 992px) {
+
+	.map-icon ul li:nth-child(1) a:after{
+		padding-left: 0;
+		padding-right:0.6em;
+	}/*padding bewteen the icons*/
+	.map-icon ul li:nth-child(2) a:after{
+		padding-right:0.6em;
+	}/*padding bewteen the icons*/
+
+	.socialmedia ul li:nth-child(1) a:after{
+		padding-left: 0;
+		padding-right:0.6em;
+		z-index:4;
+	}/*padding bewteen the icons*/
+	.socialmedia ul li:nth-child(2) a:after{
+		padding-right:0.6em;
+		z-index:4;
+	}/*padding bewteen the icons*/
+	.socialmedia ul li:nth-child(3) a:after{
+		padding-right:0.6em;
+		z-index:4;
+	}/*padding bewteen the icons*/
+	.socialmedia ul li:nth-child(4) a:after{
+		padding-right:0.6em;
+		z-index:4;
+	}/*padding bewteen the icons*/
+
+	.socialmedia ul li:nth-child(5) a:after{
+		padding-right:0;
+		z-index:4;
+	}/*padding bewteen the icons*/
+}
+
+@media screen and (min-width: 1200px) {
+
+}
