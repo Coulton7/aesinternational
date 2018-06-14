@@ -73,8 +73,9 @@
  * @ingroup templates
  */
 ?>
-<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script defer src="https://use.fontawesome.com/releases/v5.0.12/js/solid.js" integrity="sha384-652/z7yNdGONCCBu0u5h5uF9voJhBdgruAuIDVheEaQ7O/ZC9wyyV+yZsYb32Wy7" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.12/js/brands.js" integrity="sha384-BPIhZF7kZGuZzBS4SP/oIqzpxWuOUtsPLUTVGpGw+EtB1wKt1hv63jb2OCroS3EX" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.12/js/fontawesome.js" integrity="sha384-6AOxTjzzZLvbTJayrLOYweuPckqh0rrB4Sj+Js8Vzgr85/qm2e0DRqi+rBzyK52J" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
 <script src="/sites/all/libraries/flexslider/jquery.flexslider.js"></script>
 <script type="text/javascript" charset="utf-8">
@@ -166,26 +167,24 @@
 		<div class="preface">
 			<div class= "flex_gradient">
 				<?php print render($page['preface']);?>
+
 			</div>
 		</div>
+					<?php endif; ?>
 
-		<div class="row wavelower row-eq-height">
-			<div class="col-sm-9 col-xs-1 fullscreen">
-				<div class="bottom-gap">
-				</div>
-			</div>
 
-			<div class="col-sm-3 col-xs-10 fullscreen">
+		<?php if ($page['wavelower']): ?>
+<div class="row wavelower row-eq-height">
+	<div class="col-sm-9 col-xs-1 fullscreen">
+		<div class="bottom-gap">
+		</div>
+	</div>
 
-				<?php
-					$block = block_load('block', '34');
-					$block_content = _block_render_blocks(array($block));
-					$build = _block_get_renderable_array($block_content);
-					print render($build);
-				?>
+	<div class="col-sm-3 col-xs-10 fullscreen">
 
-				<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" img alt ="curve-down"></img>
+		<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" img alt ="curve-down"></img>
 
+		<?php print render($page['wavelower']); ?>
 				<div class="socialmedia text-center">
 					<?php
 						$block = module_invoke('views', 'block_view', 'social_icons-block');
@@ -236,44 +235,45 @@
 			</aside>  <!-- /#sidebar-first -->
 		<?php endif; ?>
 
-		<section class="
+		<div class="tablet-fix">
+			<section id ="main-content" class="
 
-				<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
-					else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9'; }
-					else { print 'col-sm-4 col-md-6'; } ?> fullscreen">
+					<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
+						else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9'; }
+						else { print 'col-sm-4 col-md-6'; } ?> fullscreen">
 
-			<div class="clearfix">
-				<?php if (!empty($page['highlighted'])): ?>
-					<div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
+				<div class="clearfix">
+					<?php if (!empty($page['highlighted'])): ?>
+						<div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
+					<?php endif; ?>
+
+					<!-- <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?> old breadcrumb location -->
+						<a id="main-content"></a>
+					<?php print render($title_prefix); ?>
+
+					<?php print render($title_suffix); ?>
+						<?php print $messages; ?>
+				</div>
+
+
+				<div class="clearfix">
+					<?php if (!empty($tabs)): ?>
+							<?php print render($tabs); ?>
+					<?php endif; ?>
+				</div>
+
+
+				<?php if (!empty($page['help'])): ?>
+					<?php print render($page['help']); ?>
+				<?php endif; ?>
+				<?php if (!empty($action_links)): ?>
+					<ul class="action-links"><?php print render($action_links); ?></ul>
 				<?php endif; ?>
 
-				<!-- <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?> old breadcrumb location -->
-					<a id="main-content"></a>
-				<?php print render($title_prefix); ?>
-
-				<?php print render($title_suffix); ?>
-					<?php print $messages; ?>
-			</div>
-
-
-			<div class="clearfix">
-				<?php if (!empty($tabs)): ?>
-						<?php print render($tabs); ?>
-				<?php endif; ?>
-			</div>
-
-
-			<?php if (!empty($page['help'])): ?>
-				<?php print render($page['help']); ?>
-			<?php endif; ?>
-			<?php if (!empty($action_links)): ?>
-				<ul class="action-links"><?php print render($action_links); ?></ul>
-			<?php endif; ?>
-
-			<?php print render($page['content']); ?>
+				<?php print render($page['content']); ?>
 
 		</section>
-
+	</div>
 
 		<?php if (!empty($page['sidebar_second'])): ?>
 			<aside class="col-sm-4 col-md-3" role="complementary">
