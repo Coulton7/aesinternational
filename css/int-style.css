@@ -1,9 +1,34 @@
-.object-fit-cover{
-	object-fit:cover;
-	height:100%;
-	width:100%;
-	object-position:50% 50%;
-	transform:translateY(-40%);
+.flexslider{
+	margin:0!important;
+	background:none!important;
+	border:none!important;
+}
+
+.flex-header{
+	bottom: 5.8em;
+}
+
+.banner-title{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.banner-subtitle{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.flexslider .slides img{
+	height:auto;
+}
+
+.action-menu{
+	position: absolute;
+	top: 3em;
+	z-index:103;
 }
 
 .social-profile-icon{
@@ -82,6 +107,10 @@
 	font-size: 2.5em;
 }/*Fontawesome Google logo*/
 @media screen and (max-width: 767px) {
+	
+		.action-menu{
+		top:4em
+	}
 
 .map-icon ul li:nth-child(1) a:after{
 	padding-right:0.8em;
@@ -118,6 +147,14 @@
 }
 
 @media screen and (min-width: 768px) {
+	
+	.action-menu{
+		top:3.6em
+	}
+	
+	.banner-subtitle{
+		top:60%;
+	}
 
 	.map-icon ul li:nth-child(1) a:after{
 		padding-right:0.7em;
@@ -154,6 +191,13 @@
 }
 
 @media screen and (min-width: 992px) {
+	
+	.action-menu{
+	top:3.4em
+	}
+	.banner-subtitle{
+		top:55%;
+	}
 
 	.map-icon ul li:nth-child(1) a:after{
 		padding-left: 0;
@@ -188,5 +232,10 @@
 }
 
 @media screen and (min-width: 1200px) {
-
+	.action-menu{
+		top:3em;
+	}
+	.banner-subtitle{
+		top:40%;
+	}
 }
