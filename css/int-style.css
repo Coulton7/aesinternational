@@ -31,6 +31,11 @@
 	z-index:103;
 }
 
+.flexslider .slides > li:first-child {
+	display: block;
+	-webkit-backface-visibility: visible;
+}
+
 .social-profile-icon{
 	display:none;
 }/*Hide the social profile field icon that is provided*/
@@ -75,6 +80,28 @@
 	color:#d34836;
 	position: relative;
 	font-size: 2.5em;
+}/*Fontawesome map icon logo*/
+
+.socialmedia ul li:nth-child(1) a:hover::after {
+	color:#1a90d9;
+
+}/*Fontawesome twitter logo*/
+
+.socialmedia ul li:nth-child(2) a:hover::after {
+	color:#006ba2;
+
+}/*Fontawesome Linkdin logo*/
+
+.socialmedia ul li:nth-child(3) a:hover::after {
+    color: #bd4030;
+}/*Fontawesome contact logo*/
+
+.socialmedia ul li:nth-child(4) a:hover::after {
+	color:#004a8c;
+}/*Fontawesome globe logo*/
+
+.socialmedia ul li:nth-child(5) a:hover::after {
+	color:#bd4030;
 }/*Fontawesome map icon logo*/
 
 .map-icons{
