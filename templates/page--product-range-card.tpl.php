@@ -73,6 +73,9 @@
  * @ingroup templates
  */
 ?>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/regular.css" integrity="sha384-EWu6DiBz01XlR6XGsVuabDMbDN6RT8cwNoY+3tIH+6pUCfaNldJYJQfQlbEIWLyA" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/brands.css" integrity="sha384-VGCZwiSnlHXYDojsRqeMn3IVvdzTx5JEuHgqZ3bYLCLUBV8rvihHApoA1Aso2TZA" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css" integrity="sha384-GVa9GOgVQgOk+TNYXu7S/InPTfSDTtBalSgkgqQ7sCik56N9ztlkoTr2f/T44oKV" crossorigin="anonymous">
 <link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
 <script src="/sites/all/libraries/flexslider/jquery.flexslider.js"></script>
 <script type="text/javascript" charset="utf-8">
@@ -333,6 +336,8 @@
 
 			<?php if ($page['footer_lower']): ?>
 				<footer class="footer_lower <?php print $container_class; ?> dark-grey-gradient">
+					<div class="section-shadow">
 						<?php print render($page['footer_lower']);?>
+					</div>
 				</footer>
 			<?php endif; ?><!--added by Matt -->
