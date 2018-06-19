@@ -73,9 +73,9 @@
  * @ingroup templates
  */
 ?>
-<script defer src="https://use.fontawesome.com/releases/v5.0.12/js/solid.js" integrity="sha384-652/z7yNdGONCCBu0u5h5uF9voJhBdgruAuIDVheEaQ7O/ZC9wyyV+yZsYb32Wy7" crossorigin="anonymous"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.0.12/js/brands.js" integrity="sha384-BPIhZF7kZGuZzBS4SP/oIqzpxWuOUtsPLUTVGpGw+EtB1wKt1hv63jb2OCroS3EX" crossorigin="anonymous"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.0.12/js/fontawesome.js" integrity="sha384-6AOxTjzzZLvbTJayrLOYweuPckqh0rrB4Sj+Js8Vzgr85/qm2e0DRqi+rBzyK52J" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/regular.css" integrity="sha384-EWu6DiBz01XlR6XGsVuabDMbDN6RT8cwNoY+3tIH+6pUCfaNldJYJQfQlbEIWLyA" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/brands.css" integrity="sha384-VGCZwiSnlHXYDojsRqeMn3IVvdzTx5JEuHgqZ3bYLCLUBV8rvihHApoA1Aso2TZA" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css" integrity="sha384-GVa9GOgVQgOk+TNYXu7S/InPTfSDTtBalSgkgqQ7sCik56N9ztlkoTr2f/T44oKV" crossorigin="anonymous">
 <link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
 <script src="/sites/all/libraries/flexslider/jquery.flexslider.js"></script>
 <script type="text/javascript" charset="utf-8">
@@ -174,22 +174,22 @@
 
 
 		<?php if ($page['wavelower']): ?>
-<div class="row wavelower row-eq-height">
-	<div class="col-sm-9 col-xs-1 fullscreen">
-		<div class="bottom-gap">
-		</div>
-	</div>
+		<div class="row wavelower row-eq-height">
+			<div class="col-sm-9 col-xs-1 fullscreen">
+				<div class="bottom-gap">
+				</div>
+			</div>
 
-	<div class="col-sm-3 col-xs-10 fullscreen">
+			<div class="col-sm-3 col-xs-10 fullscreen">
 
-		<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" img alt ="curve-down"></img>
+				<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" img alt ="curve-down"></img>
 
-		<?php print render($page['wavelower']); ?>
+				<?php print render($page['wavelower']); ?>
 				<div class="socialmedia text-center">
-					<?php
-						$block = module_invoke('views', 'block_view', 'social_icons-block');
-						print render($block['content']);
-					?>
+				<?php
+					$block = module_invoke('views', 'block_view', 'social_icons-block');
+					print render($block['content']);
+				?>
 				</div>
 			</div>
 		</div>
@@ -221,12 +221,12 @@
 														else { print 'col-sm-12'; }
 											?>">
           <div class="breadcrumb-wrap">
-            <div class="container-fluid">
-              <div class="row">
+			  <div class="container-fluid">
+				<div class="row">
                   <?php if (!empty($breadcrumb)): print t("You are here") . $breadcrumb; endif;?> <!--New breadcrumb location -->
-								</div>
+				</div>
               </div>
-            </div>
+          </div>
           </div>
 
 		<?php if (!empty($page['sidebar_first'])): ?>
@@ -238,9 +238,9 @@
 		<div class="tablet-fix">
 			<section id ="main-content" class="
 
-					<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
-						else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9'; }
-						else { print 'col-sm-4 col-md-6'; } ?> fullscreen">
+				<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
+					else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9'; }
+					else { print 'col-sm-4 col-md-6'; } ?> fullscreen">
 
 				<div class="clearfix">
 					<?php if (!empty($page['highlighted'])): ?>
@@ -251,15 +251,17 @@
 						<a id="main-content"></a>
 					<?php print render($title_prefix); ?>
 
-					<?php print render($title_suffix); ?>
+					<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
 						<?php print $messages; ?>
+					</div>
 				</div>
 
-
 				<div class="clearfix">
-					<?php if (!empty($tabs)): ?>
+					<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+						<?php if (!empty($tabs)): ?>
 							<?php print render($tabs); ?>
-					<?php endif; ?>
+						<?php endif; ?>
+					</div>
 				</div>
 
 
@@ -272,8 +274,8 @@
 
 				<?php print render($page['content']); ?>
 
-		</section>
-	</div>
+			</section>
+		</div>
 
 		<?php if (!empty($page['sidebar_second'])): ?>
 			<aside class="col-sm-4 col-md-3" role="complementary">
