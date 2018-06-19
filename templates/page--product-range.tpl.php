@@ -73,9 +73,9 @@
  * @ingroup templates
  */
 ?>
-<script defer src="https://use.fontawesome.com/releases/v5.0.12/js/solid.js" integrity="sha384-652/z7yNdGONCCBu0u5h5uF9voJhBdgruAuIDVheEaQ7O/ZC9wyyV+yZsYb32Wy7" crossorigin="anonymous"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.0.12/js/brands.js" integrity="sha384-BPIhZF7kZGuZzBS4SP/oIqzpxWuOUtsPLUTVGpGw+EtB1wKt1hv63jb2OCroS3EX" crossorigin="anonymous"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.0.12/js/fontawesome.js" integrity="sha384-6AOxTjzzZLvbTJayrLOYweuPckqh0rrB4Sj+Js8Vzgr85/qm2e0DRqi+rBzyK52J" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/regular.css" integrity="sha384-EWu6DiBz01XlR6XGsVuabDMbDN6RT8cwNoY+3tIH+6pUCfaNldJYJQfQlbEIWLyA" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/brands.css" integrity="sha384-VGCZwiSnlHXYDojsRqeMn3IVvdzTx5JEuHgqZ3bYLCLUBV8rvihHApoA1Aso2TZA" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css" integrity="sha384-GVa9GOgVQgOk+TNYXu7S/InPTfSDTtBalSgkgqQ7sCik56N9ztlkoTr2f/T44oKV" crossorigin="anonymous">
 
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
@@ -230,17 +230,15 @@
 						<?php print $messages; ?>
 
 
-						<div class="breadcrumb-wrap">
-							<div class="container-fluid">
-								<div class="row">
-									<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
-										<?php if (!empty($breadcrumb)): print $breadcrumb; endif;?> <!-- New breadcrumb location -->
+							<div class="breadcrumb-wrap">
+								<div class="container-fluid">
+									<div class="row">
+										<?php if (!empty($breadcrumb)): print t("You are here") . $breadcrumb; endif;?> <!--New breadcrumb location -->
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
 
 
 				<?php if (!empty($tabs)): ?>
@@ -324,6 +322,8 @@
 
 			<?php if ($page['footer_lower']): ?>
 				<footer class="footer_lower <?php print $container_class; ?> dark-grey-gradient">
+					<div class="section-shadow">
 						<?php print render($page['footer_lower']);?>
+					</div>
 				</footer>
 			<?php endif; ?><!--added by Matt -->
