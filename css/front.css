@@ -19,7 +19,7 @@ color:#dd1e25;
 	bottom:0.5em;
 }
 
-.slides li img{
+.flexslider .slides li img{
 	margin-top:0;
 	margin-bottom:0;
 }
