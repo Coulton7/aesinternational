@@ -5,7 +5,20 @@
 }
 
 .flex-header{
-	bottom: 5.8em;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  color:#ffffff;
+}
+
+.flex-caption{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  width:auto;
+  bottom:auto;
+  transform: translate(-50%, -50%)
 }
 
 .banner-title{
