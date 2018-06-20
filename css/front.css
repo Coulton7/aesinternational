@@ -1,0 +1,20 @@
+.flex-header{
+bottom: 5.8em;
+left:initial;
+top:initial;
+transform:initial;
+color:#dd1e25;
+}
+
+.flex-caption{
+    padding-left: 1em;
+    color: #ffffff;
+    width: 60%;
+    bottom: 0.5em;
+    position: absolute;
+	top:initial;
+	left:initial;
+	transform:initial;
+	width:60%;
+	bottom:0.5em;
+}
