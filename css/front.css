@@ -18,3 +18,8 @@ color:#dd1e25;
 	width:60%;
 	bottom:0.5em;
 }
+
+.slides li img{
+	margin-top:0;
+	margin-bottom:0;
+}
