@@ -54,7 +54,7 @@
 }/*Hide the social profile field icon that is provided*/
 
 .socialmedia ul li:nth-child(1) a:after {
-    font-family: "Font Awesome 5 Free";
+    font-family: "FontAwesome";
     content: " \f099";
 	color:#1DA1F2;
 	z-index:4;
@@ -63,7 +63,7 @@
 }/*Fontawesome twitter logo*/
 
 .socialmedia ul li:nth-child(2) a:after {
-    font-family: "Font Awesome 5 Free";
+    font-family: "FontAwesome";
     content: " \f0e1";
 	color:#0077b5;
 	position: relative;
@@ -71,7 +71,7 @@
 }/*Fontawesome Linkdin logo*/
 
 .socialmedia ul li:nth-child(3) a:after {
-    font-family: "Font Awesome 5 Free";
+    font-family: "FontAwesome";
     content: " \f098";
     color: #d34836;
     padding-right: 0.60em;
@@ -80,7 +80,7 @@
 }/*Fontawesome contact logo*/
 
 .socialmedia ul li:nth-child(4) a:after {
-    font-family: "Font Awesome 5 Free";
+    font-family: "FontAwesome";
     content: " \f0ac";
 	color:#002A5B;
 	position: relative;
@@ -88,8 +88,8 @@
 }/*Fontawesome globe logo*/
 
 .socialmedia ul li:nth-child(5) a:after {
-    font-family: "Font Awesome 5 Free";
-    content: " \f3c5";
+    font-family: "FontAwesome";
+    content: " \f041";
 	color:#d34836;
 	position: relative;
 	font-size: 2.5em;
