@@ -21,6 +21,11 @@
   transform: translate(-50%, -50%)
 }
 
+.slides li img{
+	margin-top:-8%;
+	margin-bottom:8%;
+}
+
 .banner-title{
   position: absolute;
   left: 50%;
