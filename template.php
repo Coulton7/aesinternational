@@ -36,7 +36,7 @@ function aesinternational_preprocess_node(&$variables) {
   $variables['submitted'] = t('Submitted by !username on !datetime', array('!username' => $variables['name'], '!datetime' => $date));
 }
 
-function aesglobal_preprocess_maintenance_page(&$variables) {
+function aesinternational_preprocess_maintenance_page(&$variables) {
   if (isset($variables['db_is_active']) && !$variables['db_is_active']) {
 // Template suggestion for offline site
     $variables['theme_hook_suggestion'] = 'maintenance_page__offline';
