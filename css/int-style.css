@@ -54,13 +54,6 @@
 	-webkit-backface-visibility: visible;
 }
 
-.water-background{
-	background-image: url(/sites/epsilonpre3c.pinnseal.co.uk/files/background/water-background.jpg);
-	background-repeat:no-repeat;
-	border:5px solid #ffffff;
-	background-size:100%;
-}
-
 .social-profile-icon{
 	display:none;
 }/*Hide the social profile field icon that is provided*/
