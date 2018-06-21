@@ -3,9 +3,6 @@
  * @file
  * The primary PHP file for this theme.
  */
-
- 
- 
 function aesinternational_preprocess_page(&$vars) { 
     // template files called page--contenttype.tpl.php 
     if (isset($vars['node']->type)) { 
