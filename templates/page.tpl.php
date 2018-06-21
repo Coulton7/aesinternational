@@ -193,9 +193,9 @@
 				</div>
 			</div>
 		</div>
+		<?php endif; ?><!--added by Matt -->
 	</div>
 </div>
-		<?php endif; ?><!--added by Matt -->
 
 <div class="col-sm-12 fullscreen">
 			<?php if($page['header']):?>
