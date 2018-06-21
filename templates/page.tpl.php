@@ -141,15 +141,15 @@
 									<?php if (!empty($page['navigation'])): ?>
 										<?php print render($page['navigation']); ?>
 									<?php endif; ?>
-									<div class="section-shadow-menu"></div>
 								</nav>
 							</div>
 						</div>
+						<div class="section-shadow-menu"></div>
 					<?php endif; ?>
 
 				</header>
 			</div>
-		</div>
+		</div
 
 		<?php if ($page['navigation_col']): ?>
 			<div class="navigation_col">
