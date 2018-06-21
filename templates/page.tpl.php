@@ -256,11 +256,9 @@
 					</div>
 				</div>
 
-			<div class="<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; }
-				else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-12 fullscreen'; }
-				else { print 'col-sm-12 fullscreen'; } ?>">
 				<div class="clearfix">
-					<?php if (!empty($tabs)): ?>
+					<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+						<?php if (!empty($tabs)): ?>
 							<?php print render($tabs); ?>
 						<?php endif; ?>
 					</div>
