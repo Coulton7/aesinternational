@@ -28,6 +28,33 @@
 	margin-bottom:-8%;
 }
 
+.front .flex-header{
+    bottom: 1.8em;
+    left: -0.75em;
+    top: auto;
+    transform: auto;
+    color: #dd1e25;
+}
+
+.front .flex-caption{
+    padding-left: 1em;
+    color: #ffffff;
+    width: 60%;
+    bottom: 0.5em;
+    position: absolute;
+	top:auto;
+	left:auto;
+	transform:translate(0%);
+	width:60%;
+	bottom:0.5em;
+}
+
+.front .flexslider .slides li img{
+	margin-top:0;
+	margin-bottom:0;
+}
+
+
 .banner-title{
   position: absolute;
   left: 50%;
