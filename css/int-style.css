@@ -5,16 +5,18 @@
 }
 
 .flex-header{
-  position: absolute;
-  left: 50%;
-  top:50%;
-  transform: translate(-50%, -50%);
-  color:#ffffff;
+    position: absolute;
+    top: 38%;
+    left: 48%;
+    width: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
 }
 
 .flex-caption{
   position: absolute;
-  top: 45%;
+  top: 55%;
   left: 50%;
   width:auto;
   bottom:auto;
@@ -47,6 +49,120 @@
 	position: absolute;
 	top: 3em;
 	z-index:103;
+}
+
+.north-america{
+	position: absolute;
+    height: 41%;
+    width: 38%;
+	border-bottom:none!important;
+}
+
+.europe{
+	position: absolute;
+    right: 39%;
+    height: 30%;
+    width: 17%;
+	border-bottom:none!important;
+}
+
+.south-america{
+	position: absolute;
+    bottom: 10%;
+    height: 33%;
+    width: 12%;
+    left: 28%;
+	border-bottom:none!important;
+}
+
+.australasia{
+	position: absolute;
+    bottom: 15%;
+    right: 8%;
+    height: 26%;
+    width: 21%;
+	border-bottom:none!important;
+}
+
+.middle-east-upper{
+	position: absolute;
+    top: 43%;
+    left: 54.5%;
+    height: 7%;
+    width: 9%;
+	border-bottom:none!important;
+}
+
+.middle-east-lower{
+	position: absolute;
+    top: 47%;
+    left: 57.5%;
+    height: 10%;
+    width: 5%;
+	border-bottom:none!important;
+}
+
+.asia{
+	position: absolute;
+    right: 3%;
+    top: 35%;
+    height: 24%;
+    width: 34%;
+	border-bottom:none!important;
+}
+
+.africa-lower {
+    position: absolute;
+    top: 57%;
+    height: 28%;
+    left: 47%;
+    width: 17%;
+	border-bottom:none!important;
+}
+
+.africa-upper{
+    position: absolute;
+    top: 46.5%;
+    left: 43%;
+    height: 12%;
+    width: 12%;
+    border-bottom: none!important;
+}
+
+.north-america:hover{
+	border-bottom:none;
+}
+
+.europe:hover{
+	border-bottom:none;
+}
+
+.south-america:hover{
+	border-bottom:none;
+}
+
+.australasia:hover{
+	border-bottom:none;
+}
+
+.middle-east-upper:hover{
+	border-bottom:none;
+}
+
+.middle-east-lower:hover{
+	border-bottom:none;
+}
+
+.asia:hover{
+	border-bottom:none;
+}
+
+.africa-lower:hover {
+	border-bottom:none;
+}
+
+.africa-upper:hover{
+	border-bottom:none;
 }
 
 .flexslider .slides > li:first-child {
