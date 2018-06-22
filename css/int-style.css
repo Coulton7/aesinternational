@@ -32,7 +32,7 @@
     bottom: 1.8em;
     left: -0.75em;
     top: auto;
-    transform: auto;
+    transform: translate(0%);
     color: #dd1e25;
 }
 
@@ -72,48 +72,48 @@
 	height:auto;
 }
 
-.action-menu{
-	position: absolute;
-	top: 3em;
-	z-index:103;
+
+.africa-upper{
+    position: absolute;
+	left: 43%;
+    height: 12%;
+    width: 12%;
+    border-bottom: none!important;
 }
 
-.north-america{
-	position: absolute;
-    height: 41%;
-    width: 38%;
-	border-bottom:none!important;
-}
-
-.europe{
-	position: absolute;
-    right: 39%;
-    height: 30%;
+.africa-lower {
+    position: absolute;
+	top: 57%;
+    height: 28%;
+    left: 47%;
     width: 17%;
 	border-bottom:none!important;
 }
 
-.south-america{
+.asia{
 	position: absolute;
-    bottom: 10%;
-    height: 33%;
-    width: 12%;
-    left: 28%;
+	right: 3%;
+    height: 24%;
+    width: 34%;
 	border-bottom:none!important;
 }
 
 .australasia{
 	position: absolute;
-    bottom: 15%;
-    right: 8%;
-    height: 26%;
+	right: 8%;
     width: 21%;
+	border-bottom:none!important;
+}
+
+.europe{
+	position: absolute;
+	right: 39%;
+    width: 17%;
 	border-bottom:none!important;
 }
 
 .middle-east-upper{
 	position: absolute;
-    top: 43%;
     left: 54.5%;
     height: 7%;
     width: 9%;
@@ -122,39 +122,28 @@
 
 .middle-east-lower{
 	position: absolute;
-    top: 47%;
-    left: 57.5%;
+	left: 57.5%;
     height: 10%;
     width: 5%;
 	border-bottom:none!important;
 }
 
-.asia{
+.north-america{
 	position: absolute;
-    right: 3%;
-    top: 35%;
-    height: 24%;
-    width: 34%;
+	height: 41%;
+    width: 38%;
 	border-bottom:none!important;
 }
 
-.africa-lower {
-    position: absolute;
-    top: 57%;
-    height: 28%;
-    left: 47%;
-    width: 17%;
-	border-bottom:none!important;
-}
-
-.africa-upper{
-    position: absolute;
-    top: 46.5%;
-    left: 43%;
-    height: 12%;
+.south-america{
+	position: absolute;
+	bottom: 10%;
+    height: 33%;
     width: 12%;
-    border-bottom: none!important;
+    left: 28%;
+	border-bottom:none!important;
 }
+
 
 .north-america:hover{
 	border-bottom:none;
@@ -332,6 +321,33 @@
 	padding-right:0.8em;
 	z-index: 4;
 }/*padding bewteen the icons*/
+
+
+.africa-upper{
+    top: 48.5%;
+}
+
+.asia{
+    top: 38%;
+}
+
+.australasia{
+    bottom: 12%;
+    height: 27%;
+}
+
+.europe{
+    height: 28%;
+}
+
+.middle-east-upper{
+    top: 48%;
+}
+
+.middle-east-lower{
+    top: 49%;
+}
+
 }
 
 @media screen and (min-width: 768px) {
@@ -379,6 +395,39 @@
 	padding-right:0.8em;
 	z-index: 4;
 }/*padding bewteen the icons*/
+
+
+.action-menu{
+	position: absolute;
+	top: 3em;
+	z-index:103;
+}
+
+.africa-upper{
+    top: 50.5%;
+}
+
+.asia{
+    top: 38%;
+}
+
+.australasia{
+    bottom: 12%;
+    height: 26%;
+}
+
+.europe{
+    height: 26%;
+}
+
+.middle-east-upper{
+    top: 48%;
+}
+
+.middle-east-lower{
+    top: 50%;
+}
+
 }
 
 @media screen and (min-width: 992px) {	
@@ -421,6 +470,38 @@
 	padding-right:0;
 	z-index:4;
 }/*padding bewteen the icons*/
+
+.action-menu{
+	position: absolute;
+	top: 3em;
+	z-index:103;
+}
+
+.africa-upper{
+    top: 46.5%;
+}
+
+.asia{
+    top: 35%;
+}
+
+.australasia{
+    bottom: 15%;
+    height: 26%;
+}
+
+.europe{
+    height: 30%;
+}
+
+.middle-east-upper{
+    top: 43%;
+}
+
+.middle-east-lower{
+    top: 47%;
+}
+
 }
 
 @media screen and (min-width: 1200px) {
