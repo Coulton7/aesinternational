@@ -20,7 +20,8 @@
   left: 50%;
   width:auto;
   bottom:auto;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
+  margin-top:0.2em
 }
 
 .flexslider .slides li img{
