@@ -83,8 +83,8 @@
 	$(window).load(function() {
 	
 		$('.flexslider').flexslider({
-			controlNav: true,
-			directionNav: true
+			controlNav: false,
+			directionNav: false
 
 		});
 		
