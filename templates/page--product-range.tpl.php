@@ -76,6 +76,32 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/regular.css" integrity="sha384-EWu6DiBz01XlR6XGsVuabDMbDN6RT8cwNoY+3tIH+6pUCfaNldJYJQfQlbEIWLyA" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/brands.css" integrity="sha384-VGCZwiSnlHXYDojsRqeMn3IVvdzTx5JEuHgqZ3bYLCLUBV8rvihHApoA1Aso2TZA" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css" integrity="sha384-GVa9GOgVQgOk+TNYXu7S/InPTfSDTtBalSgkgqQ7sCik56N9ztlkoTr2f/T44oKV" crossorigin="anonymous">
+<script type="text/javascript" charset="utf-8">
+(function($){
+	$(window).load(function() {
+	
+		$('.flexslider').flexslider({
+			controlNav: true,
+			directionNav: true
+
+		});
+		
+	$.each($(".flexslider .slides li img"), function() {
+    var newDiv = document.createElement("div");
+	var titleDiv = document.createElement("div");
+    var titleText = $(this).attr('title');
+	var altText = $(this).attr('alt')
+    $(titleDiv).html(titleText);
+    $(titleDiv).attr('class','flex-header');
+	$(newDiv).html(altText);
+	$(newDiv).attr('class','flex-caption');
+    $(this).after(newDiv);
+	$(this).after(titleDiv);
+	})
+		
+	})
+})(jQuery);
+</script>
 
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
