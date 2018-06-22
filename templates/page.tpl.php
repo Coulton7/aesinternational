@@ -81,10 +81,26 @@
 <script type="text/javascript" charset="utf-8">
 (function($){
 	$(window).load(function() {
+	
 		$('.flexslider').flexslider({
-			controlNav: false,
-			directionNav: false
+			controlNav: true,
+			directionNav: true
+
 		});
+		
+	$.each($(".flexslider .slides li img"), function() {
+    var newDiv = document.createElement("div");
+	var titleDiv = document.createElement("div");
+    var titleText = $(this).attr('title');
+	var altText = $(this).attr('alt')
+    $(titleDiv).html(titleText);
+    $(titleDiv).attr('class','flex-header');
+	$(newDiv).html(altText);
+	$(newDiv).attr('class','flex-caption');
+    $(this).after(newDiv);
+	$(this).after(titleDiv);
+	})
+		
 	})
 })(jQuery);
 </script>
