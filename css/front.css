@@ -1,8 +1,8 @@
 .flex-header{
     bottom: 1.8em;
     left: -0.75em;
-    top: initial;
-    transform: initial;
+    top: auto;
+    transform: auto;
     color: #dd1e25;
 }
 
@@ -12,9 +12,9 @@
     width: 60%;
     bottom: 0.5em;
     position: absolute;
-	top:initial;
-	left:initial;
-	transform:initial;
+	top:auto;
+	left:auto;
+	transform:translate(0%);
 	width:60%;
 	bottom:0.5em;
 }
