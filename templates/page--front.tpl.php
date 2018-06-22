@@ -78,6 +78,33 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css" integrity="sha384-GVa9GOgVQgOk+TNYXu7S/InPTfSDTtBalSgkgqQ7sCik56N9ztlkoTr2f/T44oKV" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="/sites/all/themes/aesinternational/css/front.css">
 
+<script type="text/javascript" charset="utf-8">
+(function($){
+	$(window).load(function() {
+	
+		$('.flexslider').flexslider({
+			controlNav: true,
+			directionNav: true
+
+		});
+		
+	$.each($(".flexslider .slides li img"), function() {
+    var newDiv = document.createElement("div");
+	var titleDiv = document.createElement("div");
+    var titleText = $(this).attr('title');
+	var altText = $(this).attr('alt')
+    $(titleDiv).html(titleText);
+    $(titleDiv).attr('class','flex-header');
+	$(newDiv).html(altText);
+	$(newDiv).attr('class','flex-caption');
+    $(this).after(newDiv);
+	$(this).after(titleDiv);
+	})
+		
+	})
+})(jQuery);
+</script>
+
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
 
