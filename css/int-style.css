@@ -277,6 +277,10 @@
 	font-size: 2.5em;
 }/*Fontawesome map icon logo*/
 
+.flex-direction-nav{
+	display:none;
+}
+
 .field-name-field-tags{
 	display:inline-flex;
 }
