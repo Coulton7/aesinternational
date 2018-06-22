@@ -277,6 +277,46 @@
 	font-size: 2.5em;
 }/*Fontawesome map icon logo*/
 
+.field-name-field-tags{
+	display:inline-flex;
+}
+
+.field-name-field-tags a{
+	padding:10px;
+	border-bottom:none;
+}
+
+.field-name-field-tags a:hover{
+	background-color:#e5e5e7;
+	color:#fa010a;
+	border-bottom:none;
+	padding:10px;
+	
+}
+
+.author-picture{
+	margin-top:-4em;
+	border: 3px solid #ffffff;
+}
+
+.author-margin{
+	margin-top:0.5em;
+}
+
+.user-picture{
+	pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}
+
+.publish-date{
+	display:inline-block;
+}
+
+.bg-primary{
+	width:fit-content;
+}
+
 .map-icon ul li:nth-child(2) a:after{
     font-family: 'FontAwesome';
     content:"\f1a0";
