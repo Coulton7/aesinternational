@@ -1,9 +1,9 @@
 .flex-header{
-bottom: 5.8em;
-left:initial;
-top:initial;
-transform:initial;
-color:#dd1e25;
+    bottom: 1.8em;
+    left: -0.75em;
+    top: initial;
+    transform: initial;
+    color: #dd1e25;
 }
 
 .flex-caption{
