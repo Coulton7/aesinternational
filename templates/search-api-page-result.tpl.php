@@ -40,22 +40,22 @@
  *
  * @see template_preprocess_search_api_page_result()
  */
-?>
-<li class="search-result">
-	<div class="dotted-border">
-		<h3 class="title">
-		<?php print $url ? l($title, $url['path'], $url['options']) : check_plain($title); ?>
-		</h3>
-    <h6>
-      <?php print $result['node']->type; ?>
-    </h6>
-		<div class="search-snippet-info">
-				<?php if ($snippet): ?>
-				<p class="search-snippet"<?php print $content_attributes; ?>>
-				<?php print (filter_xss($snippet, $allowed_tags = array(''))); ?></p>
-				<?php print $url ? l('Read more', $url['path'], $url['options']) : check_plain('Read more'); ?>
-			<?php endif; ?>
-		</div>
-	</div>
-</li>
-<br>
+ ?>
+ <li class="search-result">
+ 	<div class="dotted-border">
+ 		<h3 class="title">
+ 		<?php print $url ? l($title, $url['path'], $url['options']) : check_plain($title); ?>
+ 		</h3>
+     <h6>
+       <?php print $result['node']->type; ?>
+     </h6>
+ 		<div class="search-snippet-info">
+ 				<?php if ($snippet): ?>
+ 				<p class="search-snippet"<?php print $content_attributes; ?>>
+ 				<?php print (filter_xss($snippet, $allowed_tags = array(''))); ?></p>
+ 				<?php print $url ? l('Read more', $url['path'], $url['options']) : check_plain('Read more'); ?>
+ 			<?php endif; ?>
+ 		</div>
+ 	</div>
+ </li>
+ <br>
