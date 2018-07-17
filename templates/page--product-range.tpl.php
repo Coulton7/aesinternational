@@ -79,13 +79,13 @@
 <script type="text/javascript" charset="utf-8">
 (function($){
 	$(window).load(function() {
-	
+
 		$('.flexslider').flexslider({
 			controlNav: true,
 			directionNav: true
 
 		});
-		
+
 	$.each($(".flexslider .slides li img"), function() {
     var newDiv = document.createElement("div");
 	var titleDiv = document.createElement("div");
@@ -98,7 +98,7 @@
     $(this).after(newDiv);
 	$(this).after(titleDiv);
 	})
-		
+
 	})
 })(jQuery);
 </script>
@@ -184,7 +184,7 @@
 			</div>
 		</div>
 					<?php endif; ?>
-		
+
 
 
 		<?php if ($page['wavelower']): ?>
