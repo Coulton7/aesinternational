@@ -230,7 +230,7 @@
 			<section class="
 
 					<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
-						else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9 col-md-push-3'; }
+						else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9 col-md-push-3 col-sm-push-4'; }
 						else { print 'col-sm-4 col-md-6 col-md-push-3 col-sm-push-4'; } ?>">
 
 				<div class="clearfix">
@@ -278,7 +278,7 @@
 			</section>
 
 			<?php if (!empty($page['sidebar_first'])): ?>
-				<aside class="<?php if (empty($page['sidebar_second'])) { print 'col-sm-4 col-md-3 col-md-pull-9'; }
+				<aside class="<?php if (empty($page['sidebar_second'])) { print 'col-sm-4 col-md-3 col-md-pull-9 col-sm-pull-8'; }
 							else { print 'col-sm-4 col-md-3 col-md-pull-6 col-sm-pull-4'; } ?>" role="complementary">
 					<?php print render($page['sidebar_first']); ?>
 				</aside>  <!-- /#sidebar-first -->

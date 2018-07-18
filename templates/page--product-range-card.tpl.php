@@ -215,9 +215,9 @@
 
 			<section class="
 
-					<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
-						else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9 col-md-push-3'; }
-						else { print 'col-sm-4 col-md-6 col-md-push-3 col-sm-push-4'; } ?>">
+			<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
+				else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9 col-md-push-3 col-sm-push-4'; }
+				else { print 'col-sm-4 col-md-6 col-md-push-3 col-sm-push-4'; } ?>">
 
 				<div class="clearfix">
 					<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
