@@ -265,7 +265,7 @@
 
 			<?php if (!empty($page['sidebar_first'])): ?>
 				<aside class="<?php if (empty($page['sidebar_second'])) { print 'col-sm-4 col-md-3 col-md-pull-9'; }
-							else { print 'col-sm-4 col-md-3 col-md-pull-6 col-sm-pull-4'; } ?>" role="complementary">
+							else { print 'col-sm-4 col-md-3 col-md-pull-6 col-sm-pull-8'; } ?>" role="complementary">
 					<?php print render($page['sidebar_first']); ?>
 				</aside>  <!-- /#sidebar-first -->
 			<?php endif; ?>
