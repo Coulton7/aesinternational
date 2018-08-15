@@ -19,7 +19,7 @@ function aesinternational_theme(){
 	$items['user_login']=array(
 	'render element' => 'form',
 	'path'=> drupal_get_path('theme', 'aesbs337').'/templates',
-	'template'=>'user_login',
+	'template'=>'user-login',
 	'preprocess functions'=>array(
 	'aesbs337_preprocess_user_login'
 	),
