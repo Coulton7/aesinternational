@@ -353,4 +353,4 @@
 						</div>
 					</div>
 				<?php endif; ?><!--added by Matt -->
-				</footer>
+			</footer>
