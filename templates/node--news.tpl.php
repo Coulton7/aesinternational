@@ -87,41 +87,41 @@
     <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
     <?php endif; ?>
     <?php print render($title_suffix); ?>
-
   </header>
   <?php endif; ?>
+
   <div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
-  <?php print render($content['field_image']);?>
-  <br>
+    <?php print render($content['field_image']);?>
+    <br>
   </div>
-  
+
 	<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
-	<div class="row">
-	<div class="col-xs-2">
-	<div class="author-picture">
-	  <?php print $user_picture; ?>
-	  </div>
-	</div>
-	<div class="col-xs-4">
-	<div class="author-margin">
-	  <div class="author bg-primary"> <p>&nbsp;
-	  <?php echo "  Written By: ". $node->name?>&nbsp;</p>
-	  </div>
-	  <div class="publish-date">
-	  <sup>
-      <?php if($submitted){echo "Posted: " . date("F j, Y", $node->created);}
-	  ?></sup>
-	  </div>
-	  </div>
-	  </div>
-	  </div>
+	   <div class="row">
+	      <div class="col-xs-2">
+	         <div class="author-picture">
+	            <?php print $user_picture; ?>
+	         </div>
+	      </div>
+	      <div class="col-xs-4">
+	         <div class="author-margin">
+	            <div class="author bg-primary"> <p>&nbsp;
+	               <?php echo "  Written By: ". $node->name?>&nbsp;</p>
+	            </div>
+	            <div class="publish-date">
+	               <sup>
+                   <?php if($submitted){echo "Posted: " . date("F j, Y", $node->created);}?>
+                 </sup>
+	            </div>
+	         </div>
+	      </div>
+	   </div>
 	  <hr>
-    </div>
+  </div>
   <?php
     // Hide comments, tags, and links now so that we can render them later.
     hide($content['comments']);
     hide($content['links']);
-	hide($content['field_image']);
+	  hide($content['field_image']);
     hide($content['field_tags']);
     print render($content);
   ?>
