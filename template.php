@@ -18,10 +18,10 @@ function aesinternational_theme(){
 
 	$items['user_login']=array(
 	'render element' => 'form',
-	'path'=> drupal_get_path('theme', 'aesbs337').'/templates',
+	'path'=> drupal_get_path('theme', 'aesinternational').'/templates',
 	'template'=>'user-login',
 	'preprocess functions'=>array(
-	'aesbs337_preprocess_user_login'
+	'aesinternational_preprocess_user_login'
 	),
 	);
 	return $items;
