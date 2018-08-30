@@ -85,73 +85,73 @@
 
 
 .africa-upper{
-    position: absolute;
+  position: absolute;
 	left: 43%;
-    height: 12%;
-    width: 12%;
-    border-bottom: none!important;
+  height: 12%;
+  width: 12%;
+  border-bottom: none!important;
 }
 
 .africa-lower {
-    position: absolute;
+  position: absolute;
 	top: 57%;
-    height: 28%;
-    left: 47%;
-    width: 17%;
+  height: 28%;
+  left: 47%;
+  width: 17%;
 	border-bottom:none!important;
 }
 
 .asia{
 	position: absolute;
 	right: 3%;
-    height: 24%;
-    width: 34%;
+  height: 24%;
+  width: 34%;
 	border-bottom:none!important;
 }
 
 .australasia{
 	position: absolute;
 	right: 8%;
-    width: 21%;
+  width: 21%;
 	border-bottom:none!important;
 }
 
 .europe{
 	position: absolute;
 	right: 39%;
-    width: 17%;
+  width: 17%;
 	border-bottom:none!important;
 }
 
 .middle-east-upper{
 	position: absolute;
-    left: 54.5%;
-    height: 7%;
-    width: 9%;
+  left: 54.5%;
+  height: 7%;
+  width: 9%;
 	border-bottom:none!important;
 }
 
 .middle-east-lower{
 	position: absolute;
 	left: 57.5%;
-    height: 10%;
-    width: 5%;
+  height: 10%;
+  width: 5%;
 	border-bottom:none!important;
 }
 
 .north-america{
 	position: absolute;
 	height: 41%;
-    width: 38%;
+  width: 38%;
 	border-bottom:none!important;
 }
 
 .south-america{
 	position: absolute;
 	bottom: 10%;
-    height: 33%;
-    width: 12%;
-    left: 28%;
+  height: 33%;
+  width: 12%;
+  left: 28%;
 	border-bottom:none!important;
 }
 
@@ -202,8 +202,8 @@
 }/*Hide the social profile field icon that is provided*/
 
 .socialmedia ul li:nth-child(1) a:after {
-    font-family: "FontAwesome";
-    content: " \f099";
+  font-family: "FontAwesome";
+  content: " \f099";
 	color:#1DA1F2;
 	z-index:4;
 	position: relative;
@@ -211,33 +211,33 @@
 }/*Fontawesome twitter logo*/
 
 .socialmedia ul li:nth-child(2) a:after {
-    font-family: "FontAwesome";
-    content: " \f0e1";
+  font-family: "FontAwesome";
+  content: " \f0e1";
 	color:#0077b5;
 	position: relative;
 	font-size: 2.5em;
 }/*Fontawesome Linkdin logo*/
 
 .socialmedia ul li:nth-child(3) a:after {
-    font-family: "FontAwesome";
-    content: " \f098";
-    color: #d34836;
-    padding-right: 0.60em;
-    position: relative;
-    font-size: 2.5em;
+  font-family: "FontAwesome";
+  content: " \f098";
+  color: #d34836;
+  padding-right: 0.60em;
+  position: relative;
+  font-size: 2.5em;
 }/*Fontawesome contact logo*/
 
 .socialmedia ul li:nth-child(4) a:after {
-    font-family: "FontAwesome";
-    content: " \f0ac";
+  font-family: "FontAwesome";
+  content: " \f0ac";
 	color:#002A5B;
 	position: relative;
 	font-size: 2.5em;
 }/*Fontawesome globe logo*/
 
 .socialmedia ul li:nth-child(5) a:after {
-    font-family: "FontAwesome";
-    content: " \f041";
+  font-family: "FontAwesome";
+  content: " \f041";
 	color:#d34836;
 	position: relative;
 	font-size: 2.5em;
@@ -245,12 +245,10 @@
 
 .socialmedia ul li:nth-child(1) a:hover::after {
 	color:#1a90d9;
-
 }/*Fontawesome twitter logo*/
 
 .socialmedia ul li:nth-child(2) a:hover::after {
 	color:#006ba2;
-
 }/*Fontawesome Linkdin logo*/
 
 .socialmedia ul li:nth-child(3) a:hover::after {
@@ -282,8 +280,8 @@
 }/*Hides the border bottom on all links in map icons*/
 
 .map-icon ul li:nth-child(1) a:after{
-    font-family: 'FontAwesome';
-    content: " \f041";
+  font-family: 'FontAwesome';
+  content: " \f041";
 	color:#d34836;
 	font-size: 2.5em;
 }/*Fontawesome map icon logo*/
@@ -306,7 +304,6 @@
 	color:#fa010a;
 	border-bottom:none;
 	padding:10px;
-	
 }
 
 .author-picture{
@@ -333,8 +330,8 @@
 }
 
 .map-icon ul li:nth-child(2) a:after{
-    font-family: 'FontAwesome';
-    content:"\f1a0";
+  font-family: 'FontAwesome';
+  content:"\f1a0";
 	color:#d34836;
 	font-size: 2.5em;
 }/*Fontawesome Google logo*/
@@ -343,78 +340,60 @@
 .front__flex-margin{
 	margin:0;
 }
-
 .action-menu{
 	top:4em
 }
-
 .map-icon ul li:nth-child(1) a:after{
 	padding-right:0.8em;
 }/*padding bewteen the icons*/
-
 .map-icon ul li:nth-child(2) a:after{
 	padding-right:0.8em;
 }/*padding bewteen the icons*/
-
 .socialmedia ul li:nth-child(1) a:after{
 	padding-right:0.8em;
 	z-index:4;
 }/*padding bewteen the icons*/
-
 .socialmedia ul li:nth-child(2) a:after{
 	padding-right:0.8em;
 	z-index:4;
 }/*padding bewteen the icons*/
-
 .socialmedia ul li:nth-child(3) a:after{
 	padding-right:0.8em;
 	z-index:4;
 }/*padding bewteen the icons*/
-
 .socialmedia ul li:nth-child(4) a:after{
 	padding-right:0.8em;
 	z-index:4;
 }/*padding bewteen the icons*/
-
 .socialmedia ul li:nth-child(5) a:after{
 	padding-right:0.8em;
 	z-index: 4;
 }/*padding bewteen the icons*/
-
-
 .africa-upper{
     top: 48.5%;
 }
-
 .asia{
     top: 38%;
 }
-
 .australasia{
     bottom: 12%;
     height: 27%;
 }
-
 .europe{
     height: 28%;
 }
-
 .middle-east-upper{
     top: 48%;
 }
-
 .middle-east-lower{
     top: 49%;
 }
-
 }
 
 @media screen and (min-width: 768px) {
-	
 .action-menu{
 	top:3.6em
 }
-	
 .banner-subtitle{
 	top:60%;
 }
@@ -425,71 +404,56 @@
 .map-icon ul li:nth-child(1) a:after{
 	padding-right:0.7em;
 }/*padding bewteen the icons*/
-
 .map-icon ul li:nth-child(2) a:after{
 	padding-right:0.8em;
 }/*padding bewteen the icons*/
-
 .socialmedia ul li:nth-child(1) a:after{
 	padding-right:0.7em;
 	z-index:4;
 }/*padding bewteen the icons*/
-
 .socialmedia ul li:nth-child(2) a:after{
 	padding-right:0.8em;
 	z-index:4;
 }/*padding bewteen the icons*/
-
 .socialmedia ul li:nth-child(3) a:after{
 	padding-right:0.8em;
 	z-index:4;
 }/*padding bewteen the icons*/
-
 .socialmedia ul li:nth-child(4) a:after{
 	padding-right:0.8em;
 	z-index:4;
 }/*padding bewteen the icons*/
-
 .socialmedia ul li:nth-child(5) a:after{
 	padding-right:0.8em;
 	z-index: 4;
 }/*padding bewteen the icons*/
-
-
 .action-menu{
 	position: absolute;
 	top: 3em;
 	z-index:103;
 }
-
 .africa-upper{
     top: 50.5%;
 }
-
 .asia{
     top: 38%;
 }
-
 .australasia{
     bottom: 12%;
     height: 26%;
 }
-
 .europe{
     height: 26%;
 }
-
 .middle-east-upper{
     top: 48%;
 }
-
 .middle-east-lower{
     top: 50%;
 }
-
 }
 
-@media screen and (min-width: 992px) {	
+@media screen and (min-width: 992px) {
 .action-menu{
 	top:3.4em
 }
@@ -529,38 +493,30 @@
 	padding-right:0;
 	z-index:4;
 }/*padding bewteen the icons*/
-
 .action-menu{
 	position: absolute;
 	top: 3em;
 	z-index:103;
 }
-
 .africa-upper{
-    top: 46.5%;
+    top: 42.5%;
 }
-
 .asia{
     top: 35%;
 }
-
 .australasia{
     bottom: 15%;
     height: 26%;
 }
-
 .europe{
     height: 30%;
 }
-
 .middle-east-upper{
     top: 43%;
 }
-
 .middle-east-lower{
     top: 47%;
 }
-
 }
 
 @media screen and (min-width: 1200px) {
