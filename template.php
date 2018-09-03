@@ -25,6 +25,8 @@ function aesinternational_theme(){
 	),
 	);
 	return $items;
+
+function aesinternational_preprocess_user_login(&$vars){
 }
 
 function aesinternational_preprocess_node(&$variables) {
