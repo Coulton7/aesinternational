@@ -206,8 +206,8 @@
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-evenly;
+	flex-direction: column;
 }
 
 .socialmedia ul li:nth-child(1) a:after {
