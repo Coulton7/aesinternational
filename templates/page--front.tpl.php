@@ -80,13 +80,13 @@
 <script type="text/javascript" charset="utf-8">
 (function($){
 	$(window).load(function() {
-	
+
 		$('.flexslider').flexslider({
 			controlNav: false,
 			directionNav: false
 
 		});
-		
+
 	$.each($(".flexslider .slides li img"), function() {
     var newDiv = document.createElement("div");
 	var titleDiv = document.createElement("div");
@@ -99,7 +99,7 @@
     $(this).after(newDiv);
 	$(this).after(titleDiv);
 	})
-		
+
 	})
 })(jQuery);
 </script>
@@ -111,10 +111,10 @@
 			<div class="col-sm-2 col-xs-2 fullscreen">
 				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
 					<div class="wavelogo">
-						<img class="wavelogo" src = "/sites/all/themes/aesbs337/images/logos/logo.svg" img alt ="logo"></img>
+						<img class="wavelogo" src="/sites/all/themes/aesbs337/images/logos/logo.svg" alt ="logo"></img>
 					</div>
 				</a>
-				<img class= "uppercurve" src = "/sites/all/themes/aesbs337/images/logos/wave-upper.svg" img alt ="uppercurve"></img>
+				<img class= "uppercurve" src="/sites/all/themes/aesbs337/images/logos/wave-upper.svg" alt ="uppercurve"></img>
 					 <?php if ($logo): ?>
 						<a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
 							<img src="/sites/all/themes/aesbs337/images/logos/textonlylogo.svg" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
@@ -235,7 +235,7 @@
 														else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-12'; }
 														else { print 'col-sm-12'; }
 											?>">
-											
+
 	<!--  <div class="breadcrumb-wrap">
             <div class="container-fluid">
               <div class="row">
