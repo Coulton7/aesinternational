@@ -224,6 +224,14 @@
 	flex-direction: column;
 }
 
+.view-employees .masonry-tem{
+	padding:0;
+}
+
+.view-employees .masonry-item .views-field.views-field-picture{
+	padding:2em;
+}
+
 .socialmedia ul li:nth-child(1) a:after {
   font-family: "FontAwesome";
   content: " \f099";
