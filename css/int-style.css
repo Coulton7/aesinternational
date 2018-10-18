@@ -211,6 +211,10 @@
 	margin-top: auto;
 }
 
+.form-item-field-zendesk-country-und-0-value{
+	display: none;
+}
+
 .social-profile-icon{
 	display:none;
 }/*Hide the social profile field icon that is provided*/
