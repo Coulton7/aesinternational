@@ -325,6 +325,29 @@
 	display:none;
 }
 
+.btn-primary{
+	list-style-type:none;
+	display:inline-block;
+	background:#dd1e25;
+	color:#ffffff!important;
+	border:none!important;
+	border-radius:0;
+}
+
+.btn-primary a{
+	color:#ffffff;
+}
+
+.btn-primary:hover{
+	background:#fa010a;
+	margin-bottom:0;
+	color:#ffffff!important;
+	outline-offset:1px;
+	outline-style:solid;
+	outline-color:#ffffff;
+	outline-width:1px;
+}
+
 .field-name-field-tags{
 	display:inline-flex;
 }
