@@ -225,9 +225,7 @@
 <div class="main-container <?php print $container_class; ?>">
   <div class="container-fluid">
 	<div class="row">
-	 <div class="<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12 fullscreen'; }
-					else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; }
-					else { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; } ?>">
+	 <div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
 
           <?php if (!empty($title)): ?>
   					<h1 class="page-header" id="page-main-heading"><?php print $title; ?></h1>
