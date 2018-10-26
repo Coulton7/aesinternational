@@ -29,6 +29,11 @@
 	margin-bottom:-8%;
 }
 
+p a[target="_blank"]:after {
+    font-family: 'FontAwesome';
+    content: " \f08e";
+}
+
 .page-node-6344 .flex-caption{
   position: absolute;
   top: 65%;
