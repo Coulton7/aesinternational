@@ -160,7 +160,6 @@ p a[target="_blank"]:after {
 	border-bottom:none!important;
 }
 
-
 .north-america:hover{
 	border-bottom:none;
 }
@@ -400,89 +399,88 @@ p a[target="_blank"]:after {
 }/*Fontawesome Google logo*/
 
 @media screen and (max-width: 767px) {
-	.front__flex-margin{
-		margin:0;
-	}
-	.action-menu{
-		top:4em
-	}
-	.map-icon ul li:nth-child(1) a:after{
+.front__flex-margin{
+	margin:0;
+}
+.action-menu{
+	top:4em
+}
+.map-icon ul li:nth-child(1) a:after{
 	padding-right:0.8em;
-	}/*padding bewteen the icons*/
-	.map-icon ul li:nth-child(2) a:after{
+}/*padding bewteen the icons*/
+.map-icon ul li:nth-child(2) a:after{
 	padding-right:0.8em;
-	}/*padding bewteen the icons*/
-	.socialmedia ul li:nth-child(1) a:after{
-	padding-right:0.8em;
-	z-index:4;
-	}/*padding bewteen the icons*/
-	.socialmedia ul li:nth-child(2) a:after{
+}/*padding bewteen the icons*/
+.socialmedia ul li:nth-child(1) a:after{
 	padding-right:0.8em;
 	z-index:4;
-	}/*padding bewteen the icons*/
-	.socialmedia ul li:nth-child(3) a:after{
+}/*padding bewteen the icons*/
+.socialmedia ul li:nth-child(2) a:after{
 	padding-right:0.8em;
 	z-index:4;
-	}/*padding bewteen the icons*/
-	.socialmedia ul li:nth-child(4) a:after{
+}/*padding bewteen the icons*/
+.socialmedia ul li:nth-child(3) a:after{
 	padding-right:0.8em;
 	z-index:4;
-	}/*padding bewteen the icons*/
-	.socialmedia ul li:nth-child(5) a:after{
+}/*padding bewteen the icons*/
+.socialmedia ul li:nth-child(4) a:after{
+	padding-right:0.8em;
+	z-index:4;
+}/*padding bewteen the icons*/
+.socialmedia ul li:nth-child(5) a:after{
 	padding-right:0.8em;
 	z-index: 4;
-	}/*padding bewteen the icons*/
+}/*padding bewteen the icons*/
 .africa-upper{
-    top: 48.5%;
-	}
+  top: 48.5%;
+}
 .asia{
-    top: 38%;
-	}
+  top: 38%;
+}
 .australasia{
-    bottom: 12%;
-    height: 27%;
-	}
+  bottom: 12%;
+  height: 27%;
+}
 	.europe{
-    height: 28%;
-	}
+  height: 28%;
+}
 	.middle-east-upper{
-    top: 48%;
-	}
+  top: 48%;
+}
 	.middle-east-lower{
-    top: 49%;
-	}
-
-	.row.bannerimage {
+  top: 49%;
+}
+.row.bannerimage {
 	overflow: hidden;
-	}
+}
 }
 
 @media screen and (min-width:501px) and (max-width: 767px){
   /*Apply to flex-gradient for international sites but for the home/frontpage
   use the class .front .front_flex-margin*/
-  .front .front__flex-margin {
-    transform: scale(1.5);
-    transform-origin: top;
-    margin-bottom: 16%;
-  }
-	.flex-gradient{
-		transform: scale(1.5);
-		transform-origin: top;
-		margin-bottom: 16%;
-	}
+.front .front__flex-margin {
+  transform: scale(1.5);
+  transform-origin: top;
+  margin-bottom: 16%;
+}
+.flex-gradient{
+	transform: scale(1.5);
+	transform-origin: top;
+	margin-bottom: 16%;
+}
 }
 
 @media screen amd (max-width:500px){
-  .front .front__flex-margin{
-    transform: scale(2);
-    transform-origin: top;
-    margin-bottom: 30%;
-  }
-	.flex-gradient{
-		transform:scale(2);
-		transform-origin: top;
-		margin-bottom: 30%;
-	}
+.front .front__flex-margin{
+  transform: scale(2);
+  transform-origin: top;
+  margin-bottom: 30%;
+}
+.flex-gradient{
+	transform:scale(2);
+	transform-origin: top;
+	margin-bottom: 30%;
+}
 }
 
 @media screen and (min-width: 768px) {
@@ -528,23 +526,23 @@ p a[target="_blank"]:after {
 	z-index:103;
 }
 .africa-upper{
-    top: 50.5%;
+  top: 50.5%;
 }
 .asia{
-    top: 38%;
+  top: 38%;
 }
 .australasia{
-    bottom: 12%;
-    height: 26%;
+  bottom: 12%;
+  height: 26%;
 }
 .europe{
-    height: 26%;
+  height: 26%;
 }
 .middle-east-upper{
-    top: 48%;
+  top: 48%;
 }
 .middle-east-lower{
-    top: 50%;
+  top: 50%;
 }
 }
 
@@ -583,7 +581,6 @@ p a[target="_blank"]:after {
 	padding-right:0.6em;
 	z-index:4;
 }/*padding bewteen the icons*/
-
 .socialmedia ul li:nth-child(5) a:after{
 	padding-right:0;
 	z-index:4;
@@ -594,23 +591,23 @@ p a[target="_blank"]:after {
 	z-index:103;
 }
 .africa-upper{
-    top: 42.5%;
+  top: 42.5%;
 }
 .asia{
-    top: 35%;
+  top: 35%;
 }
 .australasia{
-    bottom: 15%;
-    height: 26%;
+  bottom: 15%;
+  height: 26%;
 }
 .europe{
-    height: 30%;
+  height: 30%;
 }
 .middle-east-upper{
-    top: 43%;
+  top: 43%;
 }
 .middle-east-lower{
-    top: 47%;
+  top: 47%;
 }
 }
 
