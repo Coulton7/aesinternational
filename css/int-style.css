@@ -53,11 +53,11 @@ p a[target="_blank"]:after {
 }
 
 .front .flex-caption{
-    padding-left: 1em;
-    color: #ffffff;
-    width: 60%;
-    bottom: 0.5em;
-    position: absolute;
+  padding-left: 1em;
+  color: #ffffff;
+  width: 60%;
+  bottom: 0.5em;
+  position: absolute;
 	top:auto;
 	left:auto;
 	transform:translate(0%);
