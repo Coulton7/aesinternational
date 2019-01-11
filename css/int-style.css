@@ -30,8 +30,8 @@
 }
 
 p a[target="_blank"]:after {
-	font-family: 'Font Awesome 5 Free';
-	content: " \f35d";
+	font-family: 'FontAwesome';
+	content: " \f08e";
 }
 
 .page-node-6344 .flex-caption{
@@ -241,7 +241,7 @@ p a[target="_blank"]:after {
 }
 
 .socialmedia ul li:nth-child(1) a:after {
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesome";
   content: " \f099";
 	color:#1DA1F2;
 	z-index:4;
@@ -250,7 +250,7 @@ p a[target="_blank"]:after {
 }/*Fontawesome twitter logo*/
 
 .socialmedia ul li:nth-child(2) a:after {
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesome";
   content: " \f0e1";
 	color:#0077b5;
 	position: relative;
@@ -258,7 +258,7 @@ p a[target="_blank"]:after {
 }/*Fontawesome Linkdin logo*/
 
 .socialmedia ul li:nth-child(3) a:after {
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesome";
   content: " \f098";
   color: #d34836;
   padding-right: 0.60em;
@@ -267,7 +267,7 @@ p a[target="_blank"]:after {
 }/*Fontawesome contact logo*/
 
 .socialmedia ul li:nth-child(4) a:after {
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesome";
   content: " \f57d";
 	color:#002A5B;
 	position: relative;
@@ -275,8 +275,8 @@ p a[target="_blank"]:after {
 }/*Fontawesome globe logo*/
 
 .socialmedia ul li:nth-child(5) a:after {
-  font-family: "Font Awesome 5 Free";
-  content: " \f3c5";
+  font-family: "FontAwesome";
+  content: " \f041";
 	color:#d34836;
 	position: relative;
 	font-size: 2.5em;
@@ -319,8 +319,8 @@ p a[target="_blank"]:after {
 }/*Hides the border bottom on all links in map icons*/
 
 .map-icon ul li:nth-child(1) a:after{
-  font-family: 'Font Awesome 5 Free';
-  content: " \f3c5";
+  font-family: 'FontAwesome';
+  content: " \f041";
 	color:#d34836;
 	font-size: 2.5em;
 }/*Fontawesome map icon logo*/
@@ -392,7 +392,7 @@ p a[target="_blank"]:after {
 }
 
 .map-icon ul li:nth-child(2) a:after{
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'FontAwesome';
   content:"\f1a0";
 	color:#d34836;
 	font-size: 2.5em;
