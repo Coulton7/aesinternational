@@ -195,7 +195,7 @@
 
 			<div class="col-sm-3 col-xs-10 fullscreen">
 
-				<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" img alt ="curve-down"></img>
+				<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"></img>
 
 				<?php print render($page['wavelower']); ?>
 				<div class="socialmedia text-center">
@@ -247,7 +247,7 @@
 			</aside>  <!-- /#sidebar-first -->
 		<?php endif; ?>
 		<div class="tablet-fix">
-			<section id ="main-content" class="
+			<section id="main-content" class="
 
 					<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
 						else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9'; }
