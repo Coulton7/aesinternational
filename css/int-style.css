@@ -468,6 +468,11 @@ p a[target="_blank"]:after {
 	transform-origin: top;
 	margin-bottom: 16%;
 }
+.action-menu{
+	top:4em;
+	position: absolute;
+	z-index: 103;
+}
 }
 
 @media screen amd (max-width:500px){
