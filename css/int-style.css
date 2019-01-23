@@ -268,7 +268,7 @@ p a[target="_blank"]:after {
 
 .socialmedia ul li:nth-child(4) a:after {
   font-family: "FontAwesome";
-  content: " \f57d";
+  content: " \f0ac";
 	color:#002A5B;
 	position: relative;
 	font-size: 2.5em;
@@ -475,7 +475,7 @@ p a[target="_blank"]:after {
 }
 }
 
-@media screen amd (max-width:500px){
+@media screen and (max-width:500px){
 .front .front__flex-margin{
   transform: scale(2);
   transform-origin: top;
@@ -485,6 +485,11 @@ p a[target="_blank"]:after {
 	transform:scale(2);
 	transform-origin: top;
 	margin-bottom: 30%;
+}
+.action-menu{
+	top:4em;
+	position: absolute;
+	z-index: 103;
 }
 }
 
