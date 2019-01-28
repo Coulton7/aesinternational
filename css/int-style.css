@@ -217,6 +217,10 @@ p a[target="_blank"]:after {
   display: none;
 }
 
+.entity.entity-entityform-type h2{
+	display: none;
+}
+
 .social-profile-icon {
   display: none;
 }
