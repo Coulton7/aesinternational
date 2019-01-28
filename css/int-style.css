@@ -365,6 +365,22 @@ p a[target="_blank"]:after {
   outline-width: 1px;
 }
 
+.entitytype-product_enquiry-form .btn{
+	margin-top:20px;
+	background-color: #DD1E25;
+	border-color:#DD1E25;
+	color:#ffffff;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}/*color for the button on the form*/
+
+.entitytype-product_enquiry-form .btn:hover{
+	background-color: #fa010a;
+	border-color:#fa010a
+	color:#ffffff;
+}/*color for the button on the form*/
+
 .field-name-field-tags {
   display: inline-flex;
 }
@@ -420,6 +436,10 @@ p a[target="_blank"]:after {
   .action-menu {
     top: 4em
   }
+
+	.socialmedia{
+		margin-top: 1em;
+	}
 
   .map-icon ul li:nth-child(1) a:after {
     padding-right: 0.8em;
@@ -530,6 +550,10 @@ p a[target="_blank"]:after {
   .banner-subtitle {
     top: 60%;
   }
+
+	.socialmedia{
+		margin-top: 1em;
+	}
 
   .view-key-branches .view-content {
     display: block;
