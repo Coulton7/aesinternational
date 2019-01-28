@@ -400,7 +400,7 @@ p a[target="_blank"]:after {
 
 @media screen and (max-width: 767px) {
 .front__flex-margin{
-	margin:0;
+	margin-top:0;
 }
 .action-menu{
 	top:4em
