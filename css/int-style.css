@@ -441,6 +441,10 @@ p a[target="_blank"]:after {
 		margin-top: 1em;
 	}
 
+	.not-front .socialmedia ul{
+		margin-top: 1em;
+	}
+
 	.bottom-gap{
 		height: 3em;
 	}
