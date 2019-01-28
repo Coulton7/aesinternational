@@ -441,6 +441,10 @@ p a[target="_blank"]:after {
 		margin-top: 1em;
 	}
 
+	.bottom-gap{
+		height: 3em;
+	}
+
   .map-icon ul li:nth-child(1) a:after {
     padding-right: 0.8em;
   }
