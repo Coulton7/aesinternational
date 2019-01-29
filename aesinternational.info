@@ -33,4 +33,4 @@ regions[page_bottom]    = 'Page bottom'
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] = css/int-style.css
-stylesheets[front][] = css/front.css 
+stylesheets[print][]= css/print.css

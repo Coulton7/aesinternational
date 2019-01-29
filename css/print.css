@@ -1,0 +1,70 @@
+@media print {
+  footer {
+    display: none;
+  }
+
+  aside {
+    display: none;
+  }
+
+  .alert {
+    display: none;
+  }
+
+  .breadcrumb-wrap {
+    display: none;
+  }
+
+  #block-block-52 {
+    display: none;
+  }
+
+  #block-views-contact-form-block-2 {
+    display: none;
+  }
+
+  .suffix {
+    display: none;
+  }
+
+  .region-postscript-mid {
+    display: none;
+  }
+
+  .wavelower {
+    display: none;
+  }
+
+  .preface {
+    display: none;
+  }
+
+  .action-menu {
+    display: none;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  @page {
+    margin: 3cm 3cm 2.25cm 3cm;
+  }
+
+  body {
+    font: 11pt Arial;
+    line-height: 1.5;
+    background-color: #ffffff;
+    color: #535354;
+  }
+
+  h1 {
+    font: 16pt Arial;
+    color: #dd1e25;
+  }
+
+  h2 {
+    font: 14.5 Arial;
+    color: #002A5B;
+  }
+}
