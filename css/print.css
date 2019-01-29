@@ -1,8 +1,21 @@
 @media print {
-  footer {
+  .footer_lower {
     display: none;
   }
 
+  .footer-background{
+    background: transparent;
+  }
+
+  .footer{
+    border: none;
+  }
+
+  .section-shadow{
+    background-image: none;
+    height: 0;
+  }
+  
   aside {
     display: none;
   }
