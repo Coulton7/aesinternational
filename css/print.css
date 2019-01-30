@@ -15,7 +15,7 @@
     background-image: none;
     height: 0;
   }
-  
+
   aside {
     display: none;
   }
@@ -62,6 +62,8 @@
 
   @page {
     margin: 3cm 3cm 2.25cm 3cm;
+    size: A4;
+    size: portrait;
   }
 
   body {
