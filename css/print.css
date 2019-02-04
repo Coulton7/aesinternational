@@ -73,6 +73,10 @@
     display: none;
   }
 
+  .view-footer-location{
+    margin-top: 0.2cm;
+  }
+
   .footer-background {
     background: transparent;
   }
