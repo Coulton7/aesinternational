@@ -39,9 +39,14 @@
     display: none;
   }
 
+  .col-sm-10.col-sm-offset-1.col-lg-8.col-lg-offset-2{
+    width: 100%;
+    margin-left:0;
+  }
+
   #main-content {
-    left: 0;
-    width: 100%
+    left: 16.666667%;
+    width: 66.666667%
   }
 
   aside {
@@ -74,7 +79,7 @@
 
   .footer-background {
     background: transparent;
-  }  
+  }
 
   .footer_lower {
     display: none;
