@@ -1,28 +1,25 @@
 #hoyre-kol h1@media print {
-  a[href]:after{
-    display:none;
-  }
-  .logo.navbar-btn{
-    display: none;
-  }
-  .footer_lower {
+  a[href]:after {
     display: none;
   }
 
-  .footer-background{
-    background: transparent;
+  .logo.navbar-btn {
+    display: none;
   }
 
-  .footer{
-    border: none;
+  #navbar {
+    display: none;
   }
 
-  .section-shadow{
-    background-image: none;
-    height: 0;
+  .action-menu {
+    display: none;
   }
 
-  aside {
+  .preface {
+    display: none;
+  }
+
+  .wavelower {
     display: none;
   }
 
@@ -34,7 +31,28 @@
     display: none;
   }
 
+  .nav-tabs {
+    display: none;
+  }
+
+  #hoyre-kol h1 {
+    display: none;
+  }
+
+  #main-content {
+    left: 0;
+    width: 100%
+  }
+
+  aside {
+    display: none;
+  }
+
   #block-block-53 {
+    display: none;
+  }
+
+  #block-block-52 {
     display: none;
   }
 
@@ -50,24 +68,16 @@
     display: none;
   }
 
-  .wavelower {
+  .footer_lower {
     display: none;
   }
 
-  .preface {
-    display: none;
+  .footer-background {
+    background: transparent;
   }
 
-  .action-menu {
-    display: none;
-  }
-
-  #navbar {
-    display: none;
-  }
-
-  .nav-tabs{
-    display:none;
+  .footer {
+    border: none;
   }
 
   @page {
@@ -91,12 +101,5 @@
   h2 {
     font: 14.5 Arial;
     color: #002A5B;
-  }
-  #main-content{
-    left:0;
-    width: 100%
-  }
-  #hoyre-kol h1{
-    display: none;
   }
 }
