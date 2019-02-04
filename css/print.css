@@ -1,4 +1,4 @@
-@media print {
+#hoyre-kol h1@media print {
   a[href]:after{
     display:none;
   }
@@ -96,7 +96,7 @@
     left:0;
     width: 100%
   }
-  .page-header{
+  .#hoyre-kol h1{
     display: none;
   }
 }
