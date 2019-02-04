@@ -68,16 +68,16 @@
     display: none;
   }
 
-  .footer_lower {
-    display: none;
+  .footer {
+    border: none;
   }
 
   .footer-background {
     background: transparent;
-  }
+  }  
 
-  .footer {
-    border: none;
+  .footer_lower {
+    display: none;
   }
 
   @page {
