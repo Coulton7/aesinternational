@@ -435,6 +435,10 @@ p a[target="_blank"]:after {
   display:none;
 }
 
+.node-type-media #block-views-opening-hours-block{
+  display: none;
+}
+
 /*Fontawesome Google logo*/
 @media screen and (max-width: 767px) {
   .front__flex-margin {

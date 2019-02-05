@@ -89,6 +89,10 @@
     display: block;
   }
 
+  .node-type-media #block-views-opening-hours-block{
+    display: block;
+  }
+
   @page {
     margin: 3cm 3cm 2.25cm 3cm;
     size: A4;
