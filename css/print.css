@@ -2,6 +2,10 @@
   display: none;
 }
 
+a[href]:after{
+  display: none;
+}
+
 .logo.navbar-btn {
   display: none;
 }
