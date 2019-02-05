@@ -88,8 +88,14 @@ aside {
   display: block;
 }
 
+.row-deep{
+ padding: 0;
+}
+
 .node-type-media #block-views-opening-hours-block {
   display: block;
+  border: none;
+  box-shadow: none;
 }
 
 @page {
