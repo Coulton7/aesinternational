@@ -449,7 +449,7 @@ p a[target="_blank"]:after {
   padding: 0.95em 3.2em;
 }
 
-.node-type-media #block-views-opening-hours-block{
+.node-type-media .suffix #block-views-opening-hours-block{
   display: none;
 }
 
