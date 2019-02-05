@@ -85,6 +85,10 @@
     display: none;
   }
 
+  .print-media{
+    display: block;
+  }
+
   @page {
     margin: 3cm 3cm 2.25cm 3cm;
     size: A4;

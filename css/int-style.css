@@ -431,6 +431,10 @@ p a[target="_blank"]:after {
   font-size: 2.5em;
 }
 
+.print-media{
+  display:none;
+}
+
 /*Fontawesome Google logo*/
 @media screen and (max-width: 767px) {
   .front__flex-margin {
