@@ -445,6 +445,10 @@ p a[target="_blank"]:after {
   display: flex;
 }
 
+.btn-padding{
+  padding: 0.95em 3.2em;
+}
+
 .node-type-media #block-views-opening-hours-block{
   display: none;
 }
