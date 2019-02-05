@@ -432,7 +432,11 @@ p a[target="_blank"]:after {
 }
 
 .print-media{
-  display:none;
+  display: none;
+}
+
+.hide-print-media{
+  display:block;
 }
 
 .print-menu{

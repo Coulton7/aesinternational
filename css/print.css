@@ -85,6 +85,10 @@
     display: none;
   }
 
+  .hide-print-media{
+    display: none;
+  }
+
   .print-media{
     display: block;
   }
