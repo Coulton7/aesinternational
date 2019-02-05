@@ -1,118 +1,116 @@
-#hoyre-kol h1@media print {
-  a[href]:after {
-    display: none;
-  }
+#hoyre-kol h1 a[href]:after {
+  display: none;
+}
 
-  .logo.navbar-btn {
-    display: none;
-  }
+.logo.navbar-btn {
+  display: none;
+}
 
-  #navbar {
-    display: none;
-  }
+#navbar {
+  display: none;
+}
 
-  .action-menu {
-    display: none;
-  }
+.action-menu {
+  display: none;
+}
 
-  .preface {
-    display: none;
-  }
+.preface {
+  display: none;
+}
 
-  .wavelower {
-    display: none;
-  }
+.wavelower {
+  display: none;
+}
 
-  .alert {
-    display: none;
-  }
+.alert {
+  display: none;
+}
 
-  .breadcrumb-wrap {
-    display: none;
-  }
+.breadcrumb-wrap {
+  display: none;
+}
 
-  .nav-tabs {
-    display: none;
-  }
+.nav-tabs {
+  display: none;
+}
 
-  #hoyre-kol h1 {
-    display: none;
-  }
+#hoyre-kol h1 {
+  display: none;
+}
 
-  .col-sm-10.col-sm-offset-1.col-lg-8.col-lg-offset-2{
-    width: 100%;
-    margin-left:0;
-  }
+.col-sm-10.col-sm-offset-1.col-lg-8.col-lg-offset-2 {
+  width: 100%;
+  margin-left: 0;
+}
 
-  #main-content {
-    left: 16.666667%;
-    width: 66.666667%
-  }
+#main-content {
+  left: 16.666667%;
+  width: 66.666667%
+}
 
-  aside {
-    display: none;
-  }
+aside {
+  display: none;
+}
 
-  #block-views-contact-form-block-2 {
-    display: none;
-  }
+#block-views-contact-form-block-2 {
+  display: none;
+}
 
-  .suffix {
-    display: none;
-  }
+.suffix {
+  display: none;
+}
 
-  .region-postscript-mid {
-    display: none;
-  }
+.region-postscript-mid {
+  display: none;
+}
 
-  .view-footer-location{
-    margin-top: 0.2cm;
-  }
+.view-footer-location {
+  margin-top: 0.2cm;
+}
 
-  .footer-background {
-    background: transparent;
-  }
+.footer-background {
+  background: transparent;
+}
 
-  .footer_lower {
-    display: none;
-  }
+.footer_lower {
+  display: none;
+}
 
-  .print-menu {
-    display: none;
-  }
+.print-menu {
+  display: none;
+}
 
-  .hide-print-media{
-    display: none;
-  }
+.hide-print-media {
+  display: none;
+}
 
-  .print-media{
-    display: block;
-  }
+.print-media {
+  display: block;
+}
 
-  .node-type-media #block-views-opening-hours-block{
-    display: block;
-  }
+.node-type-media #block-views-opening-hours-block {
+  display: block;
+}
 
-  @page {
-    margin: 3cm 3cm 2.25cm 3cm;
-    size: A4;
-    size: portrait;
-  }
+@page {
+  margin: 3cm 3cm 2.25cm 3cm;
+  size: A4;
+  size: portrait;
+}
 
-  body {
-    font: 11pt Arial;
-    line-height: 1.5;
-    background-color: #ffffff;
-    color: #535354;
-  }
+body {
+  font: 11pt Arial;
+  line-height: 1.5;
+  background-color: #ffffff;
+  color: #535354;
+}
 
-  h1 {
-    font: 16pt Arial;
-    color: #dd1e25;
-  }
+h1 {
+  font: 16pt Arial;
+  color: #dd1e25;
+}
 
-  h2 {
-    font: 14.5 Arial;
-    color: #002A5B;
-  }
+h2 {
+  font: 14.5 Arial;
+  color: #002A5B;
 }
