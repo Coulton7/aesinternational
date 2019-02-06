@@ -43,6 +43,10 @@ a[href]:after{
   z-index: 1030;
 }
 
+.print-footer{
+  background-color: #888C8f!important;
+}
+
 .action-menu {
   display: none;
 }
