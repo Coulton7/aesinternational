@@ -16,10 +16,22 @@ a[href]:after{
 
 .col-sm-10.col-xs-10.fullscreen{
   order: 1;
+  background-color: #888C8f!important;
 }
 
 .col-sm-2.col-xs-2.fullscreen{
   order: 2;
+}
+
+.wavelogo{
+  right: 3em
+}
+
+.uppercurve{
+  height: 8em;
+  top: 0.25em;
+  left: -8em;
+  transform: scale(-1);
 }
 
 .action-menu {
