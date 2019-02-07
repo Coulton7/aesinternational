@@ -1,3 +1,11 @@
+body.navbar-is-fixed-top.navbar-administration{
+  padding-top: 0;
+}
+
+body.navbar-is-fixed-top{
+  padding-top: 0;
+}
+
 #hoyre-kol h1 a[href]:after {
   display: none;
 }
