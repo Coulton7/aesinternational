@@ -17,6 +17,8 @@ a[href]:after{
 .col-sm-10.col-xs-10.fullscreen{
   order: 1;
   background-color: #888C8f!important;
+  height: 7.85em;
+  top: 3.5px;
 }
 
 .col-sm-2.col-xs-2.fullscreen{
@@ -25,13 +27,13 @@ a[href]:after{
 
 .wavelogo{
   right: 0;
-  height: 9.75em;
+  height: 9.25em;
   bottom: -0.5em;
 }
 
 .uppercurve{
   height: 8.05em;
-  top: 1.5px;
+  top: 3px;
   left: -7.5em;
   transform: scale(-1);
 }
