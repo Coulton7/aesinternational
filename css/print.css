@@ -26,13 +26,13 @@ a[href]:after{
 .wavelogo{
   right: 0;
   height: 9.75em;
-  bottom: 0.5em;
+  bottom: -0.5em;
 }
 
 .uppercurve{
-  height: 8.55em;
-  top: 0;
-  left: -8em;
+  height: 8.05em;
+  top: 1.5px;
+  left: -7.5em;
   transform: scale(-1);
 }
 
