@@ -113,7 +113,7 @@
 					</div>
 				</a>
 				<img class= "uppercurve" src="/sites/all/themes/aesbs337/images/logos/wave-upper.svg" alt ="uppercurve"></img>
-					 <?php if ($logo): ?>
+					<?php if ($logo): ?>
 						<a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
 							<img src="/sites/all/themes/aesbs337/images/logos/textonlylogo.svg" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
 						</a>
@@ -143,22 +143,22 @@
 
 					<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
 
-						<div class="navbar-collapse collapse">
-							<div class="container-fluid navbar-container">
+					<div class="navbar-collapse collapse">
+						<div class="container-fluid navbar-container">
 
-								<nav role="navigation">
-									<?php if (!empty($primary_nav)): ?>
-										<?php print render($primary_nav); ?>
-									<?php endif; ?>
+							<nav role="navigation">
+								<?php if (!empty($primary_nav)): ?>
+									<?php print render($primary_nav); ?>
+								<?php endif; ?>
 
-									<?php if (!empty($page['navigation'])): ?>
-										<?php print render($page['navigation']); ?>
-									<?php endif; ?>
-									<div class="section-shadow-menu"></div>
-								</nav>
-							</div>
+								<?php if (!empty($page['navigation'])): ?>
+									<?php print render($page['navigation']); ?>
+								<?php endif; ?>
+								<div class="section-shadow-menu"></div>
+							</nav>
 						</div>
-					<?php endif; ?>
+					</div>
+				<?php endif; ?>
 
 				</header>
 			</div>
@@ -170,52 +170,52 @@
 					<div class="col-sm-2 col-xs-2 fullscreen">
 					</div>
 					<div class="col-sm-10 col-xs-10 fullscreen">
-					<?php print render($page['navigation_col']);?>
-				</div>
+						<?php print render($page['navigation_col']);?>
+					</div>
 				</div>
 			</div>
 		<?php endif; ?>
+
 		<?php if ($page['preface']): ?>
-		<div class="preface">
-			<div class= "flex_gradient">
-				<?php print render($page['preface']);?>
+			<div class="preface">
+				<div class= "flex_gradient">
+					<?php print render($page['preface']);?>
 
+				</div>
 			</div>
-		</div>
-					<?php endif; ?>
-
+		<?php endif; ?>
 
 
 		<?php if ($page['wavelower']): ?>
-<div class="row wavelower row-eq-height">
-	<div class="col-sm-9 col-xs-1 fullscreen">
-		<div class="bottom-gap">
-		</div>
-	</div>
+			<div class="row wavelower row-eq-height">
+				<div class="col-sm-9 col-xs-1 fullscreen">
+					<div class="bottom-gap">
+					</div>
+				</div>
 
-	<div class="col-sm-3 col-xs-10 fullscreen">
+				<div class="col-sm-3 col-xs-10 fullscreen">
 
-		<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"></img>
+					<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"></img>
 
-		<?php print render($page['wavelower']); ?>
-				<div class="socialmedia text-center">
-					<?php
-						$block = module_invoke('views', 'block_view', 'social_icons-block');
-						print render($block['content']);
-					?>
+					<?php print render($page['wavelower']); ?>
+					<div class="socialmedia text-center">
+						<?php
+							$block = module_invoke('views', 'block_view', 'social_icons-block');
+							print render($block['content']);
+							?>
+					</div>
 				</div>
 			</div>
-		</div>
 	</div>
 </div>
-		<?php endif; ?>
+	<?php endif; ?>
 
 <div class="col-sm-12 fullscreen">
-			<?php if($page['header']):?>
-				<div class="header">
-					<?php print render($page['header']); ?>
-				</div>
-			<?php endif; ?>
+	<?php if($page['header']):?>
+		<div class="header">
+			<?php print render($page['header']); ?>
+		</div>
+	<?php endif; ?>
 </div>
 
 
