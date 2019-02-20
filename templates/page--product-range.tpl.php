@@ -187,28 +187,28 @@
 
 
 		<?php if ($page['wavelower']): ?>
-			<div class="row wavelower row-eq-height">
-				<div class="col-sm-9 col-xs-1 fullscreen">
-					<div class="bottom-gap">
-					</div>
-				</div>
-
-				<div class="col-sm-3 col-xs-10 fullscreen">
-
-					<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"></img>
-
-					<?php print render($page['wavelower']); ?>
-					<div class="socialmedia text-center">
-						<?php
-							$block = module_invoke('views', 'block_view', 'social_icons-block');
-							print render($block['content']);
-							?>
-					</div>
+		<div class="row wavelower row-eq-height">
+			<div class="col-sm-9 col-xs-1 fullscreen">
+				<div class="bottom-gap">
 				</div>
 			</div>
+
+			<div class="col-sm-3 col-xs-10 fullscreen">
+
+				<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"></img>
+
+				<?php print render($page['wavelower']); ?>
+				<div class="socialmedia text-center">
+					<?php
+						$block = module_invoke('views', 'block_view', 'social_icons-block');
+						print render($block['content']);
+					?>
+				</div>
+			</div>
+		</div>
+		<?php endif; ?>
 	</div>
 </div>
-	<?php endif; ?>
 
 <div class="col-sm-12 fullscreen">
 	<?php if($page['header']):?>
