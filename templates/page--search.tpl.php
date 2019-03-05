@@ -211,13 +211,17 @@
 		<?php endif; ?>
 
 
-<div class="col-sm-12 fullscreen">
-			<?php if($page['header']):?>
-				<div class="header">
-					<?php print render($page['header']); ?>
+		<div class="col-sm-12 fullscreen">
+			<div class="mobile-search">
+				<div class="row-deep">
 				</div>
-			<?php endif; ?>
-</div>
+			</div>
+					<?php if($page['header']):?>
+						<div class="header">
+							<?php print render($page['header']); ?>
+						</div>
+					<?php endif; ?>
+		</div>
 
 <div class="main-container <?php print $container_class; ?>">
   <div class="container-fluid">
