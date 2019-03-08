@@ -71,6 +71,7 @@ p a[target="_blank"]:after {
 }
 
 .flex_gradient {
+  overflow: initial;
   height: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
