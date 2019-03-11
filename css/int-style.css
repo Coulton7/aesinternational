@@ -102,6 +102,11 @@ p a[target="_blank"]:after {
   height: auto;
 }
 
+.view-id-key_branches {
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+}
+
 .africa-upper {
   position: absolute;
   left: 43%;
