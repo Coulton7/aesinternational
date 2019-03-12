@@ -107,6 +107,16 @@ p a[target="_blank"]:after {
   border: 1px solid #ddd;
 }
 
+.view-key-branches .view-content .views-row-odd {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.view-key-branches .view-content .views-row-even {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
 .africa-upper {
   position: absolute;
   left: 43%;
