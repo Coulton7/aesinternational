@@ -311,6 +311,7 @@
   	<?php if ($page['suffix']): ?>
 		<div class="suffix">
 				<?php print render($page['suffix']);?>
+				<!--This is a test for the new branch-->
 		</div>
 	<?php endif; ?>
 
