@@ -34,6 +34,11 @@ regions[page_bottom]    = 'Page bottom'
 
 stylesheets[all][] = bootstrap/css/bootstrap-theme.min.css
 stylesheets[all][] = bootstrap/css/bootstrap.min.css
+stylesheets[all][] = 'aesbs337/css/chosen.css'
+stylesheets[all][] = 'aesbs337/css/fonts-style.css'
+stylesheets[all][] = 'aesbs337/css/regions-style.css'
+stylesheets[all][] = 'aesbs337/css/block-style.css'
+stylesheets[all][] = 'aesbs337/css/field-style.css'
 stylesheets[all][] = css/int-style.css
 stylesheets[print][]= css/print.css
 
