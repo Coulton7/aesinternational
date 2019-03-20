@@ -290,52 +290,44 @@ p a[target="_blank"]:after {
   padding: 2em;
 }
 
+.socialmedia li{
+  width: 2.5em;
+  margin-right: 1.4em: 
+}
+
 .socialmedia ul li:nth-child(1) a:after {
-  /*font-family: "FontAwesome";
-  content: " \f099";
-  color: #1DA1F2;*/
   z-index: 4;
   position: relative;
-  /*font-size: 2.5em;*/
-  background-image: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/twitter.svg');
-  width: 2.5em;
+  font-size: 4em;
+  content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/twitter.svg');
 }
 
 /*Fontawesome twitter logo*/
 .socialmedia ul li:nth-child(2) a:after {
-  font-family: "FontAwesome";
-  content: " \f0e1";
-  color: #0077b5;
   position: relative;
-  font-size: 2.5em;
+  font-size: 4em;
+  content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/linkedin-in.svg');
 }
 
 /*Fontawesome Linkdin logo*/
 .socialmedia ul li:nth-child(3) a:after {
-  font-family: "FontAwesome";
-  content: " \f098";
-  color: #d34836;
-  padding-right: 0.60em;
   position: relative;
-  font-size: 2.5em;
+  font-size: 4em;
+  content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/phone-square.svg');
 }
 
 /*Fontawesome contact logo*/
 .socialmedia ul li:nth-child(4) a:after {
-  font-family: "FontAwesome";
-  content: " \f0ac";
-  color: #002A5B;
   position: relative;
-  font-size: 2.5em;
+  font-size: 4em;
+  content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/globe-americas.svg');
 }
 
 /*Fontawesome globe logo*/
 .socialmedia ul li:nth-child(5) a:after {
-  font-family: "FontAwesome";
-  content: " \f041";
-  color: #d34836;
   position: relative;
-  font-size: 2.5em;
+  font-size: 4em;
+  content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/map-marker-alt.svg');
 }
 
 /*Fontawesome map icon logo*/
