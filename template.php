@@ -13,6 +13,15 @@ function aesinternational_preprocess_page(&$vars) {
 	drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/fade-text.js');
 }
 
+function aesinternational_css_alter(&$css){
+  $css['sites/all/themes/aesbs337/css/fonts-style.css']['weight']=10;
+  $css['sites/all/themes/aesbs337/css/regions-style.css']['weight']=9;
+  $css['sites/all/themes/aesbs337/css/block-style.css']['weight']=8;
+  $css['sites/all/themes/aesbs337/css/field-style.css']['weight']=7;
+  $css['sites/all/themes/aesinternational/bootstrap/css/bootstrap.min.css']['weight']=11;
+  $css['sites/all/themes/aesinternational/bootstrap/css/bootstrap-theme.min.css']['weight']=12;
+}
+
 function aesinternational_theme(){
 	$items=array();
 
