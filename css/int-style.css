@@ -297,7 +297,7 @@ p a[target="_blank"]:after {
   z-index: 4;
   position: relative;
   /*font-size: 2.5em;*/
-  background-image: url('/sites/all/themes/aesbs337/images/icon/fontawesome/twitter.svg');
+  background-image: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/twitter.svg');
   width: 2.5em;
 }
 
