@@ -290,9 +290,9 @@ p a[target="_blank"]:after {
   padding: 2em;
 }
 
-.socialmedia li{
+.socialmedia ul li{
   width: 2.5em;
-  margin-right: 1.4em: 
+  margin-right: 1.4em:
 }
 
 .socialmedia ul li:nth-child(1) a:after {
