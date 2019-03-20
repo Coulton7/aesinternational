@@ -14,10 +14,10 @@ function aesinternational_preprocess_page(&$vars) {
 }
 
 function aesinternational_css_alter(&$css){
-  $css['sites/all/themes/aesbs337/css/fonts-style.css']['weight']=10;
-  $css['sites/all/themes/aesbs337/css/regions-style.css']['weight']=9;
-  $css['sites/all/themes/aesbs337/css/block-style.css']['weight']=8;
-  $css['sites/all/themes/aesbs337/css/field-style.css']['weight']=7;
+  $css['sites/all/themes/aesbs337/css/fonts-style.css']['weight']=16;
+  $css['sites/all/themes/aesbs337/css/regions-style.css']['weight']=15;
+  $css['sites/all/themes/aesbs337/css/block-style.css']['weight']=14;
+  $css['sites/all/themes/aesbs337/css/field-style.css']['weight']=13;
   $css['sites/all/themes/aesinternational/bootstrap/css/bootstrap.min.css']['weight']=11;
   $css['sites/all/themes/aesinternational/bootstrap/css/bootstrap-theme.min.css']['weight']=12;
 }
