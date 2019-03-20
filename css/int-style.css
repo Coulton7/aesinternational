@@ -1,3 +1,7 @@
+body.navbar-is-fixed-top.navbar-administration .navbar-fixed-top{
+  top:39px;
+}
+
 .flexslider {
   margin: 0 !important;
   background: none !important;
@@ -100,6 +104,10 @@ p a[target="_blank"]:after {
 
 .flexslider .slides img {
   height: auto;
+}
+
+.navbar-default{
+  box-shadow: none;
 }
 
 .view-id-key_branches {
