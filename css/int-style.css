@@ -302,6 +302,10 @@ p a[target="_blank"]:after {
   padding: 2em;
 }
 
+.principles-icon{
+  width:3em;
+}
+
 .socialmedia ul li{
   width: 2.5em;
   margin-right: 1.4em;
