@@ -15,7 +15,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
 }
 
 p a[target="_blank"]:after {
-    content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/twitter.svg');
+    content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/external-link-alt.svg');
   }
 
 .flexslider {
