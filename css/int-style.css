@@ -306,6 +306,14 @@ p a[target="_blank"]:after {
   width:3em;
 }
 
+.icon-magnifying-glass{
+  width: 4em;
+}
+
+.icon-magnifying-glass:before {
+  content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/twitter.svg');
+}
+
 .socialmedia ul li{
   width: 2.5em;
   margin-right: 1.4em;
