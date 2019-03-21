@@ -291,7 +291,7 @@ p a[target="_blank"]:after {
 }
 
 .socialmedia ul li{
-  width: 2.4em;
+  width: 2.5em;
   margin-right: 1.4em;
 }
 
@@ -322,6 +322,10 @@ p a[target="_blank"]:after {
 .socialmedia ul li:nth-child(5) a:after {
   position: relative;
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/map-marker-alt.svg');
+}
+
+.socialmedia ul li:nth-child(5){
+  margin-right: 0;
 }
 
 /*Fontawesome map icon logo*/
@@ -544,6 +548,14 @@ p a[target="_blank"]:after {
     z-index: 4;
   }
 
+  .socialmedia ul li:nth-child(5){
+    margin-right: 0;
+  }
+
+  .socialmedia ul li{
+    margin-right: 1.2em;
+  }
+
   /*padding bewteen the icons*/
   .africa-upper {
     top: 48.5%;
@@ -658,6 +670,15 @@ p a[target="_blank"]:after {
     z-index: 4;
   }
 
+  .socialmedia ul li:nth-child(5){
+    margin-right: 0;
+  }
+
+  .socialmedia ul li{
+    margin-right: 0.9em;
+    margin-bottom: 0.9em;
+  }
+
   /*padding bewteen the icons*/
   .action-menu {
     position: absolute;
@@ -740,6 +761,10 @@ p a[target="_blank"]:after {
     z-index: 4;
   }
 
+  .socialmedia ul li{
+    margin-right: 1em;
+  }
+
   /*padding bewteen the icons*/
   .action-menu {
     position: absolute;
@@ -780,5 +805,9 @@ p a[target="_blank"]:after {
 
   .banner-subtitle {
     top: 40%;
+  }
+
+  .socialmedia ul li{
+    margin-right: 1.1em;
   }
 }
