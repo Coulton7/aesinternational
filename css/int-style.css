@@ -18,6 +18,10 @@ p a[target="_blank"]:after {
     content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/external-link-alt.svg');
   }
 
+  .cust-portal-text{
+    vertical-align: baseline;
+  }
+
 .flexslider {
   margin: 0 !important;
   background: none !important;
