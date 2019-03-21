@@ -291,42 +291,36 @@ p a[target="_blank"]:after {
 }
 
 .socialmedia ul li{
-  width: 2.5em;
-  margin-right: 1.4em:
+  width: 2.4em;
+  margin-right: 1.4em;
 }
 
 .socialmedia ul li:nth-child(1) a:after {
-  z-index: 4;
   position: relative;
-  font-size: 4em;
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/twitter.svg');
 }
 
 /*Fontawesome twitter logo*/
 .socialmedia ul li:nth-child(2) a:after {
   position: relative;
-  font-size: 4em;
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/linkedin-in.svg');
 }
 
 /*Fontawesome Linkdin logo*/
 .socialmedia ul li:nth-child(3) a:after {
   position: relative;
-  font-size: 4em;
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/phone-square.svg');
 }
 
 /*Fontawesome contact logo*/
 .socialmedia ul li:nth-child(4) a:after {
   position: relative;
-  font-size: 4em;
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/globe-americas.svg');
 }
 
 /*Fontawesome globe logo*/
 .socialmedia ul li:nth-child(5) a:after {
   position: relative;
-  font-size: 4em;
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/map-marker-alt.svg');
 }
 
@@ -527,31 +521,26 @@ p a[target="_blank"]:after {
 
   /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(1) a:after {
-    padding-right: 0.8em;
     z-index: 4;
   }
 
   /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(2) a:after {
-    padding-right: 0.8em;
     z-index: 4;
   }
 
   /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(3) a:after {
-    padding-right: 0.8em;
     z-index: 4;
   }
 
   /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(4) a:after {
-    padding-right: 0.8em;
     z-index: 4;
   }
 
   /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(5) a:after {
-    padding-right: 0.8em;
     z-index: 4;
   }
 
@@ -646,31 +635,26 @@ p a[target="_blank"]:after {
 
   /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(1) a:after {
-    padding-right: 0.7em;
     z-index: 4;
   }
 
   /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(2) a:after {
-    padding-right: 0.8em;
     z-index: 4;
   }
 
   /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(3) a:after {
-    padding-right: 0.8em;
     z-index: 4;
   }
 
   /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(4) a:after {
-    padding-right: 0.8em;
     z-index: 4;
   }
 
   /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(5) a:after {
-    padding-right: 0.8em;
     z-index: 4;
   }
 
@@ -733,32 +717,26 @@ p a[target="_blank"]:after {
 
   /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(1) a:after {
-    padding-left: 0;
-    padding-right: 0.6em;
     z-index: 4;
   }
 
   /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(2) a:after {
-    padding-right: 0.6em;
     z-index: 4;
   }
 
   /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(3) a:after {
-    padding-right: 0.6em;
     z-index: 4;
   }
 
   /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(4) a:after {
-    padding-right: 0.6em;
     z-index: 4;
   }
 
   /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(5) a:after {
-    padding-right: 0;
     z-index: 4;
   }
 
