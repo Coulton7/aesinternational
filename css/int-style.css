@@ -104,7 +104,6 @@ p a[target="_blank"]:after {
 }
 
 .flex_gradient {
-  overflow: initial;
   height: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -511,6 +510,10 @@ p a[target="_blank"]:after {
     margin-top: 0;
   }
 
+  .flex_gradient{
+    overflow: hidden;
+  }
+
   .action-menu {
     top: 4em
   }
@@ -627,6 +630,10 @@ p a[target="_blank"]:after {
 @media screen and (min-width: 768px) {
   .action-menu {
     top: 3.6em
+  }
+
+  .flex_gradient{
+    overflow: initial;
   }
 
   .banner-subtitle {
