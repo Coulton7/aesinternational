@@ -424,6 +424,10 @@ p a[target="_blank"]:after {
   border-color: #fa010a color:#ffffff;
 }
 
+.form-group:last-child, .panel:last-child{
+  margin-bottom: 0;
+}
+
 .field-name-field-tags {
   display: inline-flex;
 }
