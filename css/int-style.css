@@ -327,8 +327,8 @@ p a[target="_blank"]:after {
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/search-ffffff.svg');
 }
 
-.social-font {
-  width: 5em;
+.social-icon-width {
+  width: 6em;
 }
 
 .social-font:before {
