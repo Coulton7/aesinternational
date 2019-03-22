@@ -162,7 +162,7 @@
 
 				</header>
 			</div>
-		</div
+		</div>
 
 		<?php if ($page['navigation_col']): ?>
 			<div class="navigation_col">
