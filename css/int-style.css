@@ -1,30 +1,30 @@
-body.navbar-is-fixed-top.navbar-administration .navbar-fixed-top{
-  top:39px;
+body.navbar-is-fixed-top.navbar-administration .navbar-fixed-top {
+  top: 39px;
 }
 
-body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .navbar-fixed-top{
+body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .navbar-fixed-top {
   top: 79px;
 }
 
-body.navbar-is-fixed-top.navbar-administration .navigation_col .action-menu{
+body.navbar-is-fixed-top.navbar-administration .navigation_col .action-menu {
   margin-top: 2.1em;
 }
 
-body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .navigation_col .action-menu{
+body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .navigation_col .action-menu {
   margin-top: 4.3em;
 }
 
 .white-text a[target="_blank"]:after {
-    content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/external-link-alt-ffffff.svg');
-  }
+  content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/external-link-alt-ffffff.svg');
+}
 
-  p a[target="_blank"]:after {
-        content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/external-link-alt-dd1e25.svg');
-  }
+p a[target="_blank"]:after {
+  content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/external-link-alt-dd1e25.svg');
+}
 
-  .cust-portal-text{
-    vertical-align: baseline;
-  }
+.cust-portal-text {
+  vertical-align: baseline;
+}
 
 .flexslider {
   margin: 0 !important;
@@ -55,11 +55,6 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
 .flexslider .slides li img {
   margin-top: -8%;
   margin-bottom: -8%;
-}
-
-p a[target="_blank"]:after {
-  font-family: 'FontAwesome';
-  content: " \f08e";
 }
 
 .page-node-6344 .flex-caption {
@@ -130,7 +125,7 @@ p a[target="_blank"]:after {
   height: auto;
 }
 
-.navbar-default{
+.navbar-default {
   box-shadow: none;
 }
 
@@ -150,7 +145,7 @@ p a[target="_blank"]:after {
   padding-top: 20px;
 }
 
-.page-location-key-branches .tabs--primary{
+.page-location-key-branches .tabs--primary {
   margin-top: 3em;
 }
 
@@ -284,8 +279,8 @@ p a[target="_blank"]:after {
   display: none;
 }
 
-.entity.entity-entityform-type h2{
-	display: none;
+.entity.entity-entityform-type h2 {
+  display: none;
 }
 
 .social-profile-icon {
@@ -310,11 +305,11 @@ p a[target="_blank"]:after {
   padding: 2em;
 }
 
-.principles-icon{
-  width:3em;
+.principles-icon {
+  width: 3em;
 }
 
-.icon-magnifying-glass{
+.icon-magnifying-glass {
   width: 4em;
 }
 
@@ -322,7 +317,7 @@ p a[target="_blank"]:after {
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/search-ffffff.svg');
 }
 
-.social-font{
+.social-font {
   width: 5em;
 }
 
@@ -330,7 +325,7 @@ p a[target="_blank"]:after {
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/external-link-alt-ffffff.svg');
 }
 
-.socialmedia ul li{
+.socialmedia ul li {
   width: 2.5em;
   margin-right: 1.4em;
 }
@@ -340,65 +335,34 @@ p a[target="_blank"]:after {
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/twitter.svg');
 }
 
-/*Fontawesome twitter logo*/
 .socialmedia ul li:nth-child(2) a:after {
   position: relative;
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/linkedin-in.svg');
 }
 
-/*Fontawesome Linkdin logo*/
 .socialmedia ul li:nth-child(3) a:after {
   position: relative;
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/phone-square.svg');
 }
 
-/*Fontawesome contact logo*/
 .socialmedia ul li:nth-child(4) a:after {
   position: relative;
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/globe-americas.svg');
 }
 
-/*Fontawesome globe logo*/
 .socialmedia ul li:nth-child(5) a:after {
   position: relative;
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/map-marker-alt.svg');
 }
 
-.socialmedia ul li:nth-child(5){
+.socialmedia ul li:nth-child(5) {
   margin-right: 0;
 }
 
-/*Fontawesome map icon logo*/
-.socialmedia ul li:nth-child(1) a:hover::after {
-  color: #1a90d9;
-}
-
-/*Fontawesome twitter logo*/
-.socialmedia ul li:nth-child(2) a:hover::after {
-  color: #006ba2;
-}
-
-/*Fontawesome Linkdin logo*/
-.socialmedia ul li:nth-child(3) a:hover::after {
-  color: #bd4030;
-}
-
-/*Fontawesome contact logo*/
-.socialmedia ul li:nth-child(4) a:hover::after {
-  color: #004a8c;
-}
-
-/*Fontawesome globe logo*/
-.socialmedia ul li:nth-child(5) a:hover::after {
-  color: #bd4030;
-}
-
-/*Fontawesome map icon logo*/
 .map-icons {
   width: 100%;
 }
 
-/*Map icon block (but only really applies to map icon*/
 ) .map-icons ul {
   display: flex;
   justify-content: center;
@@ -407,12 +371,10 @@ p a[target="_blank"]:after {
   flex-wrap: wrap;
 }
 
-/*Set the map icons inline horizontal*/
 .map-icons li a {
   border-bottom: none;
 }
 
-/*Hides the border bottom on all links in map icons*/
 .map-icon ul li:nth-child(1) a:after {
   font-family: 'FontAwesome';
   content: " \f041";
@@ -420,7 +382,6 @@ p a[target="_blank"]:after {
   font-size: 2.5em;
 }
 
-/*Fontawesome map icon logo*/
 .flex-direction-nav {
   display: none;
 }
@@ -448,21 +409,20 @@ p a[target="_blank"]:after {
   outline-width: 1px;
 }
 
-.entitytype-product_enquiry-form .btn{
-	margin-top:20px;
-	background-color: #DD1E25;
-	border-color:#DD1E25;
-	color:#ffffff;
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-}/*color for the button on the form*/
+.entitytype-product_enquiry-form .btn {
+  margin-top: 20px;
+  background-color: #DD1E25;
+  border-color: #DD1E25;
+  color: #ffffff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.entitytype-product_enquiry-form .btn:hover{
-	background-color: #fa010a;
-	border-color:#fa010a
-	color:#ffffff;
-}/*color for the button on the form*/
+.entitytype-product_enquiry-form .btn:hover {
+  background-color: #fa010a;
+  border-color: #fa010a color:#ffffff;
+}
 
 .field-name-field-tags {
   display: inline-flex;
@@ -510,29 +470,28 @@ p a[target="_blank"]:after {
   font-size: 2.5em;
 }
 
-.print-media{
+.print-media {
   display: none;
 }
 
-.hide-print-media{
-  display:block;
+.hide-print-media {
+  display: block;
 }
 
-.print-menu{
+.print-menu {
   list-style-type: none;
   justify-content: center;
   display: flex;
 }
 
-.btn-padding{
+.btn-padding {
   padding: 0.95em 3.2em;
 }
 
-.node-type-media #block-views-opening-hours-block{
+.node-type-media #block-views-opening-hours-block {
   display: none;
 }
 
-/*Fontawesome Google logo*/
 @media screen and (max-width: 767px) {
   .front__flex-margin {
     margin-top: 0;
@@ -542,61 +501,54 @@ p a[target="_blank"]:after {
     top: 4em
   }
 
-	.socialmedia{
-		margin-top: 1em;
-	}
+  .socialmedia {
+    margin-top: 1em;
+  }
 
-	.not-front .socialmedia ul{
-		margin-top: 1em;
-	}
+  .not-front .socialmedia ul {
+    margin-top: 1em;
+  }
 
-	.bottom-gap{
-		height: 4em;
-	}
+  .bottom-gap {
+    height: 4em;
+  }
 
   .map-icon ul li:nth-child(1) a:after {
     padding-right: 0.8em;
   }
 
-  /*padding bewteen the icons*/
   .map-icon ul li:nth-child(2) a:after {
     padding-right: 0.8em;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(1) a:after {
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(2) a:after {
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(3) a:after {
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(4) a:after {
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(5) a:after {
     z-index: 4;
   }
 
-  .socialmedia ul li:nth-child(5){
+  .socialmedia ul li:nth-child(5) {
     margin-right: 0;
   }
 
-  .socialmedia ul li{
+  .socialmedia ul li {
     margin-right: 1.2em;
   }
 
-  /*padding bewteen the icons*/
   .africa-upper {
     top: 48.5%;
   }
@@ -667,9 +619,9 @@ p a[target="_blank"]:after {
     top: 60%;
   }
 
-	.socialmedia{
-		margin-top: 1em;
-	}
+  .socialmedia {
+    margin-top: 1em;
+  }
 
   .view-key-branches .view-content {
     display: block;
@@ -680,46 +632,39 @@ p a[target="_blank"]:after {
     padding-right: 0.7em;
   }
 
-  /*padding bewteen the icons*/
   .map-icon ul li:nth-child(2) a:after {
     padding-right: 0.8em;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(1) a:after {
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(2) a:after {
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(3) a:after {
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(4) a:after {
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(5) a:after {
     z-index: 4;
   }
 
-  .socialmedia ul li:nth-child(5){
+  .socialmedia ul li:nth-child(5) {
     margin-right: 0;
   }
 
-  .socialmedia ul li{
+  .socialmedia ul li {
     margin-right: 0.9em;
     margin-bottom: 0.9em;
   }
 
-  /*padding bewteen the icons*/
   .action-menu {
     position: absolute;
     top: 3em;
@@ -771,41 +716,34 @@ p a[target="_blank"]:after {
     padding-right: 0.6em;
   }
 
-  /*padding bewteen the icons*/
   .map-icon ul li:nth-child(2) a:after {
     padding-right: 0.6em;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(1) a:after {
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(2) a:after {
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(3) a:after {
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(4) a:after {
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(5) a:after {
     z-index: 4;
   }
 
-  .socialmedia ul li{
+  .socialmedia ul li {
     margin-right: 1em;
   }
 
-  /*padding bewteen the icons*/
   .action-menu {
     position: absolute;
     top: 3em;
@@ -847,7 +785,7 @@ p a[target="_blank"]:after {
     top: 40%;
   }
 
-  .socialmedia ul li{
+  .socialmedia ul li {
     margin-right: 1.1em;
   }
 }
