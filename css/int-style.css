@@ -15,11 +15,21 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
 }
 
 .white-text a[target="_blank"]:after {
-  content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/external-link-alt-ffffff.svg');
+  content: "    ";
+  background-image: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/external-link-alt-ffffff.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  top: 0.15em;
 }
 
 p a[target="_blank"]:after {
-  content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/external-link-alt-dd1e25.svg');
+  content: "    ";
+  background-image: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/external-link-alt-dd1e25.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  top: 0.15em;
 }
 
 .cust-portal-text {
