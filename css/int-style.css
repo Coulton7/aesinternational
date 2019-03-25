@@ -343,7 +343,7 @@ p a[target="_blank"]:after {
 
 .socialmedia ul li {
   width: 2.5em;
-  margin-right: 1.4em;
+  height:2.6em;
 }
 
 .socialmedia ul li:nth-child(1) a:after {
