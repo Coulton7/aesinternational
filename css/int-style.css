@@ -93,6 +93,13 @@ p a[target="_blank"]:after {
   background-attachment: fixed;
 }
 
+.labtecta-watermark{
+  background-image:url(/files/fields/field_flex_image/labtecta-watermark-product.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .banner-title {
   position: absolute;
   left: 50%;
