@@ -67,17 +67,17 @@
     <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
   <?php
-  if (preg_match('~MSIE|Internet Explorer~i', $_SERVER['HTTP_USER_AGENT']) || (strpos($_SERVER['HTTP_USER_AGENT'], 'Trident/7.0; rv:11.0') !== false)) {
-  $origin =$_SERVER['HTTP_ORIGIN'];
-  $allowed_domains= [
-    'https://js.hsleadflows.net',
-    'https://js.usemessages.com',
-  ];
+    if (preg_match('~MSIE|Internet Explorer~i', $_SERVER['HTTP_USER_AGENT']) || (strpos($_SERVER['HTTP_USER_AGENT'], 'Trident/7.0; rv:11.0') !== false)) {
+    $origin =$_SERVER['HTTP_ORIGIN'];
+    $allowed_domains= [
+      'https://js.hsleadflows.net',
+      'https://js.usemessages.com',
+    ];
 
-  if(in_array, $allowed_domains)){
-    header('Access-Control-Allow-Origin: ' . $origin);
+    if(in_array($origin, $allowed_domains)){
+      header('Access-Control-Allow-Origin: ' . $origin);
+    }
   }
-}
   ?>
 
   <?php print $scripts; ?>
