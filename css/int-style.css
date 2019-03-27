@@ -337,6 +337,10 @@ p a[target="_blank"]:after {
   color: #ffffff
 }
 
+.contact-block img{
+  width:2em;
+}
+
 .principles-icon {
   width: 3em;
 }
