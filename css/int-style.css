@@ -287,6 +287,25 @@ p a[target="_blank"]:after {
   color: #ffffff
 }
 
+.btn-contact{
+  background: #002A5B;
+  color: #ffffff;
+  border-bottom: none;
+  outline-offset: 1px;
+  outline-style: solid;
+  outline-color: #5B82AD;
+  outline-width: 1px;
+}
+
+.btn-contact:hover{
+  background: #004a8c;
+  color: #ffffff;
+  outline-offset: 1px;
+  outline-style: solid;
+  outline-color: #ffffff;
+  outline-width: 1px;
+}
+
 .social-profile-icon {
   display: none;
 }
