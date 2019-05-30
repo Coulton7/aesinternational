@@ -347,18 +347,11 @@ p a[target="_blank"]:after {
 
 .iceberg-testhouse{
   background-image: url(/sites/all/themes/aesinternational/images/photos/iceberg-testhouse.jpg);
-  background-repeat: no-repeat;
-  height: 18em;
-  background-position: 60% 70%;
-  position: relative;
 }
 
 .iceberg-workshop{
   background-image: url(/sites/all/themes/aesinternational/images/photos/iceberg-workshop.jpg);
-  background-repeat: no-repeat;
-  height: 18em;
-  background-position: 60% 70%;
-  position: relative;
+  background-position: 60% 50%;
 }
 
 .contact-block{
