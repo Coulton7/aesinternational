@@ -368,6 +368,7 @@ p a[target="_blank"]:after {
 
 .contact-block img{
   width:2em;
+  filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(213deg) brightness(112%) contrast(100%);
 }
 
 .principles-icon {
@@ -398,26 +399,31 @@ p a[target="_blank"]:after {
 .socialmedia ul li:nth-child(1) a:after {
   position: relative;
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/twitter.svg');
+  filter: invert(56%) sepia(17%) saturate(6871%) hue-rotate(176deg) brightness(96%) contrast(97%);
 }
 
 .socialmedia ul li:nth-child(2) a:after {
   position: relative;
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/linkedin-in.svg');
+  filter: invert(22%) sepia(92%) saturate(3183%) hue-rotate(184deg) brightness(95%) contrast(102%);
 }
 
 .socialmedia ul li:nth-child(3) a:after {
   position: relative;
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/phone-square.svg');
+  filter: invert(37%) sepia(76%) saturate(1890%) hue-rotate(340deg) brightness(86%) contrast(91%);
 }
 
 .socialmedia ul li:nth-child(4) a:after {
   position: relative;
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/globe-americas.svg');
+  filter: invert(10%) sepia(98%) saturate(2518%) hue-rotate(199deg) brightness(92%) contrast(105%);
 }
 
 .socialmedia ul li:nth-child(5) a:after {
   position: relative;
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/map-marker-alt.svg');
+  filter: invert(37%) sepia(76%) saturate(1890%) hue-rotate(340deg) brightness(86%) contrast(91%);
 }
 
 .socialmedia ul li:nth-child(5) {
