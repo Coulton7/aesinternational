@@ -117,8 +117,8 @@ p a[target="_blank"]:after {
   background-attachment: fixed;
 }
 
-.labtecta-watermark{
-  background-image:url(/files/fields/field_flex_image/labtecta-watermark-product.png);
+.labtecta-watermark {
+  background-image: url(/files/fields/field_flex_image/labtecta-watermark-product.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -321,7 +321,7 @@ p a[target="_blank"]:after {
   padding: 2em;
 }
 
-.btn-contact{
+.btn-contact {
   background: #002A5B;
   color: #ffffff;
   border-bottom: none;
@@ -331,7 +331,7 @@ p a[target="_blank"]:after {
   outline-width: 1px;
 }
 
-.btn-contact:hover{
+.btn-contact:hover {
   background: #004a8c;
   color: #ffffff;
   outline-offset: 1px;
@@ -340,34 +340,33 @@ p a[target="_blank"]:after {
   outline-width: 1px;
 }
 
-
-.iceberg-contact{
+.iceberg-contact {
   margin-top: -2.25em;
 }
 
-.iceberg-testhouse{
+.iceberg-testhouse {
   background-image: url(/sites/all/themes/aesinternational/images/photos/iceberg-testhouse.jpg);
   background-position: 60% 50%;
 }
 
-.iceberg-workshop{
+.iceberg-workshop {
   background-image: url(/sites/all/themes/aesinternational/images/photos/iceberg-workshop.jpg);
 }
 
-.contact-block{
+.contact-block {
   border: 1px solid #888c8f;
   background-color: #002a5b;
   color: #ffffff;
   border-radius: 7px;
-  box-shadow:inset 0 1px 0 rgba(255,255,255,0.7);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
 }
 
-.contact-block a{
+.contact-block a {
   color: #ffffff
 }
 
-.contact-block img{
-  width:2em;
+.contact-block img {
+  width: 2em;
   filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(213deg) brightness(112%) contrast(100%);
 }
 
@@ -393,7 +392,7 @@ p a[target="_blank"]:after {
 
 .socialmedia ul li {
   width: 2.5em;
-  height:2.6em;
+  height: 2.6em;
 }
 
 .socialmedia ul li:nth-child(1) a:after {
@@ -402,10 +401,18 @@ p a[target="_blank"]:after {
   filter: invert(56%) sepia(17%) saturate(6871%) hue-rotate(176deg) brightness(96%) contrast(97%);
 }
 
+.socialmedia ul li:nth-child(1) a:hover::after {
+  filter: invert(45%) sepia(97%) saturate(1555%) hue-rotate(176deg) brightness(90%) contrast(87%);
+}
+
 .socialmedia ul li:nth-child(2) a:after {
   position: relative;
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/linkedin-in.svg');
   filter: invert(22%) sepia(92%) saturate(3183%) hue-rotate(184deg) brightness(95%) contrast(102%);
+}
+
+.socialmedia ul li:nth-child(2) a:hover::after {
+  filter: invert(21%) sepia(69%) saturate(3018%) hue-rotate(182deg) brightness(98%) contrast(102%);
 }
 
 .socialmedia ul li:nth-child(3) a:after {
@@ -414,16 +421,28 @@ p a[target="_blank"]:after {
   filter: invert(37%) sepia(76%) saturate(1890%) hue-rotate(340deg) brightness(86%) contrast(91%);
 }
 
+.socialmedia ul li:nth-child(3) a:hover::after {
+  filter: invert(25%) sepia(76%) saturate(1744%) hue-rotate(343deg) brightness(94%) contrast(84%);
+}
+
 .socialmedia ul li:nth-child(4) a:after {
   position: relative;
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/globe-americas.svg');
   filter: invert(10%) sepia(98%) saturate(2518%) hue-rotate(199deg) brightness(92%) contrast(105%);
 }
 
+.socialmedia ul li:nth-child(4) a:hover::after {
+  filter: invert(17%) sepia(84%) saturate(2394%) hue-rotate(194deg) brightness(90%) contrast(101%);
+}
+
 .socialmedia ul li:nth-child(5) a:after {
   position: relative;
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/map-marker-alt.svg');
   filter: invert(37%) sepia(76%) saturate(1890%) hue-rotate(340deg) brightness(86%) contrast(91%);
+}
+
+.socialmedia ul li:nth-child(5) a:hover::after {
+  filter: invert(25%) sepia(76%) saturate(1744%) hue-rotate(343deg) brightness(94%) contrast(84%);
 }
 
 .socialmedia ul li:nth-child(5) {
@@ -495,7 +514,7 @@ p a[target="_blank"]:after {
   border-color: #fa010a color:#ffffff;
 }
 
-.form-group:last-child, .panel:last-child{
+.form-group:last-child, .panel:last-child {
   margin-bottom: 0;
 }
 
@@ -572,7 +591,7 @@ p a[target="_blank"]:after {
     margin-top: 0;
   }
 
-  .flex_gradient{
+  .flex_gradient {
     overflow: hidden;
   }
 
@@ -695,7 +714,7 @@ p a[target="_blank"]:after {
     top: 3.6em
   }
 
-  .flex_gradient{
+  .flex_gradient {
     overflow: initial;
   }
 
