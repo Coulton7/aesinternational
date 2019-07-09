@@ -649,6 +649,10 @@ p a[target="_blank"]:after {
     margin-right: 1.2em;
   }
 
+  #search-api-page-search-form .form-item-keys-1{
+    width:75%;
+  }
+
   .africa-upper {
     top: 48.5%;
   }
@@ -773,6 +777,10 @@ p a[target="_blank"]:after {
     position: absolute;
     top: 3em;
     z-index: 103;
+  }
+
+  #search-api-page-search-form .form-item-keys-1{
+    width:85%;
   }
 
   .africa-upper {
