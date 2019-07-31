@@ -570,6 +570,10 @@ p a[target="_blank"]:after {
 		height: 4em;
 	}
 
+  .sub-menu ul.menu.nav{
+    display: block;
+  }
+
   .map-icon ul li:nth-child(1) a:after {
     padding-right: 0.8em;
   }
@@ -687,6 +691,10 @@ p a[target="_blank"]:after {
   .view-key-branches .view-content {
     display: block;
     flex-wrap: initial;
+  }
+
+  .sub-menu ul.menu.nav{
+    display: flex;
   }
 
   .map-icon ul li:nth-child(1) a:after {
