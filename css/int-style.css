@@ -612,6 +612,10 @@ p a[target="_blank"]:after {
     height: 5em;
   }
 
+  .sub-menu ul.menu.nav{
+    display: block;
+  }
+
   .map-icon ul li:nth-child(1) a:after {
     padding-right: 0.8em;
   }
@@ -729,6 +733,10 @@ p a[target="_blank"]:after {
 
   .socialmedia {
     margin-top: 1em;
+  }
+
+  .sub-menu ul.menu.nav{
+    display: flex;
   }
 
   .view-key-branches .view-content {
