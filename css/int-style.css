@@ -339,7 +339,7 @@ p a[target="_blank"]:after {
 }
 
 .socialmedia ul li:nth-child(1) a:after {
-  font-family: "FontAwesome";
+  font-family: "Font Awesome 5 Brands";
   content: " \f099";
   color: #1DA1F2;
   z-index: 4;
@@ -347,18 +347,16 @@ p a[target="_blank"]:after {
   font-size: 2.5em;
 }
 
-/*Fontawesome twitter logo*/
 .socialmedia ul li:nth-child(2) a:after {
-  font-family: "FontAwesome";
+  font-family: "Font Awesome 5 Brands";
   content: " \f0e1";
   color: #0077b5;
   position: relative;
   font-size: 2.5em;
 }
 
-/*Fontawesome Linkdin logo*/
 .socialmedia ul li:nth-child(3) a:after {
-  font-family: "FontAwesome";
+  font-family: "Font Awesome 5 Free";
   content: " \f098";
   color: #d34836;
   padding-right: 0.60em;
@@ -366,19 +364,17 @@ p a[target="_blank"]:after {
   font-size: 2.5em;
 }
 
-/*Fontawesome contact logo*/
 .socialmedia ul li:nth-child(4) a:after {
-  font-family: "FontAwesome";
-  content: " \f0ac";
+  font-family: "Font Awesome 5 Free";
+  content: " \f57d";
   color: #002A5B;
   position: relative;
   font-size: 2.5em;
 }
 
-/*Fontawesome globe logo*/
 .socialmedia ul li:nth-child(5) a:after {
-  font-family: "FontAwesome";
-  content: " \f041";
+  font-family: "Font Awesome 5 Free";
+  content: " \f3c5";
   color: #d34836;
   position: relative;
   font-size: 2.5em;
