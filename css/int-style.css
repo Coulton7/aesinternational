@@ -40,6 +40,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
 p a[target="_blank"]:after {
   font-family: 'Font Awesome 5 Free';
   content: " \f35d";
+  font-weight: 900;
 }
 
 .page-node-6344 .flex-caption {
@@ -362,6 +363,7 @@ p a[target="_blank"]:after {
   padding-right: 0.60em;
   position: relative;
   font-size: 2.5em;
+  font-weight: 900;
 }
 
 .socialmedia ul li:nth-child(4) a:after {
@@ -370,6 +372,7 @@ p a[target="_blank"]:after {
   color: #002A5B;
   position: relative;
   font-size: 2.5em;
+  font-weight: 900;
 }
 
 .socialmedia ul li:nth-child(5) a:after {
@@ -378,6 +381,7 @@ p a[target="_blank"]:after {
   color: #d34836;
   position: relative;
   font-size: 2.5em;
+  font-weight: 900;
 }
 
 .socialmedia ul li:nth-child(1) a:hover::after {
