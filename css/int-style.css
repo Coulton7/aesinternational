@@ -339,6 +339,12 @@ p a[target="_blank"]:after {
   padding: 2em;
 }
 
+.group-colimages .field-name-field-product-image .field-items .field-item.even img, .group-colimages .field-name-field-product-image .field-items .field-item.odd img{
+  width: 50%;
+  padding: 2em;
+  float: left;
+}
+
 .socialmedia ul li:nth-child(1) a:after {
   font-family: "Font Awesome 5 Brands";
   content: " \f099";
