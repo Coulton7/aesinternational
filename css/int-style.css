@@ -548,6 +548,11 @@ p a[target="_blank"]:after {
   display: none;
 }
 
+.node-type-case-studies #block-rrssb-rrssb{
+  margin: 0;
+  max-width: 80%;
+}
+
 /*Fontawesome Google logo*/
 @media screen and (max-width: 767px) {
   .front__flex-margin {
