@@ -90,7 +90,7 @@
     var newDiv = document.createElement("div");
 	var titleDiv = document.createElement("div");
     var titleText = $(this).attr('title');
-	var altText = $(this).attr('alt')
+	var altText = $(this).attr('alt');
 	$(newContainer).html(titleDiv, newDiv);
 	$(newContainer).attr('class', 'caption-container flex-item-caption');
     $(titleDiv).html(titleText);
