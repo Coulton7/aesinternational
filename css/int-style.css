@@ -43,11 +43,25 @@ p a[target="_blank"]:after {
 }
 
 .flex-header {
+  bottom: 1.8em;
+  left: -0.75em;
+  top: auto;
+  transform: translate(0%);
   color: #ffffff;
+  position: absolute;
 }
 
 .flex-caption {
-  margin-top: 0.2em
+  padding-left: 1em;
+  color: #ffffff;
+  width: 60%;
+  bottom: 0.5em;
+  position: absolute;
+  top: auto;
+  left: auto;
+  transform: translate(0%);
+  width: 60%;
+  bottom: 0.5em;
 }
 
 .flexslider .slides li img {
@@ -55,15 +69,7 @@ p a[target="_blank"]:after {
   margin-bottom: -8%;
 }
 
-.flex-caption {
-  margin-top: 0.2em
-}
-
 .front .flex-header {
-  bottom: 1.8em;
-  left: -0.75em;
-  top: auto;
-  transform: translate(0%);
   color: #dd1e25;
 }
 
