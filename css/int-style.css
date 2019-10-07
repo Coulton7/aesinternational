@@ -14,10 +14,15 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
 
 .flex-header {
   color: #ffffff;
+  position: relative;
+  bottom: unset;
 }
 
 .flex-caption {
-  margin-top: 0.2em
+  margin-top: 0.2em;
+  position: relative;
+  bottom: unset;
+  width: auto;
 }
 
 .flexslider .slides li img {
@@ -34,11 +39,15 @@ p a[target="_blank"]:after {
 .front .flex-header {
   padding-left: 0.4em;
   color: #dd1e25;
+  position: relative;
+  bottom: unset;
 }
 
 .front .flex-caption {
   padding-left: 1em;
   color: #ffffff;
+  bottom: unset;
+  width: auto;
 }
 
 .front .flexslider .slides li img {
