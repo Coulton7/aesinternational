@@ -99,7 +99,7 @@
 		$(this).after(newContainer);
 	    $(this).after(newDiv);
 		$(this).after(titleDiv);
-		$(".caption-container").append(titleDiv, newDiv);
+		$(".caption-container").appendTo(titleDiv, newDiv);
 	})
 
 	})
