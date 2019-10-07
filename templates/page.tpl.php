@@ -100,7 +100,7 @@
 		$(this).after(newContainer);
 	    $(this).after(newDiv);
 		$(this).after(titleDiv);
-		$(".caption-container").append(newDiv, titleDiv);
+		$(".caption-container").append(titleDiv, newDiv);
 
 		})
 
