@@ -31,35 +31,14 @@ p a[target="_blank"]:after {
   font-weight: 900;
 }
 
-.page-node-6344 .flex-caption {
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  width: auto;
-  bottom: auto;
-  transform: translate(-50%, -50%);
-  margin-top: 0.2em
-}
-
 .front .flex-header {
-  bottom: 1.8em;
-  left: -0.75em;
-  top: auto;
-  transform: translate(0%);
+  padding-left: 0.4em;
   color: #dd1e25;
 }
 
 .front .flex-caption {
   padding-left: 1em;
   color: #ffffff;
-  width: 60%;
-  bottom: 0.5em;
-  position: absolute;
-  top: auto;
-  left: auto;
-  transform: translate(0%);
-  width: 60%;
-  bottom: 0.5em;
 }
 
 .front .flexslider .slides li img {
