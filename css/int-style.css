@@ -43,22 +43,10 @@ p a[target="_blank"]:after {
 }
 
 .flex-header {
-  position: absolute;
-  top: 38%;
-  left: 48%;
-  width: auto;
-  bottom: auto;
-  transform: translate(-50%, -50%);
   color: #ffffff;
 }
 
 .flex-caption {
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  width: auto;
-  bottom: auto;
-  transform: translate(-50%, -50%);
   margin-top: 0.2em
 }
 
