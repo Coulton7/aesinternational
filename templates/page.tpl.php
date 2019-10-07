@@ -97,9 +97,10 @@
 	    $(titleDiv).attr('class','flex-header');
 		$(newDiv).html(altText);
 		$(newDiv).attr('class','flex-caption');
-		$(newDiv, titleDiv).after(newContainer);
+		$(this).after(newContainer);
 	    $(this).after(newDiv);
 		$(this).after(titleDiv);
+		$(".caption-container").append(newDiv, titleDiv);
 
 		})
 
