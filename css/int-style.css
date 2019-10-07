@@ -48,6 +48,7 @@ p a[target="_blank"]:after {
   color: #ffffff;
   bottom: unset;
   width: auto;
+  position: relative;
 }
 
 .front .flexslider .slides li img {
