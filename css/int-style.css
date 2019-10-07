@@ -837,6 +837,9 @@ p a[target="_blank"]:after {
   .middle-east-lower {
     top: 47%;
   }
+  .front .caption-container{
+  top: 23%;
+}
 }
 
 @media screen and (min-width: 1200px) {
@@ -847,4 +850,8 @@ p a[target="_blank"]:after {
   .banner-subtitle {
     top: 40%;
   }
+
+  .front .caption-container{
+  top: 28%;
+}
 }
