@@ -55,13 +55,7 @@ p a[target="_blank"]:after {
   margin-bottom: -8%;
 }
 
-.page-node-6344 .flex-caption {
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  width: auto;
-  bottom: auto;
-  transform: translate(-50%, -50%);
+.flex-caption {
   margin-top: 0.2em
 }
 
