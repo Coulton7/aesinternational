@@ -488,6 +488,12 @@ p a[target="_blank"]:after {
   text-decoration: none;
 }
 
+.flag-indicator{
+  margin-top: -6.5em;
+  position: relative;
+  z-index: 2;
+}
+
 .publish-date {
   display: inline-block;
 }
