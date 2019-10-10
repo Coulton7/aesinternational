@@ -435,6 +435,7 @@ p a[target="_blank"]:after {
   color: #0077b5;
   position: relative;
   font-size: 2em;
+  bottom: -0.5em;
 }
 
 .social-contact:nth-child(1) a:hover::after {
