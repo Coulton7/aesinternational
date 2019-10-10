@@ -16,6 +16,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   color: #ffffff;
   position: relative;
   bottom: unset;
+  text-align: center;
 }
 
 .flex-caption {
@@ -23,6 +24,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   position: relative;
   bottom: unset;
   width: auto;
+  text-align: center;
 }
 
 .flexslider .slides li img {
