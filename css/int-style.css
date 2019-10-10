@@ -437,7 +437,7 @@ p a[target="_blank"]:after {
   font-size: 2em;
 }
 
-.social-contact:nth-child(1) a:after {
+.social-contact:nth-child(1) a:hover::after {
   color: #006ba2;
 }
 
