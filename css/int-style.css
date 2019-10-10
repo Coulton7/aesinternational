@@ -125,35 +125,35 @@ p a[target="_blank"]:after {
   margin-top: 3em;
 }
 
-li a.asia {
+.location-branches .nav-tabs li a.asia {
     height: auto;
     width: auto;
     border-bottom: inherit !important;
     position: static;
 }
 
-li a.australasia {
+.location-branches .nav-tabs li a.australasia {
     height: auto;
     width: auto;
     border-bottom: inherit !important;
     position: static;
 }
 
-li a.europe {
+.location-branches .nav-tabs li a.europe {
     height: auto;
     width: auto;
     border-bottom: inherit !important;
     position: static;
 }
 
-li a.north-america {
+.location-branches .nav-tabs li a.north-america {
     height: auto;
     width: auto;
     border-bottom: inherit !important;
     position: static;
 }
 
-li a.south-america {
+.location-branches .nav-tabs li a.south-america {
     height: auto;
     width: auto;
     border-bottom: inherit !important;
