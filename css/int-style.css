@@ -432,7 +432,11 @@ p a[target="_blank"]:after {
   content: " \f0e1";
   color: #0077b5;
   position: relative;
-  font-size: 1.5em;
+  font-size: 2em;
+}
+
+.social-contact:nth-child(1) a:after {
+  color: #006ba2;
 }
 
 .map-icons {
@@ -609,6 +613,14 @@ p a[target="_blank"]:after {
     color: #ffffff;
     border: 2px solid #5B82AD;
     border-bottom: 2px solid #004a8c!important;
+}
+
+.location-branches .flex-control-thumbs img {
+  opacity: .4;
+}
+
+.location-branches .flex-control-thumbs .flex-active{
+    opacity: 1;
 }
 
 /*Fontawesome Google logo*/
