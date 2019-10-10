@@ -536,6 +536,10 @@ p a[target="_blank"]:after {
   max-width: 80%;
 }
 
+.location-branches .tabbable{
+  margin-bottom: 0;
+}
+
 /*Fontawesome Google logo*/
 @media screen and (max-width: 767px) {
   .front__flex-margin {
