@@ -128,35 +128,30 @@ p a[target="_blank"]:after {
 .location-branches .nav-tabs li a.asia {
     height: auto;
     width: auto;
-    border-bottom: inherit !important;
     position: static;
 }
 
 .location-branches .nav-tabs li a.australasia {
     height: auto;
     width: auto;
-    border-bottom: inherit !important;
     position: static;
 }
 
 .location-branches .nav-tabs li a.europe {
     height: auto;
     width: auto;
-    border-bottom: inherit !important;
     position: static;
 }
 
 .location-branches .nav-tabs li a.north-america {
     height: auto;
     width: auto;
-    border-bottom: inherit !important;
     position: static;
 }
 
 .location-branches .nav-tabs li a.south-america {
     height: auto;
     width: auto;
-    border-bottom: inherit !important;
     position: static;
 }
 
@@ -593,19 +588,19 @@ p a[target="_blank"]:after {
   background: #002A5B;
   color: #ffffff;
   border: 2px solid #5B82AD;
-  border-bottom: 2px solid #002A5B;
+  border-bottom: 2px solid #002A5B!important;
   }
 .location-branches .nav-tabs li a:hover {
   background: #004a8c;
   color: #ffffff;
   border: 2px solid #5B82AD;
-  border-bottom: 2px solid #004a8c;
+  border-bottom: 2px solid #004a8c!important;
 }
 .location-branches .nav-tabs li.active a{
     background: #004a8c;
     color: #ffffff;
     border: 2px solid #5B82AD;
-    border-bottom: 2px solid #004a8c;
+    border-bottom: 2px solid #004a8c!important;
 }
 
 /*Fontawesome Google logo*/
