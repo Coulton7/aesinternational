@@ -166,28 +166,24 @@ li a.asia {
 .location-branches .nav-tabs li a.australasia {
   height: auto;
   width: auto;
-  border-bottom: inherit !important;
   position: static;
 }
 
 .location-branches .nav-tabs li a.europe {
   height: auto;
   width: auto;
-  border-bottom: inherit !important;
   position: static;
 }
 
 .location-branches .nav-tabs li a.north-america {
   height: auto;
   width: auto;
-  border-bottom: inherit !important;
   position: static;
 }
 
 .location-branches .nav-tabs li a.south-america {
   height: auto;
   width: auto;
-  border-bottom: inherit !important;
   position: static;
 }
 
