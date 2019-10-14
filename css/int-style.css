@@ -621,21 +621,21 @@ li a.asia {
   background: #002A5B;
   color: #ffffff;
   border: 2px solid #5B82AD;
-  border-bottom: 2px solid #002A5B;
+  border-bottom: 2px solid #002A5B!important;
 }
 
 .location-branches .nav-tabs li a:hover {
   background: #004a8c;
   color: #ffffff;
   border: 2px solid #5B82AD;
-  border-bottom: 2px solid #004a8c;
+  border-bottom: 2px solid #004a8c!important;
 }
 
 .location-branches .nav-tabs li.active a {
   background: #004a8c;
   color: #ffffff;
   border: 2px solid #5B82AD;
-  border-bottom: 2px solid #004a8c;
+  border-bottom: 2px solid #004a8c!important;
 }
 
 .location-branches .tabbable {
