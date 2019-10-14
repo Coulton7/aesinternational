@@ -568,6 +568,10 @@ p a[target="_blank"]:after {
   display: none;
 }
 
+.location-branches .tabbable{
+   margin-bottom: 0;
+ }
+
 @media screen and (max-width: 767px) {
   .front__flex-margin {
     margin-top: 0;
