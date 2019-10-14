@@ -46,6 +46,7 @@ p a[target="_blank"]:after {
   color: #ffffff;
   position: relative;
   bottom: unset;
+  text-align: center;
 }
 
 .flex-caption {
@@ -53,6 +54,7 @@ p a[target="_blank"]:after {
   position: relative;
   bottom: unset;
   width: auto;
+  text-align: center;
 }
 
 .flexslider .slides li img {
