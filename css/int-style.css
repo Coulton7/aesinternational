@@ -568,6 +568,29 @@ p a[target="_blank"]:after {
   display: none;
 }
 
+.location-branches .nav-tabs{
+   border-bottom: 5px solid #5B82AD;
+ }
+
+ .location-branches .nav-tabs li a {
+   background: #002A5B;
+   color: #ffffff;
+   border: 2px solid #5B82AD;
+   border-bottom: 2px solid #002A5B;
+   }
+ .location-branches .nav-tabs li a:hover {
+   background: #004a8c;
+   color: #ffffff;
+   border: 2px solid #5B82AD;
+   border-bottom: 2px solid #004a8c;
+ }
+ .location-branches .nav-tabs li.active a{
+     background: #004a8c;
+     color: #ffffff;
+     border: 2px solid #5B82AD;
+     border-bottom: 2px solid #004a8c;
+ }
+
 .location-branches .tabbable{
    margin-bottom: 0;
  }
