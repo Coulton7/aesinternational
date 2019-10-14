@@ -796,6 +796,10 @@ p a[target="_blank"]:after {
   .middle-east-lower {
     top: 50%;
   }
+  .regional-branch .nav-tabs{
+   margin-left: 16.666667%;
+   width: 66.66666667%;
+ }
 }
 
 @media screen and (min-width: 992px) {
@@ -889,4 +893,10 @@ p a[target="_blank"]:after {
   .socialmedia ul li {
     margin-right: 1.1em;
   }
+
+  .regional-branch .nav-tabs{
+   margin-left: 16.666667%;
+   width: 66.66666667%;
+ }
+
 }
