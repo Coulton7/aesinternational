@@ -476,6 +476,18 @@ li a.asia {
   margin-right: 0;
 }
 
+.social-contact:nth-child(1) a:after {
+   font-family: "Font Awesome 5 Brands";
+   content: " \f0e1";
+   color: #0077b5;
+   position: relative;
+   font-size: 2em;
+ }
+
+ .social-contact:nth-child(1) a:after {
+   color: #006ba2;
+ }
+
 .map-icons {
   width: 100%;
 }
@@ -641,6 +653,14 @@ li a.asia {
 .location-branches .tabbable {
   margin-bottom: 0;
 }
+
+.location-branches .flex-control-thumbs img {
+   opacity: .4;
+ }
+
+ .location-branches .flex-control-thumbs .flex-active{
+     opacity: 1;
+ }
 
 @media screen and (max-width: 767px) {
   .front__flex-margin {
