@@ -156,6 +156,41 @@ p a[target="_blank"]:after {
   margin-top: 3em;
 }
 
+li a.asia {
+     height: auto;
+     width: auto;
+     border-bottom: inherit !important;
+     position: static;
+ }
+
+ li a.australasia {
+     height: auto;
+     width: auto;
+     border-bottom: inherit !important;
+     position: static;
+ }
+
+ li a.europe {
+     height: auto;
+     width: auto;
+     border-bottom: inherit !important;
+     position: static;
+ }
+
+ li a.north-america {
+     height: auto;
+     width: auto;
+     border-bottom: inherit !important;
+     position: static;
+ }
+
+ li a.south-america {
+     height: auto;
+     width: auto;
+     border-bottom: inherit !important;
+     position: static;
+ }
+
 .africa-upper {
   position: absolute;
   left: 43%;
