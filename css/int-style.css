@@ -514,6 +514,16 @@ p a[target="_blank"]:after {
   border-color: #fa010a color:#ffffff;
 }
 
+.field-name-field-external-link a {
+list-style-type: none;
+display: inline-block;
+background: #dd1e25;
+color: #ffffff !important;
+border: none !important;
+border-radius: 0;
+padding: 5px 15px;
+}
+
 /*color for the button on the form*/
 .field-name-field-tags {
   display: inline-flex;
