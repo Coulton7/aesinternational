@@ -553,6 +553,16 @@ li a.asia {
   margin-bottom: 0;
 }
 
+.field-name-field-external-link a {
+list-style-type: none;
+display: inline-block;
+background: #dd1e25;
+color: #ffffff !important;
+border: none !important;
+border-radius: 0;
+padding: 5px 15px;
+}
+
 .field-name-field-tags {
   display: inline-flex;
 }
