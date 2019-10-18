@@ -42,6 +42,14 @@ function aesinternational_preprocess_node(&$variables) {
   $node = $variables['node'];
   $date = format_date($node->created, 'custom', 'F j, Y');
   $variables['submitted'] = t('Submitted by !username on !datetime', array('!username' => $variables['name'], '!datetime' => $date));
+
+  $node['#attached']['css']=array(
+    drupal_get_path('theme', 'aesbs337').'js/jquery.scrolling-tabs.min.css'
+  )
+
+  $node['#attached']['js']=array(
+    drupal_get_path('theme', 'aesbs337').'/js/jquery.scrolling-tabs.min.js'
+  )
 }
 
 function aesinternational_preprocess_maintenance_page(&$variables) {
