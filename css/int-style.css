@@ -570,6 +570,17 @@ padding: 5px 15px;
   width: fit-content;
 }
 
+.sub-menu ul.menu.nav li a.active {
+  background: #004a8c;
+  margin-bottom: 0;
+  color: #ffffff;
+  width: 100%;
+  outline-offset: 1px;
+  outline-style: solid;
+  outline-color: #5B82AD;
+  outline-width: 1px;
+}
+
 .map-icon ul li:nth-child(2) a:after {
   font-family: 'FontAwesome';
   content: "\f1a0";
