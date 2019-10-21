@@ -659,7 +659,11 @@ padding: 5px 15px;
   }
 
   .action-menu {
-    top: 3.7em
+    top: 3.3em
+  }
+
+  .lang-switch a{
+    margin-right: 3em;
   }
 
   .socialmedia {
@@ -759,7 +763,7 @@ padding: 5px 15px;
   }
 
   .action-menu {
-    top: 3.7em;
+    top: 3.3em;
     position: absolute;
     z-index: 103;
   }
@@ -773,7 +777,7 @@ padding: 5px 15px;
   }
 
   .action-menu {
-    top: 4em;
+    top: 3.3em;
     position: absolute;
     z-index: 103;
   }
@@ -781,7 +785,11 @@ padding: 5px 15px;
 
 @media screen and (min-width: 768px) {
   .action-menu {
-    top: 3.6em
+    top: 3.45em
+  }
+
+  .lang-switch a{
+    margin-right: 0;
   }
 
   .banner-subtitle {
@@ -848,7 +856,6 @@ padding: 5px 15px;
   /*padding bewteen the icons*/
   .action-menu {
     position: absolute;
-    top: 3em;
     z-index: 103;
   }
 
