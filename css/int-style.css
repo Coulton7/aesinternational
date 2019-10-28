@@ -387,7 +387,6 @@ p a[target="_blank"]:after {
   font-family: "Font Awesome 5 Free";
   content: " \f098";
   color: #d34836;
-  padding-right: 0.60em;
   position: relative;
   font-size: 2.5em;
   font-weight: 900;
@@ -697,31 +696,36 @@ padding: 5px 15px;
 
   /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(1) a:after {
-    padding-right: 0.8em;
+    margin-right: 0.4em;
+    font-size: 3em;
     z-index: 4;
   }
 
   /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(2) a:after {
-    padding-right: 0.8em;
+    margin-right: 0.4em;
+    font-size: 3em;
     z-index: 4;
   }
 
   /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(3) a:after {
-    padding-right: 0.8em;
+    margin-right: 0.4em;
+    font-size: 3em;
     z-index: 4;
   }
 
   /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(4) a:after {
-    padding-right: 0.8em;
+    margin-right: 0.4em;
+    font-size: 3em;
     z-index: 4;
   }
 
   /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(5) a:after {
-    padding-right: 0.8em;
+    margin-right: 0.4em;
+    font-size: 3em;
     z-index: 4;
   }
 
