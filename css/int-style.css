@@ -658,6 +658,10 @@ padding: 5px 15px;
     margin-top: 0;
   }
 
+  .flex_gradient {
+    overflow: hidden;
+  }
+
   .action-menu {
     top: 3.3em
   }
@@ -790,6 +794,10 @@ padding: 5px 15px;
 
   .lang-switch a{
     margin-right: 0;
+  }
+
+  .flex_gradient {
+    overflow: initial;
   }
 
   .banner-subtitle {
