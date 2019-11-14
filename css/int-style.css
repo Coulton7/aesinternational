@@ -625,6 +625,62 @@ padding: 5px 15px;
   max-width: 80%;
 }
 
+.grey-banner{
+  background-color: #888c8f;
+  color: #ffffff;
+}
+
+.grey-upper-wave{
+  background-color: #888c8f;
+  height: 100%;
+  transform: skewX(40deg);
+  position: relative;
+  right: 77%;
+  border-top-right-radius: 5%;
+}
+
+.grey-upper-curve{
+  background-color: #ffffff;
+  height: 100%;
+  position: relative;
+  right: -23%;
+  border-bottom-left-radius: 6%;
+  top: -99%;
+  transform: skewX(38deg);
+}
+
+.grey-lower-curve{
+  background-color: #ffffff;
+  height: 100%;
+  transform: skewX(38deg);
+  border-top-right-radius: 2%;
+  top: -100%;
+  position: relative;
+  left: -98%;
+  border-top-left-radius: 45%;
+  z-index: 0;
+}
+
+.grey-lower-wave{
+  background-color: #888c8f;
+  height: 100%;
+  transform: skewX(40deg);
+  width: 200%;
+  border-bottom-left-radius: 5%
+}
+
+.grey-lower-wave::before{
+  content:"";
+  height: 20%;
+  border-bottom-left-radius: 2% 60%;
+  color: #e5e5e7
+}
+
+.grey-lower-banner{
+  background-color: #888c8f;
+  height: 100%;
+}
+
 .location-branches .tabbable {
   margin-bottom: 0;
 }
