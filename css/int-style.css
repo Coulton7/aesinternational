@@ -156,6 +156,17 @@ p a[target="_blank"]:after {
   margin-top: 3em;
 }
 
+.image-paceholder{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: #f5fbfe;
+}
+
+
 li a.asia {
   height: auto;
   width: auto;
