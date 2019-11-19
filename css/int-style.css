@@ -60,6 +60,10 @@ p a[target="_blank"]:after {
   margin-bottom: 0;
 }
 
+.social-id{
+  width: 100%;
+}
+
 .flex_gradient {
   overflow: initial;
   height: 100%;
