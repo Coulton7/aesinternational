@@ -12,6 +12,9 @@ function aesinternational_preprocess_page(&$vars) {
 	drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/logoscroll.js');
 	drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/fade-text.js');
   drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/jquery.scrolling-tabs.min.js')
+}
+
+function aesinternational_js_alter(&$javascript){
   unset($javascript[drupal_get_path('theme', 'aesbs337').'/js/reg-mark.js']);
   unset($javascript[drupal_get_path('theme', 'aesbs337').'/js/contact-icon.js']);
 }
