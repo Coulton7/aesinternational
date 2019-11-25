@@ -685,6 +685,11 @@ padding: 5px 15px;
   height: 100%;
 }
 
+.left-arrow, .right-arrow{
+  color: #5cabdf;
+  text-shadow: 0 0 3px #ffffff;
+}
+
 .scrtabs-tab-container {
 height: 3.8em;
 }
