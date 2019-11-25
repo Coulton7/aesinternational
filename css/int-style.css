@@ -685,6 +685,19 @@ padding: 5px 15px;
   height: 100%;
 }
 
+.scrtabs-tab-container {
+height: 3.8em;
+}
+
+.scrtabs-tabs-fixed-container {
+  height: 100%;
+}
+
+.scrtabs-tab-scroll-arrow{
+  height: 100%;
+  border-top: 1px solid #ddd;
+}
+
 .location-branches .tabbable {
   margin-bottom: 0;
 }
