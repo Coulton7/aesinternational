@@ -317,8 +317,10 @@
 
 
   	<?php if ($page['suffix']): ?>
-		<div class="suffix">
+		<div class="suffix container-fluid">
+			<div class="row">
 				<?php print render($page['suffix']);?>
+			</div>
 		</div>
 	<?php endif; ?>
 

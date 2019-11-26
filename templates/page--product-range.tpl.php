@@ -313,11 +313,13 @@
   </div>
  </div>
 
-  	<?php if ($page['suffix']): ?>
-		<div class="suffix">
-			<?php print render($page['suffix']);?>
-		</div>
-	<?php endif; ?>
+ <?php if ($page['suffix']): ?>
+ <div class="suffix container-fluid">
+	 <div class="row">
+		 <?php print render($page['suffix']);?>
+	 </div>
+ </div>
+<?php endif; ?>
 
 
 	<div class ="container-fluid">
