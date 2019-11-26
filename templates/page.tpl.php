@@ -182,6 +182,12 @@
 			</div>
 		<?php endif; ?>
 
+		<?php if($page['vex_banner']):?>
+			<div class="vex-banner">
+				<?php print render($page['vex_banner']);?>
+			</div>
+		<?php endif; ?>
+
 		<?php if ($page['preface']): ?>
 		<div class="preface">
 			<div class= "flex_gradient">
@@ -311,11 +317,13 @@
  </div>
 
 
-  	<?php if ($page['suffix']): ?>
-		<div class="suffix">
-				<?php print render($page['suffix']);?>
-		</div>
-	<?php endif; ?>
+ <?php if ($page['suffix']): ?>
+ <div class="suffix container-fluid">
+	 <div class="row">
+		 <?php print render($page['suffix']);?>
+	 </div>
+ </div>
+<?php endif; ?>
 
 
 	<div class ="container-fluid">
