@@ -182,6 +182,7 @@
 
 		<?php if ($page['vex_banner']):?>
 			<div class="vex-banner">
+				<?php print render($page['vex_banner']);?>
 			</div>
 		<?php endif; ?>
 
