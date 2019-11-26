@@ -713,6 +713,10 @@ padding: 5px 15px;
     margin-right: 3em;
   }
 
+  .locale-untranslated{
+    color: #888c8f;
+  }
+
   .socialmedia {
     margin-top: 1em;
   }
