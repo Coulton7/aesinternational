@@ -758,6 +758,10 @@ height: 3.8em;
     margin-right: 3em;
   }
 
+  .locale-untranslated{
+    color: #888c8f;
+  }
+
   .socialmedia {
     margin-top: 1em;
   }
