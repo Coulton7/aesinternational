@@ -103,6 +103,18 @@ p a[target="_blank"]:after {
   height: auto;
 }
 
+.gmap-blocktitle{
+  position: relative;
+  z-index: 6;
+  margin-top: 3em;
+  text-align: center;
+}
+
+#gmap-map-home-gmap0{
+  margin-top: -6em;
+  z-index: 4;
+}
+
 .view-id-key_branches {
   background: #f5f5f5;
   border: 1px solid #ddd;
