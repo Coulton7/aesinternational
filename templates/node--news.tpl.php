@@ -111,7 +111,7 @@
 	            </div>
 	            <div class="publish-date">
 	               <sup>
-                   <?php if($submitted){echo "Posted: " . date("F j, Y", $node->created);}?>
+                   <?php if($date){echo "Posted: " . date("F j, Y", $node->created);}?>
                  </sup>
 	            </div>
 	         </div>
