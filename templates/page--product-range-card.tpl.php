@@ -74,17 +74,8 @@
  */
 ?>
 <link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
-<script src="/sites/all/libraries/flexslider/jquery.flexslider.js"></script>
-<script type="text/javascript" charset="utf-8">
-(function($){
-	$(window).load(function() {
-		$('.flexslider').flexslider({
-			controlNav: false,
-			directionNav: false
-		});
-	})
-})(jQuery);
-</script>
+<script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js"></script>
+<script src="/sites/all/themes/aesinternational/js/slider.js"></script>
 
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
