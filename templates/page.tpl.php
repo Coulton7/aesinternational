@@ -75,38 +75,7 @@
 ?>
 <link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
 <script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js"></script>
-<script type="text/javascript" charset="utf-8">
-(function($){
-	$(window).load(function() {
-
-		$('.flexslider').flexslider({
-			controlNav: false,
-			directionNav: false
-
-		});
-
-		$.each($(".flexslider .slides li img"), function() {
-			var newContainer = document.createElement("div");
-	    var newDiv = document.createElement("div");
-		var titleDiv = document.createElement("div");
-	    var titleText = $(this).attr('title');
-		var altText = $(this).attr('alt');
-		$(newContainer).html(titleDiv, newDiv);
-		$(newContainer).attr('class', 'caption-container flex-item-caption');
-	    $(titleDiv).html(titleText);
-	    $(titleDiv).attr('class','flex-header');
-		$(newDiv).html(altText);
-		$(newDiv).attr('class','flex-caption');
-		$(this).after(newContainer);
-	    $(this).after(newDiv);
-		$(this).after(titleDiv);
-		$(newContainer).append(titleDiv, newDiv);
-
-		})
-
-		})
-	})(jQuery);
-</script>
+<script src="/sites/all/themes/aesinternational/js/slider.js"></script>
 
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
