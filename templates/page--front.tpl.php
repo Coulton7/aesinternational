@@ -113,13 +113,13 @@
 			<div class="col-sm-2 col-xs-2 fullscreen">
 				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
 					<div class="wavelogo">
-						<img class="wavelogo" src="/sites/all/themes/aesbs337/images/logos/logo.svg" alt ="logo"></img>
+						<img class="wavelogo" src="/sites/all/themes/aesinternational/images/logos/pump-logo.svg" alt ="logo"></img>
 					</div>
 				</a>
 				<img class= "uppercurve" src="/sites/all/themes/aesbs337/images/logos/wave-upper.svg" alt ="uppercurve"></img>
 					 <?php if ($logo): ?>
 						<a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-							<img src="/sites/all/themes/aesbs337/images/logos/textonlylogo.svg" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
+							<img src="/sites/all/themes/aesinternational/images/logos/pump-textonlylogo.svg" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
 						</a>
 					<?php endif; ?>
 			</div>
