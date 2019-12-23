@@ -1,4 +1,5 @@
 (function($) {
+  vex.defaultOptions.className = 'vex-theme-top';
  $(document).ready(function(){
    if(sessionStorage.getItem('vexClosed') === 'closed')
    {
