@@ -105,9 +105,7 @@
 	      <div class="col-xs-4">
 	         <div class="author-margin">
 	            <div class="author bg-primary"> <p>&nbsp;
-	               	<?php if (empty($name)) ?>
-                    <?php echo "  Written By: ". $node->name?>&nbsp;</p>
-                  <?php endif; ?>
+                <?php echo "  Written By: ". $node->name?>&nbsp;</p>
 	            </div>
 	            <div class="publish-date">
 	               <sup>
