@@ -102,20 +102,18 @@
 	            <?php print $user_picture; ?>
 	         </div>
 	      </div>
-	      <div class="col-xs-4">
-	         <div class="author-margin">
-	            <div class="author bg-primary"> <p>&nbsp;
-	               	<?php if (empty($name)) ?>
-                    <?php echo "  Written By: ". $node->name?>&nbsp;</p>
-                  <?php endif; ?>
-	            </div>
-	            <div class="publish-date">
-	               <sup>
-                   <?php if($date){echo "Posted: " . date("F j, Y", $node->created);}?>
+        <div class="col-xs-4">
+           <div class="author-margin">
+              <div class="author bg-primary"> <p>&nbsp;
+                 <?php echo "  Written By: ". $node->name?>&nbsp;</p>
+              </div>
+              <div class="publish-date">
+                 <sup>
+                   <?php if($submitted){echo "Posted: " . date("F j, Y", $node->created);}?>
                  </sup>
-	            </div>
-	         </div>
-	      </div>
+              </div>
+           </div>
+        </div>
 	   </div>
 	  <hr>
   </div>
