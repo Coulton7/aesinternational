@@ -102,8 +102,8 @@
 	      </div>
         <div class="col-xs-4">
            <div class="author-margin">
-              <div class="author bg-primary"> <p>&nbsp;
-                 <?php echo "  Written By: ". $node->name?>&nbsp;</p>
+              <div class="author bg-primary">
+                 <p><?php echo "  Written By: ". $node->name?>&nbsp;</p>
               </div>
               <div class="publish-date">
                  <sup>
