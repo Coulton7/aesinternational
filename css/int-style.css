@@ -107,8 +107,9 @@ p a[target="_blank"]:after {
 .gmap-blocktitle{
   position: relative;
   z-index: 6;
-  margin-top: 3em;
+  margin-top: -3.4em;
   text-align: center;
+  color: #ffffff;
 }
 
 #gmap-map-home-gmap0{
@@ -336,11 +337,11 @@ p a[target="_blank"]:after {
 }
 
 .iceberg-mapsea{
-  margin-top: -7em;
+  margin-top: -7.5em;
 }
 
 .labtecta-icebergsea{
-  padding-bottom: 13em;
+  padding-bottom: 15em;
 }
 
 .contact-block {
