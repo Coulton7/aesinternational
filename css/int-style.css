@@ -156,6 +156,10 @@ p a[target="_blank"]:after {
   margin-top: 3em;
 }
 
+.location-branches .scrtabs-tab-scroll-arrow{
+  width: 3em;
+}
+
 .image-placeholder{
   display: flex;
   flex-direction: column;
