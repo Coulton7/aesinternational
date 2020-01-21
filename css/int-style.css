@@ -147,6 +147,10 @@ p a[target="_blank"]:after {
   margin-top: 3em;
 }
 
+.location-branches .scrtabs-tab-scroll-arrow{
+  width: 3em;
+}
+
 .location-branches .nav-tabs li a.asia {
   height: auto;
   width: auto;
