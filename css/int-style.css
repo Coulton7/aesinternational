@@ -84,6 +84,19 @@ p a[target="_blank"]:after {
   margin-bottom: 0;
 }
 
+.gmap-blocktitle{
+  position: relative;
+  z-index: 6;
+  margin-top: -3.4em;
+  text-align: center;
+  color: #ffffff;
+}
+
+#gmap-map-home-gmap0{
+  z-index: 4;
+  float: left;
+}
+
 .flex_gradient {
   height: 100%;
   -webkit-background-size: cover;
