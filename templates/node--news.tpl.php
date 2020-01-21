@@ -98,22 +98,20 @@
 	<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
 	   <div class="row">
 	      <div class="col-xs-2">
-	         <div class="author-picture">
-	            <?php print $user_picture; ?>
-	         </div>
+	         <div class="author-picture"><?php print $user_picture; ?></div>
 	      </div>
-	      <div class="col-xs-4">
-	         <div class="author-margin">
-	            <div class="author bg-primary"> <p>&nbsp;
-	               <?php echo "  Written By: ". $node->name?>&nbsp;</p>
-	            </div>
-	            <div class="publish-date">
-	               <sup>
+        <div class="col-xs-4">
+           <div class="author-margin">
+              <div class="author bg-primary"> <p>&nbsp;
+                 <?php echo "  Written By: ". $node->name?>&nbsp;</p>
+              </div>
+              <div class="publish-date">
+                 <sup>
                    <?php if($submitted){echo "Posted: " . date("F j, Y", $node->created);}?>
                  </sup>
-	            </div>
-	         </div>
-	      </div>
+              </div>
+           </div>
+        </div>
 	   </div>
 	  <hr>
   </div>
