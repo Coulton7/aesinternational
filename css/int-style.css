@@ -38,6 +38,10 @@ p a[target="_blank"]:after {
   font-weight: 900;
 }
 
+a.white-text{
+  color: #ffffff;
+}
+
 .front .flex-header {
   padding-left: 0.4em;
   color: #dd1e25;
