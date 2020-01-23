@@ -79,20 +79,6 @@
  * @ingroup templates
  */
 ?>
-<script>
-(function($){
-	$(document).ready(function() {
-    $.each($(".field-name-field-product-image .field-items .field-item.even img, .field-name-field-product-image .field-items .field-item.odd img"), function() {
-      var newDiv = document.createElement("div");
-      var altText = $(this).attr('alt')
-      $(newDiv).html(altText);
-      $(newDiv).attr('class','product-widget-text');
-      $(this).after(newDiv);
-    })
-  })
-})(jQuery);
-</script>
-
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
@@ -117,7 +103,6 @@
         hide($content['field_industry'])
         hide($content['field_api__plan_types']);
         hide($content['field_case_ref']);
-        hide($content['field_casequote']);/*Placeholder field name*/
         print render($content);
       ?>
     </div>
@@ -125,7 +110,7 @@
 
   <div class="row">
     <h3>
-      <?php print render($content['field_reference']['#title']); ?>
+      <?php print render($content['field_reference']); ?>
     </h3>;
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 image-highlight no-padding product-widget margin-1em">
       <div class="product-image-widget">
@@ -141,7 +126,6 @@
 	<div class="row-eq-height">
     <div class="col-xs-8 fullscreen">
       <div class="casequote">
-        <?php print render($content['field_casequote']); ?>
       </div>
       <div class="grey-banner">
         <?php print render($content['field_case_ref']); ?>
