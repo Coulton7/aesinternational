@@ -99,6 +99,7 @@
         hide($content['links']);
         hide($content['field_tags']);
         hide($content['field_product_image']);
+        hide($content['field_reference']);
         hide($content['field_industry']);
         hide($content['field_api__plan_types']);
         hide($content['field_case_ref']);
