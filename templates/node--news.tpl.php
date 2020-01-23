@@ -103,7 +103,7 @@
         <div class="col-xs-4">
            <div class="author-margin">
               <div class="author bg-primary">
-                 <p><?php if($submitted){echo "  Written By: ". $node->name;}?></p>
+                 <p><?php if($submitted){echo "   Written By:  ". $node->name;}?></p>
               </div>
               <div class="publish-date">
                  <sup>
