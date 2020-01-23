@@ -154,7 +154,7 @@
 			</div>
     	<div class="col-xs-3 fullscreen">
       	<div class="grey-lower-banner">
-        	<?php print render($content['field_industry'])?>
+        	<?php print render($content['field_industry']);?>
       	</div>
     	</div>
   	</div>
