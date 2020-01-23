@@ -79,6 +79,20 @@
  * @ingroup templates
  */
 ?>
+<script>
+(function($){
+	$(document).ready(function() {
+    $.each($(".field-name-field-product-image .field-items .field-item.even img, .field-name-field-product-image .field-items .field-item.odd img"), function() {
+      var newDiv = document.createElement("div");
+      var altText = $(this).attr('alt')
+      $(newDiv).html(altText);
+      $(newDiv).attr('class','product-widget-text');
+      $(this).after(newDiv);
+    })
+  })
+})(jQuery);
+</script>
+
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
@@ -88,17 +102,79 @@
     <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
     <?php endif; ?>
     <?php print render($title_suffix); ?>
-
+      <?php endif; ?>
   </header>
-  <?php endif; ?>
 
-  <?php
-    // Hide comments, tags, and links now so that we can render them later.
-    hide($content['comments']);
-    hide($content['links']);
-    hide($content['field_tags']);
-    print render($content);
-  ?>
+
+  <div class="row">
+    <div class="col-sm-12">
+      <?php
+        hide($content['comments']);
+        hide($content['links']);
+        hide($content['field_tags']);
+        hide($content['field_document']);
+        hide($content['field_product_image']);
+        hide($content['field_industry'])
+        hide($content['field_api__plan_types']);
+        hide($content['field_case_ref']);
+        hide($content['field_casequote']);/*Placeholder field name*/
+        print render($content);
+      ?>
+    </div>
+  </div>
+
+  <div class="row">
+    <h3>
+      <?php print render($content['field_reference']['#title']); ?>
+    </h3>;
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 image-highlight no-padding product-widget margin-1em">
+      <div class="product-image-widget">
+        <?php print render($content['field_product_image']);?>
+      </div>
+      <div class="product-widget-btn btn btn-block">
+        <?php print render($content['field_reference']);?>
+      </div>
+    </div>
+  </div>
+
+<div class="container-fluid">
+	<div class="row-eq-height">
+    <div class="col-xs-8 fullscreen">
+      <div class="casequote">
+        <?php print render($content['field_casequote']); ?>
+      </div>
+      <div class="grey-banner">
+        <?php print render($content['field_case_ref']); ?>
+      </div>
+    </div>
+		<div class="col-xs-1 fullscreen">
+        <div class="grey-upper-wave">
+        </div>
+        <div class="grey-upper-curve">
+        </div>
+      </div>
+      <div class="col-xs-3 fullscreen">
+			</div>
+		</div>
+		<div class="row-eq-height">
+			<div class="col-xs-8 fullscreen">
+				<div class="api-plans">
+			  	<?php print render($content['field_api__plan_types']); ?>
+				</div>
+			</div>
+			<div clsss="col-xs-1 fullscreen">
+				<div class="grey-lower-wave">
+				</div>
+				<div class="grey-lower-curve">
+				</div>
+			</div>
+    	<div class="col-xs-3 fullscreen">
+      	<div class="grey-lower-banner">
+        	<?php print render($content['field_industry'])?>
+      	</div>
+    	</div>
+  	</div>
+	</div>
 
   <?php if (!empty($content['field_tags']) || !empty($content['links'])): ?>
   <footer>
