@@ -111,7 +111,7 @@
   <div class="row">
     <h3>
       <?php print render($content['field_reference']); ?>
-    </h3>;
+    </h3>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 image-highlight no-padding product-widget margin-1em">
       <div class="product-image-widget">
         <?php print render($content['field_product_image']);?>
