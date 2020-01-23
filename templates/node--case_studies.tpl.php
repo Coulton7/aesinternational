@@ -98,7 +98,6 @@
         hide($content['comments']);
         hide($content['links']);
         hide($content['field_tags']);
-        hide($content['field_document']);
         hide($content['field_product_image']);
         hide($content['field_industry']);
         hide($content['field_api__plan_types']);
