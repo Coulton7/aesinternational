@@ -19,63 +19,70 @@
 
   <?php print $scripts; ?>
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script src="/sites/all/themes/aesbs337/js/maintenance-counter.js"></script>
 </head>
 
 <body class="<?php print $classes; ?>">
-    <div class="main-container container">
-    <div id="header">
-      <div id="logo-title">
 
-        <?php if (!empty($logo)): ?>
-          <a href="<?php print $base_path; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-            <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-          </a>
-        <?php endif; ?>
+  <div class="container-fluid bannercontainer">
+	   <div class="row bannerimage">
 
-        <div id="name-and-slogan">
-          <?php if (!empty($site_name)): ?>
-            <h1 id="site-name">
-              <a href="<?php print $base_path ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-            </h1>
-          <?php endif; ?>
+		     <div class="row waveupper row-eq-height">
+			        <div class="col-sm-2 col-xs-2 fullscreen">
+                <a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>"></a>
+                <?php if ($logo): ?>
+						    <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+                  <img src="	" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
+                </a>
+					      <?php endif; ?>
+			        </div>
 
-          <?php if (!empty($site_slogan)): ?>
-            <div id="site-slogan"><?php print $site_slogan; ?></div>
-          <?php endif; ?>
-        </div> <!-- /name-and-slogan -->
-      </div> <!-- /logo-title -->
+              <div class="col-sm-10 col-xs-10 fullscreen">
+                <div id="name-and-slogan">
+                <?php if (!empty($site_name)): ?>
+                  <h1 id="site-name">
+                    <a href="<?php print $base_path ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
+                  </h1>
+                <?php endif; ?>
 
-      <?php if (!empty($header)): ?>
-        <div id="header-region">
-          <?php print $header; ?>
-        </div>
-      <?php endif; ?>
+                <?php if (!empty($site_slogan)): ?>
+                  <div id="site-slogan"><?php print $site_slogan; ?></div>
+                <?php endif; ?>
+                </div> <!-- /name-and-slogan -->
+              </div>
+         </div> <!-- /logo-title -->
 
-    </div> <!-- /header -->
+         <?php if (!empty($header)): ?>
+           <div id="header-region">
+             <?php print $header; ?>
+           </div>
+         <?php endif; ?>
 
-    <div class="container" class="clearfix">
+     </div>
+   </div> <!-- /header -->
 
-      <div id="main" class="column"><div id="main-squeeze">
+   <div class="container-fluid" class="clearfix">
+     <div class="row">
+       <div class="col-sm-10 col-lg-8 col-sm-offset-1 col-lg-offset-2">
+          <div id="main" class="column">
+            <div id="main-squeeze">
+              <div id="content">
+                <?php if (!empty($title)): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
+                <?php if (!empty($messages)): print $messages; endif; ?>
+                <div id="content-content" class="clearfix">
+                  <?php print $content; ?>
+                </div> <!-- /content-content -->
+              </div> <!-- /content -->
+            </div>
+          </div> <!-- /main-squeeze /main -->
+        </div> <!-- /container -->
+      </div>
+   </div>
 
-        <div id="content">
-          <?php if (!empty($title)): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
-          <?php if (!empty($messages)): print $messages; endif; ?>
-          <div id="content-content" class="clearfix">
-            <?php print $content; ?>
-          </div> <!-- /content-content -->
-        </div> <!-- /content -->
-
-      </div></div> <!-- /main-squeeze /main -->
-
-
-    </div> <!-- /container -->
-
-    <div id="footer-wrapper">
-      <div id="footer">
-        <?php if (!empty($footer)): print $footer; endif; ?>
-      </div> <!-- /footer -->
-    </div> <!-- /footer-wrapper -->
-
-  </div> <!-- /page -->
+   <div id="footer-wrapper">
+     <div id="footer">
+      <?php if (!empty($footer)): print $footer; endif; ?>
+     </div> <!-- /footer -->
+   </div> <!-- /footer-wrapper -->
 
 </body>
