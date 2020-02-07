@@ -83,8 +83,8 @@
 
   <?php print $scripts; ?>
 
-  <script src="/sites/all/aesbs337/js/chosen-init.js"></script>
-  
+  <script src="/sites/all/themes/aesbs337/js/chosen-init.js"></script>
+
 </head>
 <body<?php print $body_attributes; ?>>
   <div id="skip-link">
