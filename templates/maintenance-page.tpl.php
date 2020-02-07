@@ -65,6 +65,21 @@
      </div>
    </div>
 
+   <div class="preface">
+     <div class= "flex_gradient">
+       <div class="flex-container">
+         <div class="flexslider">
+           <ul class="slides">
+	            <li><img class="img-responsive" src="/files/fields/field_flex_image/seal-watermark-product.png">
+                <div class="caption-container flex-item-caption">
+                </div>
+	             </li>
+             </ul>
+           </div>
+         </div>
+     </div>
+   </div>
+
    <div class="container-fluid" class="clearfix">
      <div class="row">
        <div class="col-sm-10 col-lg-8 col-sm-offset-1 col-lg-offset-2">
