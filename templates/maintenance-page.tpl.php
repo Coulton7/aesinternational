@@ -67,14 +67,12 @@
    <div class="container-fluid" class="clearfix">
      <div class="row">
        <div class="col-sm-10 col-lg-8 col-sm-offset-1 col-lg-offset-2">
-          <div id="main" class="column">
-            <div id="main-squeeze">
-              <div id="content">
-                <?php if (!empty($title)): ?><h1 class="title" id="page-title">Unable to Acess Website</h1><?php endif; ?>
-                <?php if (!empty($messages)): print $messages; endif; ?>
-                <div id="content-content" class="clearfix">
-                  <?php print $content; ?>
-                </div>
+          <div id="main-squeeze">
+            <div id="content">
+              <?php if (!empty($title)): ?><h1 class="title" id="page-title">Unable to Acess Website</h1><?php endif; ?>
+              <?php if (!empty($messages)): print $messages; endif; ?>
+              <div id="main-content" class="clearfix">
+                <?php print $content; ?>
               </div>
             </div>
           </div>
