@@ -74,18 +74,18 @@
                 <?php if (!empty($messages)): print $messages; endif; ?>
                 <div id="content-content" class="clearfix">
                   <?php print $content; ?>
-                </div> <!-- /content-content -->
-              </div> <!-- /content -->
+                </div>
+              </div>
             </div>
-          </div> <!-- /main-squeeze /main -->
-        </div> <!-- /container -->
+          </div>
+        </div>
       </div>
    </div>
 
    <div id="footer-wrapper">
      <div id="footer">
       <?php if (!empty($footer)): print $footer; endif; ?>
-     </div> <!-- /footer -->
-   </div> <!-- /footer-wrapper -->
+     </div>
+   </div>
 
 </body>
