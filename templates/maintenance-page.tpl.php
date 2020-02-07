@@ -51,9 +51,9 @@
                 <?php if (!empty($site_slogan)): ?>
                   <div id="site-slogan"><?php print $site_slogan; ?></div>
                 <?php endif; ?>
-                </div> <!-- /name-and-slogan -->
+                </div>
               </div>
-         </div> <!-- /logo-title -->
+         </div>
 
          <?php if (!empty($header)): ?>
            <div id="header-region">
@@ -62,7 +62,7 @@
          <?php endif; ?>
 
      </div>
-   </div> <!-- /header -->
+   </div>
 
    <div class="container-fluid" class="clearfix">
      <div class="row">
