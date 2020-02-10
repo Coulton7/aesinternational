@@ -97,10 +97,7 @@
 
  				<?php print render($page['wavelower']); ?>
  				<div class="socialmedia text-center">
- 				<?php
- 					$block = module_invoke('views', 'block_view', 'social_icons-block');
- 					print render($block['content']);
- 				?>
+
  				</div>
  			</div>
  		</div>
