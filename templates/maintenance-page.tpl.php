@@ -66,18 +66,44 @@
    </div>
 
    <div class="preface">
-     <div class= "flex_gradient">
+     <div class= "flex_gradient front__flex-margin">
        <div class="flex-container">
          <div class="flexslider">
            <ul class="slides">
 	            <li><img class="img-responsive" src="/files/fields/field_flex_image/seal-watermark-product.png">
                 <div class="caption-container flex-item-caption">
+                  <div class="flex-header">
+                    <p>Unable to Acess Website</p>
+                  </div>
+                  <div class="flex-caption">
+                    <p><span id="replace">You will now be re-directed if your browser will allow it</span> <a class="display-none" id="ext-link" href="https://www.aesseal.com/en" rel="nofollow">https://www.aesseal.com/en</a></p>
+                    <p><span id="counter">5</span></p>
+                  </div>
                 </div>
 	             </li>
              </ul>
            </div>
          </div>
      </div>
+     <div class="row wavelower row-eq-height">
+ 			<div class="col-sm-9 col-xs-0 fullscreen">
+ 				<div class="bottom-gap">
+ 				</div>
+ 			</div>
+
+ 			<div class="col-sm-3 col-xs-12 fullscreen">
+
+ 				<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"></img>
+
+ 				<?php print render($page['wavelower']); ?>
+ 				<div class="socialmedia text-center">
+ 				<?php
+ 					$block = module_invoke('views', 'block_view', 'social_icons-block');
+ 					print render($block['content']);
+ 				?>
+ 				</div>
+ 			</div>
+ 		</div>
    </div>
 
    <div class="container-fluid" class="clearfix">
@@ -85,7 +111,7 @@
        <div class="col-sm-10 col-lg-8 col-sm-offset-1 col-lg-offset-2">
           <div id="main-squeeze">
             <div id="content">
-              <?php if (!empty($title)): ?><h1 class="title" id="page-title">Unable to Acess Website</h1><?php endif; ?>
+              <?php if (!empty($title)): ?><h1 class="title" id="page-title"></h1><?php endif; ?>
               <?php if (!empty($messages)): print $messages; endif; ?>
               <div id="main-content" class="clearfix">
                 <?php print $content; ?>
