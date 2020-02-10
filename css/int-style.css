@@ -82,12 +82,13 @@ p a[target="_blank"]:after {
 
 .maintenance-page .btn-disabled {
     background-color: #ffffff;
-    border-color: #fff;
+    border-color: #ffffff;
     cursor: default;
 }
 
 .maintenance-page .navbar-nav>li>a.btn-disabled:hover {
     border-top: 4px solid #ffffff;
+    cursor: default;
 }
 
 .social-id{
