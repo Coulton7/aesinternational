@@ -51,12 +51,16 @@
         						<div class="navbar-collapse collapse">
         							<div class="container-fluid navbar-container">
         								<nav role="navigation">
+                          <ul class="menu nav navbar-nav">
+                            <li class="first leaf">
+                              <a class="disabled" href="#"></a>
+                            </li>
         								</nav>
         							</div>
         						</div>
         						<div class="section-shadow-menu"></div>
         				</header>
-                
+
                 <div id="name-and-slogan">
                 <?php if (!empty($site_name)): ?>
                   <h1 id="site-name">
@@ -87,6 +91,13 @@
            <ul class="slides">
 	            <li><img class="img-responsive" src="/files/fields/field_flex_image/seal-watermark-product.png">
                 <div class="caption-container flex-item-caption">
+                  <div class="flex-header">
+                    <p>Unable to acess website</p>
+                  </div>
+                  <div class="flex-caption">
+                    <span id="replace">If re-direct has failed click the link to the global site</span> <a class="" id="ext-link" href="https://www.aesseal.com/en" rel="nofollow">https://www.aesseal.com/en</a>
+                    <span id="counter">0</span>
+                  </div>
                 </div>
 	             </li>
              </ul>
