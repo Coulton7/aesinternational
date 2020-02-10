@@ -88,9 +88,15 @@
 
  				<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"></img>
 
- 				<div class="socialmedia text-center">
-
- 				</div>
+        <div class="socialmedia text-center">
+          <ul>
+            <li> <a href="https://twitter.com/AESSEALplc" target="_self" title="AESSEAL Twitter"> <i class="fab fa-twitter "></i></a></li>
+            <li> <a href="http://www.linkedin.com/company/aesseal" target="_self" title="AESEEAL Linkedin"> <i class="fab fa-linkedin-in "></i></a></li>
+            <li> <a href="https://www.aesseal.com/en/contact-us" target="_self" title="Contact Us"> <i class="fas fa-phone-square "></i></a></li>
+            <li> <a href="https://www.aesseal.com/en/locations" target="_self" title="Browse all Locations"> <i class="fas fa-globe-americas"></i></a></li>
+            <li> <a href="/locations/europe/gb/syk/aesseal-plc-headquarters" target="_self" title="View UK Headquarters"> <i class="fas fa-map-marker-alt"></i></a></li>
+          </ul>
+        </div>
  			</div>
  		</div>
 
