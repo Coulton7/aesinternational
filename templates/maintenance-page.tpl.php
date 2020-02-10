@@ -41,13 +41,22 @@
            </div>
 
               <div class="col-sm-10 col-xs-10 fullscreen">
-                <div class="container-fluid navbar-container">
-  								<nav role="navigation">
-                    <ul class="menu nav navbar-nav"><li class="first leaf"><a href="#" class="hidden-desktop visible-xs visible-sm"></a></li>
-                    </ul>
-                  </nav>
-                </div>
+                <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
 
+        					<div class="<?php print $container_class; ?>">
+        						<div class="navbar-header">
+        						</div>
+        					</div>
+
+        						<div class="navbar-collapse collapse">
+        							<div class="container-fluid navbar-container">
+        								<nav role="navigation">
+        								</nav>
+        							</div>
+        						</div>
+        						<div class="section-shadow-menu"></div>
+        				</header>
+                
                 <div id="name-and-slogan">
                 <?php if (!empty($site_name)): ?>
                   <h1 id="site-name">
