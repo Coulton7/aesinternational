@@ -34,7 +34,7 @@
                </div>
              <img class= "uppercurve" src="/sites/all/themes/aesbs337/images/logos/wave-upper.svg" alt ="uppercurve"></img>
                 <?php if ($logo): ?>
-                 <div class="logo navbar-btn pull-left" title="<?php print t('Home'); ?>"
+                 <div class="logo navbar-btn pull-left" title="<?php print t('Home'); ?>">
                    <img src="/sites/all/themes/aesbs337/images/logos/textonlylogo.svg" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
                  </div>
                <?php endif; ?>
