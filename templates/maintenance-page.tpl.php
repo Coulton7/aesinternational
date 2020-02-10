@@ -16,7 +16,7 @@
   <link rel="stylesheet" type="text/css" href="/sites/all/themes/aesseal_classic/css/ie7-and-down.css" />
 
 <![endif]-->
-  <?php header('refresh: 5; url=https://www.aesseal.com/')  ?>
+  <!--<?php header('refresh: 6; url=https://www.aesseal.com/')  ?>-->
 
   <?php print $scripts; ?>
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
