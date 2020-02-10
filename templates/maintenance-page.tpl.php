@@ -41,6 +41,13 @@
            </div>
 
               <div class="col-sm-10 col-xs-10 fullscreen">
+                <div class="container-fluid navbar-container">
+
+  								<nav role="navigation">
+                    <ul class="menu nav navbar-nav"><li class="first leaf"><a href="#" class="hidden-desktop visible-xs visible-sm"></a></li>
+                    </ul>
+                  </nav>
+                </div>
                 <div id="name-and-slogan">
                 <?php if (!empty($site_name)): ?>
                   <h1 id="site-name">
@@ -90,11 +97,11 @@
 
         <div class="socialmedia text-center">
           <ul>
-            <li> <a href="https://twitter.com/AESSEALplc" target="_self" title="AESSEAL Twitter"> <i class="fab fa-twitter "></i></a></li>
-            <li> <a href="http://www.linkedin.com/company/aesseal" target="_self" title="AESEEAL Linkedin"> <i class="fab fa-linkedin-in "></i></a></li>
-            <li> <a href="https://www.aesseal.com/en/contact-us" target="_self" title="Contact Us"> <i class="fas fa-phone-square "></i></a></li>
-            <li> <a href="https://www.aesseal.com/en/locations" target="_self" title="Browse all Locations"> <i class="fas fa-globe-americas"></i></a></li>
-            <li> <a href="/locations/europe/gb/syk/aesseal-plc-headquarters" target="_self" title="View UK Headquarters"> <i class="fas fa-map-marker-alt"></i></a></li>
+            <li> <a href="https://twitter.com/AESSEALplc" target="_self" title="AESSEAL Twitter"></a></li>
+            <li> <a href="http://www.linkedin.com/company/aesseal" target="_self" title="AESEEAL Linkedin"></a></li>
+            <li> <a href="https://www.aesseal.com/en/contact-us" target="_self" title="Contact Us"></a></li>
+            <li> <a href="https://www.aesseal.com/en/locations" target="_self" title="Browse all Locations"></a></li>
+            <li> <a href="/locations/europe/gb/syk/aesseal-plc-headquarters" target="_self" title="View UK Headquarters"> </a></li>
           </ul>
         </div>
  			</div>
