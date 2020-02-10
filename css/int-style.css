@@ -80,6 +80,16 @@ p a[target="_blank"]:after {
   text-align: center;
 }
 
+.maintenance-page .btn-disabled {
+    background-color: #ffffff;
+    border-color: #fff;
+    cursor: default;
+}
+
+.maintenance-page .navbar-nav>li>a.btn-disabled:hover {
+    border-top: 4px solid #ffffff;
+}
+
 .social-id{
   width: 100%;
   z-index: auto;
