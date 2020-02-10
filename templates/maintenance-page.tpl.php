@@ -42,12 +42,12 @@
 
               <div class="col-sm-10 col-xs-10 fullscreen">
                 <div class="container-fluid navbar-container">
-
   								<nav role="navigation">
                     <ul class="menu nav navbar-nav"><li class="first leaf"><a href="#" class="hidden-desktop visible-xs visible-sm"></a></li>
                     </ul>
                   </nav>
                 </div>
+
                 <div id="name-and-slogan">
                 <?php if (!empty($site_name)): ?>
                   <h1 id="site-name">
