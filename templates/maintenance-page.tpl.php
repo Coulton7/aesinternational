@@ -16,7 +16,6 @@
   <link rel="stylesheet" type="text/css" href="/sites/all/themes/aesseal_classic/css/ie7-and-down.css" />
 
 <![endif]-->
-  <!--<?php header('refresh: 6; url=https://www.aesseal.com/')  ?>-->
 
   <?php print $scripts; ?>
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
@@ -72,18 +71,12 @@
            <ul class="slides">
 	            <li><img class="img-responsive" src="/files/fields/field_flex_image/seal-watermark-product.png">
                 <div class="caption-container flex-item-caption">
-                  <div class="flex-header">
-                    <p>Unable to Acess Website</p>
-                  </div>
-                  <div class="flex-caption">
-                    <p><span id="replace">You will now be re-directed if your browser will allow it</span> <a class="display-none" id="ext-link" href="https://www.aesseal.com/en" rel="nofollow">https://www.aesseal.com/en</a></p>
-                    <p><span id="counter">5</span></p>
-                  </div>
                 </div>
 	             </li>
              </ul>
            </div>
          </div>
+     </div>
      </div>
      <div class="row wavelower row-eq-height">
  			<div class="col-sm-9 col-xs-0 fullscreen">
@@ -101,7 +94,6 @@
  				</div>
  			</div>
  		</div>
-   </div>
 
    <div class="container-fluid" class="clearfix">
      <div class="row">
