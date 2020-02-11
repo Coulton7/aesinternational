@@ -48,6 +48,8 @@
 
         					<div class="<?php print $container_class; ?>">
         						<div class="navbar-header">
+                      <button type="button" class="btn-disabled disabled" data-toggle="collapse" data-target=".navbar-collapse">
+      								</button>
         						</div>
         					</div>
 
