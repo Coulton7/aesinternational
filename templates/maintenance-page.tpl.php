@@ -19,6 +19,9 @@
 
   <?php print $scripts; ?>
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
+<script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js"></script>
+<script src="/sites/all/themes/aesinternational/js/slider.js"></script>
 <script src="/sites/all/themes/aesbs337/js/maintenance-counter.js"></script>
 </head>
 
