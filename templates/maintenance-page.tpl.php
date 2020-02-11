@@ -53,7 +53,7 @@
         								<nav role="navigation">
                           <ul class="menu nav navbar-nav">
                             <li class="first leaf">
-                              <a class="btn-disabled disabled" href="#"></a>
+                              <a class="btn-disabled disabled" href="#">&nbsp;</a>
                             </li>
         								</nav>
         							</div>
