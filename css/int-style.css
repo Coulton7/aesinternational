@@ -65,6 +65,14 @@ p a[target="_blank"]:after {
   margin-bottom: -8%;
 }
 
+.maintenance-page .caption-container{
+  height: 100%;
+  width: 56%;
+  position: absolute;
+  top: 0;
+  left: 16.6667%;
+}
+
 .maintenance-page .flex-header {
   color: #ffffff;
   position: relative;
@@ -89,6 +97,10 @@ p a[target="_blank"]:after {
 .maintenance-page .navbar-nav>li>a.btn-disabled:hover {
     border-top: 4px solid #ffffff;
     cursor: default;
+}
+
+.maintenance-page .navbar-default .navbar-nav>li>a{
+  color: #ffffff;
 }
 
 .social-id{
@@ -1172,6 +1184,11 @@ height: 3.8em;
     top: 47%;
   }
 
+  .maintenance-page .caption-container{
+    top: 0;
+    width: 56%;
+  }
+
   .front .caption-container {
     top: 23%;
   }
@@ -1188,6 +1205,11 @@ height: 3.8em;
 
   .front .caption-container {
     top: 28%;
+  }
+
+  .maintenance-page .caption-container{
+    top: 0;
+    width: 56%;
   }
 
   .location-branches .scrtabs-tab-container {
