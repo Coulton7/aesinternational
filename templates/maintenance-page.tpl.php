@@ -95,10 +95,10 @@
 	            <li><img class="img-responsive" src="/files/fields/field_flex_image/seal-watermark-product.png">
                 <div class="caption-container flex-item-caption">
                   <div class="flex-header">
-                    <p>Redirecting</p>
+                    <p>Redirecting.. <span id="counter">3</span></p>
                   </div>
                   <div class="flex-caption">
-                    <p><span id="replace">You will now be redirected if your browser will allow it...</span> <span id="counter">3</span><br /> <a class="display-none white-text" id="ext-link" href="https://www.aesseal.com/en" rel="nofollow">https://www.aesseal.com/en</a></p>
+                    <p><span id="replace">You will now be redirected if your browser will allow it</span> <br /> <a class="display-none white-text" id="ext-link" href="https://www.aesseal.com/en" rel="nofollow">https://www.aesseal.com/en</a></p>
                   </div>
                 </div>
 	             </li>
