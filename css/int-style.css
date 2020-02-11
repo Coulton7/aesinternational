@@ -944,6 +944,14 @@ height: 3.8em;
   .iceberg-mapsea{
     margin-top: -10.75em;
   }
+
+  .maintenance-page .flex-header{
+    display: block;
+  }
+
+  .maintenance-page .flex-caption{
+    display: block;
+  }
 }
 
 @media screen and (min-width:501px) and (max-width: 767px) {
@@ -1090,6 +1098,14 @@ height: 3.8em;
     margin-left: 8.33333333%;
     width: 83.33333333%;
   }
+
+  .maintenance-page .flex-header{
+    display: block;
+  }
+
+  .maintenance-page .flex-caption{
+    display: block;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -1182,6 +1198,14 @@ height: 3.8em;
 
   .middle-east-lower {
     top: 47%;
+  }
+
+  .maintenance-page .flex-header{
+    display: block;
+  }
+
+  .maintenance-page .flex-caption{
+    display: block;
   }
 
   .maintenance-page .caption-container{
