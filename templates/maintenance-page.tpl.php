@@ -17,7 +17,7 @@
 
 <![endif]-->
 <?php header('refresh: 3; url=https://www.aesseal.com/')  ?>
-  <?php print $scripts; ?>
+<?php print $scripts; ?>
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 <link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
 <script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js"></script>
