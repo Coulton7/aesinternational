@@ -96,7 +96,7 @@
                   </div>
                   <div class="flex-caption">
                     <span id="replace">If re-direct has failed click the link to the global site</span> <a class="" id="ext-link" href="https://www.aesseal.com/en" rel="nofollow">https://www.aesseal.com/en</a>
-                    <span id="counter">0</span>
+                    <span id="counter">5</span>
                   </div>
                 </div>
 	             </li>
