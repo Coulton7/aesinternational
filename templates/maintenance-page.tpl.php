@@ -95,10 +95,10 @@
 	            <li><img class="img-responsive" src="/files/fields/field_flex_image/seal-watermark-product.png">
                 <div class="caption-container flex-item-caption">
                   <div class="flex-header">
-                    <p>Unable to acess website</p>
+                    <p>Redirecting</p>
                   </div>
                   <div class="flex-caption">
-                    <p><span id="replace">If re-direct has failed click the link to the global site</span> <a class="" id="ext-link" href="https://www.aesseal.com/en" rel="nofollow">https://www.aesseal.com/en</a></p>
+                    <p><span id="replace">You will now be redirected if your browser will allow it</span> <a class="" id="ext-link" href="https://www.aesseal.com/en" rel="nofollow">https://www.aesseal.com/en</a></p>
                     <p><span id="counter">5</span></p>
                   </div>
                 </div>
