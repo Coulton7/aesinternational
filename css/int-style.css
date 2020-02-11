@@ -832,6 +832,16 @@ height: 3.8em;
 
 /*Fontawesome Google logo*/
 @media screen and (max-width: 767px) {
+  .maintenance-page .flex-header{
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .maintenance-page .flex-caption{
+    font-size: 22px;
+    line-height: 36px;
+  }
+
   .front__flex-margin {
     margin-top: 0;
   }
@@ -986,6 +996,16 @@ height: 3.8em;
 }
 
 @media screen and (min-width: 768px) {
+  .maintenance-page .flex-header{
+    font-size: 26px;
+    line-height: 42px;
+  }
+
+  .maintenance-page .flex-caption{
+    font-size: 23px;
+    line-height: 37px;
+  }
+
   .action-menu {
     top: 3.45em
   }
@@ -1109,6 +1129,17 @@ height: 3.8em;
 }
 
 @media screen and (min-width: 992px) {
+
+  .maintenance-page .flex-header{
+    font-size: 27px;
+    line-height: 44px;
+  }
+
+  .maintenance-page .flex-caption{
+    font-size: 24px;
+    line-height: 39px;
+  }
+
   .action-menu {
     top: 3.4em
   }
