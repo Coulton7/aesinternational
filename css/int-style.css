@@ -988,6 +988,12 @@ height: 3.8em;
     margin-bottom: 30%;
   }
 
+  .maintenance-page .front__flex-margin {
+    transform: scale(1.5);
+    transform-origin: top;
+    margin-bottom: 16%;
+  }
+
   .action-menu {
     top: 3.3em;
     position: absolute;
