@@ -50,7 +50,7 @@
                </div>
              </div>
 
-             <div class="navbar-collapse collapse">
+             <div class="navbar-collapse">
                <div class="container-fluid navbar-container">
                  <nav role="navigation">
                    <ul class="menu nav navbar-nav">
