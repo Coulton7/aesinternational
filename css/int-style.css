@@ -1136,9 +1136,14 @@ height: 3.8em;
 
 @media screen and (min-width: 992px) {
 
-  .maintenance-page .flex-header{
-    font-size: 27px;
-    line-height: 44px;
+  .maintenance-page .flex-header {
+    font-size: 2.8em;
+    line-height: 58px;
+  }
+
+  .maintenance-page .flex-caption {
+    font-size: 1.3em;
+    line-height: 36px;
   }
 
   .maintenance-page .flex-caption{
@@ -1271,6 +1276,16 @@ height: 3.8em;
   .maintenance-page .caption-container{
     top: 0;
     width: 56%;
+  }
+
+  .maintenance-page .flex-header {
+  font-size: 2.8em;
+  line-height: 58px;
+  }
+
+  .maintenance-page .flex-caption {
+    font-size: 1.3em;
+    line-height: 36px;
   }
 
   .location-branches .scrtabs-tab-container {
