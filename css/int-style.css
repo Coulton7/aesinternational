@@ -215,6 +215,7 @@ p a[target="_blank"]:after {
 
 .location-branches .scrtabs-tab-scroll-arrow{
   width: 3em;
+  text-align: center;
 }
 
 .image-placeholder{
@@ -1020,7 +1021,7 @@ height: 3.8em;
     transform-origin: top;
     margin-bottom: 30%;
   }
-  
+
     .maintenance-page .front__flex-margin {
     transform: scale(1.5);
     transform-origin: top;
@@ -1144,7 +1145,7 @@ height: 3.8em;
     margin-left: 8.33333333%;
     width: 83.33333333%;
   }
-  
+
     .maintenance-page .flex-header{
     display: block;
   }
@@ -1236,7 +1237,7 @@ height: 3.8em;
   .middle-east-lower {
     top: 47%;
   }
-  
+
     .maintenance-page .flex-header{
     display: block;
   }
@@ -1267,11 +1268,11 @@ height: 3.8em;
   .socialmedia ul li {
     margin-right: 1.1em;
   }
-  
+
     .front .caption-container {
     top: 28%;
   }
-  
+
    .maintenance-page .caption-container{
     top: 0;
     width: 56%;
