@@ -42,7 +42,8 @@ p a[target="_blank"]:after {
     font-family: 'Font Awesome 5 Free';
     content: " \f002";
     font-weight: 900;
-}
+    padding: 0 0.5em
+  }
 
 .front .flex-header {
   padding-left: 0.4em;
