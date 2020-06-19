@@ -38,6 +38,12 @@ p a[target="_blank"]:after {
   font-weight: 900;
 }
 
+.search-block #search-api-page-search-form-search-page div:last-child::after{
+    font-family: 'Font Awesome 5 Free';
+    content: " \f002";
+    font-weight: 900;
+}
+
 .front .flex-header {
   padding-left: 0.4em;
   color: #dd1e25;
@@ -704,9 +710,9 @@ padding: 5px 15px;
 
 .ind-icon{
   position: absolute;
-  bottom: -40%;
+  bottom: -20%;
   z-index: 10;
-  right: 30%;
+  right: 40%;
 }
 
 .grey-banner{
@@ -753,11 +759,6 @@ padding: 5px 15px;
   border-bottom-left-radius: 5%
 }
 
-.grey-lower-banner{
-  background-color: #888c8f;
-  height: 100%;
-}
-
 .case-ref{
   color: #ffffff;
   margin-left:2em;
@@ -771,8 +772,8 @@ padding: 5px 15px;
 
 .field-industry{
   text-align: center;
-  transform: translateY(40%);
   height: 100%;
+  padding: 0.5em;
 }
 
 .left-arrow, .right-arrow{

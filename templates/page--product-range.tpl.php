@@ -192,13 +192,13 @@
 </div>
 
 <div class="col-sm-12 fullscreen">
-	<div class="mobile-search">
-		<div class="row-deep">
-		</div>
-	</div>
 			<?php if($page['header']):?>
 				<div class="header">
-					<?php print render($page['header']); ?>
+					<div class="mobile-search">
+						<div class="row-deep">
+							<?php print render($page['header']); ?>
+						</div>
+					</div>
 				</div>
 			<?php endif; ?>
 </div>
