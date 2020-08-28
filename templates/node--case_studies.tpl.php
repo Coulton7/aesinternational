@@ -103,6 +103,7 @@
     print render($content);
   ?>
 
+<div class="clearfix"></div>
   <div class="container-fluid">
     <div class="row-eq-height">
       <div class="col-xs-8 fullscreen">
