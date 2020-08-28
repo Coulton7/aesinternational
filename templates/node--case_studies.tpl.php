@@ -97,8 +97,56 @@
     hide($content['comments']);
     hide($content['links']);
     hide($content['field_tags']);
+    hide($content['field_industry']);
+    hide($content['field_case_ref']);
+    hide($content['field_api__plan_types']);
     print render($content);
   ?>
+
+<div class="clearfix"></div>
+  <div class="container-fluid">
+    <div class="row-eq-height">
+      <div class="col-xs-8 fullscreen">
+        <div class="grey-banner">
+          <div class="case-ref">
+            <?php print render($content['field_case_ref']); ?>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-1 fullscreen">
+        <div class="grey-upper-wave">
+        </div>
+        <div class="grey-upper-curve">
+        </div>
+      </div>
+      <div class="col-xs-3 fullscreen">
+        <div class="ind-icon">
+        </div>
+      </div>
+    </div>
+    <div class="row-eq-height">
+      <div class="col-xs-8 fullscreen">
+        <div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2 col-xs-10 col-xs-offset-1">
+          <?php print render($content['field_api__plan_types']); ?>
+        </div>
+        <div class="rrssb">
+        </div>
+      </div>
+      <div class="col-xs-1 fullscreen">
+        <div class="grey-lower-wave">
+        </div>
+        <div class="grey-lower-curve">
+        </div>
+      </div>
+      <div class="col-xs-3 fullscreen">
+        <div class="grey-lower-banner">
+          <div class="field-industry">
+            <?php print render($content['field_industry']); ?>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <?php if (!empty($content['field_tags']) || !empty($content['links'])): ?>
   <footer>
