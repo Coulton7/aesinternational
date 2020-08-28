@@ -760,6 +760,11 @@ padding: 5px 15px;
   border-bottom-left-radius: 5%
 }
 
+.grey-lower-banner {
+  background-color: #888c8f;
+  height: 100%;
+}
+
 .case-ref{
   color: #ffffff;
   margin-left:2em;
