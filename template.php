@@ -27,7 +27,7 @@ function aesinternational_css_alter(&$css){
   $css['sites/all/themes/aesbs337/css/regions-style.css']['weight']=14;
   $css['sites/all/themes/aesbs337/css/block-style.css']['weight']=15;
   $css['sites/all/themes/aesbs337/css/field-style.css']['weight']=16;
-  $css['sites/all/themes/aesinternational/css/int-style.css']['weight']=17;
+  $css['sites/all/themes/aesbs337/css/jquery.scrolling-tabs.min.css']['weight']=17;
   $css['sites/all/themes/aesinternational/css/int-style.css']['weight']=18;
 }
 
