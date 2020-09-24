@@ -552,6 +552,10 @@ a.white-text{
   margin-right: auto;
 }
 
+.input-group-btn{
+  font-size: inherit;
+}
+
 /*color for the button on the form*/
 .entitytype-product_enquiry-form .btn:hover {
   background-color: #fa010a;
