@@ -16,7 +16,9 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   color: #ffffff;
   position: relative;
   bottom: unset;
-  text-align: center;
+  text-align: left;
+  text-shadow: 1px 1px 1px #000;
+  padding-left: 0;
 }
 
 .flex-caption {
