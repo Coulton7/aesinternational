@@ -17,8 +17,15 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   position: relative;
   bottom: unset;
   text-align: left;
+  font-weight: 700;
   text-shadow: 1px 1px 1px #000;
   padding-left: 0;
+}
+
+.flex-header h1 {
+  color: #ffffff;
+  text-align: left;
+  border-bottom: none;
 }
 
 .flex-caption {
@@ -26,10 +33,97 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   position: relative;
   bottom: unset;
   width: auto;
-  text-align: center;
+  padding-left: 0;
 }
 
-.flexslider .slides li img {
+.page-header {
+  border-bottom: none;
+  margin: 0;
+  padding: 0 color: #ffffff;
+}
+
+.breadcrumb-sitemap {
+  display: inline-block;
+  list-style: none;
+}
+
+.breadcrumb-wrap {
+  padding: 0.3em 0.3em 0.3em 0;
+  background: transparent;
+  margin-bottom: 0;
+}
+
+.breadcrumb {
+  display: inline;
+  background: transparent;
+}
+
+.breadcrumb {
+  padding: 0;
+  margin-bottom: 20px;
+  list-style: none;
+  border-radius: 4px;
+}
+
+.breadcrumb>li a {
+  display: inline-block;
+  color: #667f9c;
+  padding-right: 9px;
+  padding-left: 9px;
+  border-bottom: none;
+}
+
+.breadcrumb>li a:hover {
+  display: inline-block;
+  color: #ffffff;
+  border-bottom: none;
+}
+
+.breadcrumb>li a {
+  transform: skew(25deg);
+}
+
+.breadcrumb>li {
+  display: inline-block;
+  color: #667f9c;
+  background-color: #004a8c;
+  transform: skew(-25deg);
+  margin: 0.3em 0 0 0.4em;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.breadcrumb>li:last-child {
+  display: inline-block;
+  background-color: transparent;
+  color: #000000;
+  transform: skew(0);
+  max-width: 87%;
+}
+
+.breadcrumb>li+li:before {
+  padding: 0;
+  color: #4c698c;
+  content: " ";
+  transform: skew(0);
+}
+
+.breadcrumb-sitemap li {
+  margin-top: 0.3em;
+}
+
+.breadcrumb-sitemap li a {
+  color: #667f9c;
+  border-bottom: none;
+  margin-left: 0.4em;
+}
+
+.breadcrumb-sitemap li a:hover {
+  color: #ffffff;
+  border-bottom: none;
+}
+
+.basic_page .flexslider .slides li img {
   margin-top: -8%;
   margin-bottom: -8%;
 }
@@ -850,6 +944,16 @@ p a[target="_blank"]:after {
     line-height: 36px;
   }
 
+  .flex-header {
+  top: 0;
+  text-align: left;
+  display: block;
+}
+
+.breadcrumb>li:last-child {
+  max-width: 87%;
+}
+
   .basic_page .flexslider .slides li img {
     margin-top: -8%;
     margin-bottom: -8%;
@@ -1039,6 +1143,28 @@ p a[target="_blank"]:after {
     margin-right: 0;
   }
 
+  .flex-header {
+  top: 0.2em;
+  text-align: left;
+  display: block;
+}
+
+.breadcrumb>li:last-child {
+  max-width: 87%;
+}
+
+.flex-header h1 {
+  font-size: 3em;
+  line-height: 52px;
+}
+
+.flex-caption {
+  font-size: 1em;
+  line-height: 26px;
+  top: 0em;
+  display: block;
+}
+
   .flex_gradient {
     overflow: initial;
   }
@@ -1169,6 +1295,20 @@ p a[target="_blank"]:after {
     line-height: 39px;
   }
 
+.breadcrumb>li:last-child {
+  max-width: 87%;
+}
+
+.flex-header {
+  top: 0.2em;
+  text-align: left;
+}
+
+.flex-header h1 {
+  font-size: 1.1em;
+  line-height: 58px;
+}
+
   .basic_page .flexslider .slides li img {
     max-width: 95%;
     margin-top: -7%;
@@ -1287,6 +1427,25 @@ p a[target="_blank"]:after {
 }
 
 @media screen and (min-width: 1200px) {
+  .flex-gradient {
+    padding-top: 6em;
+  }
+
+  .flex-header h1 {
+    font-size: 1.1em;
+    line-height: 63px;
+  }
+
+  .flex-caption {
+    font-size: 1em;
+    line-height: 36px;
+    top: 0;
+  }
+
+  .breadcrumb>li:last-child {
+    max-width: 100%;
+  }
+
   .action-menu {
     top: 3em;
   }
