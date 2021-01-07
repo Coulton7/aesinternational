@@ -84,7 +84,7 @@
          <?php endif; ?>
 
          <div class="preface">
-          <div class= "flex_gradient front__flex-margin">
+          <div class= "flex-gradient front__flex-margin">
             <div class="flex-container">
               <div class="flexslider">
                 <ul class="slides">

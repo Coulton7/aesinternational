@@ -1267,6 +1267,10 @@ p a[target="_blank"]:after {
 }
 
 @media screen and (min-width: 992px) {
+  .flex-gradient {
+    padding-top: 7em;
+  }
+
   .maintenance-page .flex-header {
     font-size: 2.8em;
     line-height: 58px;
