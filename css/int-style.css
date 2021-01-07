@@ -520,7 +520,7 @@ p a[target="_blank"]:after {
 
 .contact-block img {
   width: 2em;
-  background: #002A5B;
+  filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(213deg) brightness(112%) contrast(100%);
 }
 
 .contact-block a {
