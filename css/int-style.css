@@ -518,6 +518,11 @@ p a[target="_blank"]:after {
   z-index: 5;
 }
 
+.contact-block img {
+  width: 2em;
+  background: #002A5B;
+}
+
 .contact-block a {
   color: #ffffff
 }
