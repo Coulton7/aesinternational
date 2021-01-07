@@ -12,6 +12,11 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   border: none !important;
 }
 
+.flexslider .slides>li:first-child {
+  display: block;
+  -webkit-backface-visibility: visible;
+}
+
 .flex-header {
   color: #ffffff;
   position: relative;
@@ -444,11 +449,6 @@ p a[target="_blank"]:after {
   border-bottom: none;
 }
 
-.flexslider .slides>li:first-child {
-  display: block;
-  -webkit-backface-visibility: visible;
-}
-
 .view-news .views-exposed-form label {
   font-weight: normal;
   color: #ffffff;
@@ -528,7 +528,6 @@ p a[target="_blank"]:after {
   display: none;
 }
 
-/*Hide the social profile field icon that is provided*/
 .user-flex {
   display: -webkit-box;
   display: -webkit-flex;
@@ -633,7 +632,6 @@ p a[target="_blank"]:after {
   width: 100%;
 }
 
-/*Map icon block (but only really applies to map icon*/
 ) .map-icons ul {
   display: flex;
   justify-content: center;
@@ -642,12 +640,10 @@ p a[target="_blank"]:after {
   flex-wrap: wrap;
 }
 
-/*Set the map icons inline horizontal*/
 .map-icons li a {
   border-bottom: none;
 }
 
-/*Hides the border bottom on all links in map icons*/
 .map-icon ul li:nth-child(1) a:after {
   font-family: 'FontAwesome';
   content: " \f041";
@@ -655,7 +651,13 @@ p a[target="_blank"]:after {
   font-size: 2.5em;
 }
 
-/*Fontawesome map icon logo*/
+.map-icon ul li:nth-child(2) a:after {
+  font-family: 'FontAwesome';
+  content: "\f1a0";
+  color: #d34836;
+  font-size: 2.5em;
+}
+
 .flex-direction-nav {
   display: none;
 }
@@ -693,7 +695,6 @@ p a[target="_blank"]:after {
   margin-right: auto;
 }
 
-/*color for the button on the form*/
 .entitytype-product_enquiry-form .btn:hover {
   background-color: #fa010a;
   border-color: #fa010a color:#ffffff;
@@ -709,7 +710,6 @@ p a[target="_blank"]:after {
   padding: 5px 15px;
 }
 
-/*color for the button on the form*/
 .field-name-field-tags {
   display: inline-flex;
 }
@@ -764,13 +764,6 @@ p a[target="_blank"]:after {
   outline-style: solid;
   outline-color: #5B82AD;
   outline-width: 1px;
-}
-
-.map-icon ul li:nth-child(2) a:after {
-  font-family: 'FontAwesome';
-  content: "\f1a0";
-  color: #d34836;
-  font-size: 2.5em;
 }
 
 .print-media {
@@ -945,14 +938,14 @@ p a[target="_blank"]:after {
   }
 
   .flex-header {
-  top: 0;
-  text-align: left;
-  display: block;
-}
+    top: 0;
+    text-align: left;
+    display: block;
+  }
 
-.breadcrumb>li:last-child {
-  max-width: 87%;
-}
+  .breadcrumb>li:last-child {
+    max-width: 87%;
+  }
 
   .basic_page .flexslider .slides li img {
     margin-top: -8%;
@@ -999,33 +992,28 @@ p a[target="_blank"]:after {
     padding-right: 0.8em;
   }
 
-  /*padding bewteen the icons*/
   .map-icon ul li:nth-child(2) a:after {
     padding-right: 0.8em;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(1) a:after {
     margin-right: 0.4em;
     font-size: 3em;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(2) a:after {
     margin-right: 0.4em;
     font-size: 3em;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(3) a:after {
     margin-right: 0.4em;
     font-size: 3em;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(4) a:after {
     margin-right: 0.4em;
     font-size: 3em;
@@ -1039,7 +1027,6 @@ p a[target="_blank"]:after {
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .africa-upper {
     top: 48.5%;
   }
@@ -1144,26 +1131,26 @@ p a[target="_blank"]:after {
   }
 
   .flex-header {
-  top: 0.2em;
-  text-align: left;
-  display: block;
-}
+    top: 0.2em;
+    text-align: left;
+    display: block;
+  }
 
-.breadcrumb>li:last-child {
-  max-width: 87%;
-}
+  .breadcrumb>li:last-child {
+    max-width: 87%;
+  }
 
-.flex-header h1 {
-  font-size: 3em;
-  line-height: 52px;
-}
+  .flex-header h1 {
+    font-size: 3em;
+    line-height: 52px;
+  }
 
-.flex-caption {
-  font-size: 1em;
-  line-height: 26px;
-  top: 0em;
-  display: block;
-}
+  .flex-caption {
+    font-size: 1em;
+    line-height: 26px;
+    top: 0em;
+    display: block;
+  }
 
   .flex_gradient {
     overflow: initial;
@@ -1295,19 +1282,19 @@ p a[target="_blank"]:after {
     line-height: 39px;
   }
 
-.breadcrumb>li:last-child {
-  max-width: 87%;
-}
+  .breadcrumb>li:last-child {
+    max-width: 87%;
+  }
 
-.flex-header {
-  top: 0.2em;
-  text-align: left;
-}
+  .flex-header {
+    top: 0.2em;
+    text-align: left;
+  }
 
-.flex-header h1 {
-  font-size: 1.1em;
-  line-height: 58px;
-}
+  .flex-header h1 {
+    font-size: 1.1em;
+    line-height: 58px;
+  }
 
   .basic_page .flexslider .slides li img {
     max-width: 95%;
