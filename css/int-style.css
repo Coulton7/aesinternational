@@ -900,6 +900,7 @@ p a[target="_blank"]:after {
   text-align: center;
   transform: translateY(40%);
   height: 100%;
+  padding: 2.5em;
 }
 
 .left-arrow, .right-arrow {
