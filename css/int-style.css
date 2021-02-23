@@ -1164,6 +1164,10 @@ p a[target="_blank"]:after {
     margin-top: 1em;
   }
 
+  .search-block .form-item {
+  width: 71%;
+  }
+
   .iceberg-mapsea {
     margin-top: -7.5em;
   }
@@ -1312,6 +1316,10 @@ p a[target="_blank"]:after {
     top: 3.4em
   }
 
+  .search-block .form-item {
+  width: 72%;
+  }
+
   .banner-subtitle {
     top: 55%;
   }
@@ -1439,6 +1447,10 @@ p a[target="_blank"]:after {
 
   .action-menu {
     top: 3em;
+  }
+
+  .search-block .form-item {
+  width: 73%;
   }
 
   .banner-subtitle {
