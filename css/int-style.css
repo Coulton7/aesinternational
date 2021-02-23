@@ -1177,6 +1177,10 @@ p a[target="_blank"]:after {
     margin-right: 0;
   }
 
+  .search-block .form-item {
+  width: 71%;
+  }
+
   .socialmedia {
     margin-top: 1em;
   }
@@ -1330,6 +1334,10 @@ p a[target="_blank"]:after {
     top: 55%;
   }
 
+  .search-block .form-item {
+  width: 72%;
+  }
+
   .view-key-branches .view-content {
     display: flex;
     flex-wrap: wrap;
@@ -1448,6 +1456,10 @@ p a[target="_blank"]:after {
 
   .banner-subtitle {
     top: 40%;
+  }
+
+  .search-block .form-item {
+  width: 73%;
   }
 
   .socialmedia ul li {
