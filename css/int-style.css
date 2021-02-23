@@ -139,7 +139,7 @@ p a[target="_blank"]:after {
   font-weight: 900;
 }
 
-.search-block #search-api-page-search-form-search-page div:last-child::before {
+.search-block #search-api-page-search-form-search-page div:last-child::before, .search-block #search-api-page-search-form-search-site-page div:last-child::before {
   font-family: 'Font Awesome 5 Free';
   content: " \f002";
   font-weight: 900;
