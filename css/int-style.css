@@ -18,6 +18,12 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   padding-top: 1px;
 }
 
+.optionset-flexslider-location .slides>li:nth-child(2){
+  display: block;
+  -webkit-backface-visibility: visible;
+  padding-top: 1px;
+}
+
 .flex-header {
   color: #ffffff;
   position: relative;
