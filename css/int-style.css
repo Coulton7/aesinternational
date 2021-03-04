@@ -961,6 +961,10 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
     opacity: 0.7;
 }
 
+.carousel-slider .flex-direction-nav a.flex-prev:hover, .carousel-slider .flex-direction-nav a.flex-next:hover {
+  opacity: 1;
+}
+
 .flex-direction-nav a::before {
   font-size: 30px;
 }
