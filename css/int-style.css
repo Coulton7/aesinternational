@@ -669,10 +669,6 @@ p a[target="_blank"]:after {
   font-size: 2.5em;
 }
 
-.flex-direction-nav {
-  display: none;
-}
-
 .btn-primary {
   list-style-type: none;
   display: inline-block;
