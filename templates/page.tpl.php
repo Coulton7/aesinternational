@@ -344,15 +344,17 @@
 		</div>
 	</div>
 
-			<?php if (!empty($page['footer_banner'])): ?>
-				<div class="container-fluid">
-					<div class="row">
-						<div class="footer_banner">
-							<?php print render($page['footer_banner']); ?>
-						</div>
+	<?php if (!empty($page['footer_banner'])): ?>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+					<div class="footer_banner">
+						<?php print render($page['footer_banner']); ?>
 					</div>
 				</div>
-			<?php endif; ?>
+			</div>
+		</div>
+	<?php endif; ?>
 
 			<footer>
 				<?php if (!empty($page['footer'])): ?>

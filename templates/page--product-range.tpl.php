@@ -344,8 +344,10 @@
 	<?php if (!empty($page['footer_banner'])): ?>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="footer_banner">
-					<?php print render($page['footer_banner']); ?>
+				<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+					<div class="footer_banner">
+						<?php print render($page['footer_banner']); ?>
+					</div>
 				</div>
 			</div>
 		</div>
