@@ -45,8 +45,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
 }
 
 .tour-logo{
-  position: relative;
-  left: 18%;
+  float:left;
 }
 
 .flex-header h1 {
