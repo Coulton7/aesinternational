@@ -42,6 +42,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   font-weight: 700;
   text-shadow: 1px 1px 1px #000;
   padding-left: 0;
+  transform: translate(0, 65%);
 }
 
 .tour-logo{
