@@ -979,6 +979,12 @@ display: flex;
 -webkit-box-align: center;
 align-items: center;
 }
+
+.tour-caption{
+  position: absolute;
+  bottom: 12%;
+  left:14%;
+}
 /*Fontawesome Google logo*/
 @media screen and (max-width: 767px) {
   .maintenance-page .flex-header {
