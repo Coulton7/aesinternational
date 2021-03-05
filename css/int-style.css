@@ -24,7 +24,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   padding-top: 1px;
 }
 
-.flex-header {
+.flex-header, .tour-header {
   color: #ffffff;
   position: relative;
   bottom: unset;
