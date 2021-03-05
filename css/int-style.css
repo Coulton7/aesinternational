@@ -1014,7 +1014,7 @@ align-items: center;
   }
 
   .tour-header{
-    font-size: 1.8em;
+    font-size: 2.4em;
     line-height: 40px
   }
 
@@ -1208,7 +1208,7 @@ align-items: center;
   }
 
   .tour-header{
-    font-size: 2em;
+    font-size: 2.6em;
     line-height: 42px
   }
 
@@ -1373,8 +1373,13 @@ align-items: center;
     padding-top: 7em;
   }
 
-  .maintenance-page .flex-header, .tour-header {
+  .maintenance-page .flex-header{
     font-size: 2.8em;
+    line-height: 58px;
+  }
+
+  .tour-header{
+    font-size: 3em;
     line-height: 58px;
   }
 
