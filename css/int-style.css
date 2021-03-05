@@ -988,7 +988,7 @@ align-items: center;
 }
 /*Fontawesome Google logo*/
 @media screen and (max-width: 767px) {
-  .maintenance-page .flex-header {
+  .maintenance-page .flex-header, .tour-header {
     font-size: 25px;
     line-height: 40px;
   }
@@ -1174,7 +1174,7 @@ align-items: center;
 }
 
 @media screen and (min-width: 768px) {
-  .maintenance-page .flex-header {
+  .maintenance-page .flex-header, .tour-header {
     font-size: 26px;
     line-height: 42px;
   }
