@@ -1128,6 +1128,9 @@ align-items: center;
   .maintenance-page .flex-caption {
     display: block;
   }
+  .tour-caption{
+    bottom: 0;
+  }
 }
 
 @media screen and (min-width:501px) and (max-width: 767px) {
@@ -1334,6 +1337,9 @@ align-items: center;
 
   .maintenance-page .flex-caption {
     display: block;
+  }
+  .tour-caption{
+    bottom: 12%;
   }
 }
 
