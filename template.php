@@ -15,6 +15,7 @@ function aesinternational_preprocess_page(&$vars) {
   drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/slider-options.js');
   drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/jquery.scrolling-tabs.min.js');
   drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/scrolling-tabs-init.js');
+  drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/svg-map-click.js');
 }
 
 function aesinternational_js_alter(&$javascript){
