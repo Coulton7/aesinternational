@@ -1002,6 +1002,30 @@ align-items: center;
   left:14%;
   width: 85%;
 }
+
+.location-pop-up{
+  display: none;
+  height:100%;
+  width: 100%;
+}
+
+#Map > *:hover, #Map > g > path:hover{
+  fill: #002a5b!important;
+  stroke: #004a8c;
+  stroke-width: 2;
+  cursor: pointer;
+}
+
+.ui-widget-overlay{
+  background: rgba(0, 0, 0, .85)!important;
+  opacity: initial!important;
+  overflow-y: scroll;
+  transition: 0.5s;
+}
+
+.ui-widget-content a{
+  color: #dd1e25!important;
+}
 /*Fontawesome Google logo*/
 @media screen and (max-width: 767px) {
   .maintenance-page .flex-header {
