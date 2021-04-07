@@ -1016,6 +1016,10 @@ align-items: center;
   cursor: pointer;
 }
 
+.location-pop-up h3{
+  color: #ffffff;
+}
+
 .ui-widget-overlay{
   background: rgba(0, 0, 0, .85)!important;
   opacity: initial!important;
