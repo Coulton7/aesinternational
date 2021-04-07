@@ -1003,7 +1003,7 @@ align-items: center;
   width: 85%;
 }
 
-.location-pop-up, .rockford, .fairfield, .longview, .marion, .avtssi, .mss, .llp{
+.location-pop-up, .rockford, .fairfield, .longview, .marion, .avtssi, .mss, .llp, .connect-text{
   display: none;
   height:100%;
   width: 100%;
