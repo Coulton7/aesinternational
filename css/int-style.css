@@ -1043,6 +1043,11 @@ align-items: center;
   font-size: inherit!important;
 }
 
+.ui-widget-content a:focus{
+  outline: none;
+  text-decoration: none;
+}
+
 
 body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .close-dialog, body.navbar-is-fixed-top.navbar-administration .close-dialog{
   color: #ffffff;
