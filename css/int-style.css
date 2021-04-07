@@ -1047,7 +1047,7 @@ align-items: center;
   color: #dd1e25!important;
 }
 
-body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .close-dialog{
+body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .close-dialog, body.navbar-is-fixed-top.navbar-administration .close-dialog{
   color: #ffffff;
   position: fixed;
   font-size: 3em;
