@@ -1046,6 +1046,40 @@ align-items: center;
 .ui-widget-content a{
   color: #dd1e25!important;
 }
+
+body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .close-dialog{
+  color: #ffffff;
+  position: fixed;
+  font-size: 3em;
+  float: right;
+  z-index: 1032;
+  top: 3.5em;
+  right: 1.2em;
+  height: 1em;
+  width: 1em;
+  transition: 0.5s;
+  pointer-events: auto;
+  cursor: pointer;
+  opacity: 1;
+  font-weight: normal;
+}
+
+.close-dialog{
+    color: #ffffff;
+    position: fixed;
+    font-size: 3em;
+    float: right;
+    z-index: 1032;
+    top: 1.5em;
+    right: 1.2em;
+    height: 1em;
+    width: 1em;
+    transition: 0.5s;
+    pointer-events: auto;
+    cursor: pointer;
+    opacity: 1;
+    font-weight: normal;
+}
 /*Fontawesome Google logo*/
 @media screen and (max-width: 767px) {
   .maintenance-page .flex-header {
