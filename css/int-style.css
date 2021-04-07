@@ -1023,6 +1023,22 @@ align-items: center;
   transition: 0.5s;
 }
 
+.ui-widget-header{
+  background: none!important;
+  border: none!important;
+  color: #ffffff!important;
+}
+
+.ui-widget-content{
+  background: none!important;
+  border: none!important;
+  color: #ffffff!important;
+}
+
+.ui-widget{
+  font-size: inherit!important;
+}
+
 .ui-widget-content a{
   color: #dd1e25!important;
 }
