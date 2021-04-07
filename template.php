@@ -8,6 +8,7 @@ function aesinternational_preprocess_page(&$vars) {
     if (isset($vars['node']->type)) {
         $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->type;
     }
+  drupal_add_library('system','ui.dialog');
 
 	drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/logoscroll.js');
 	drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/fade-text.js');
