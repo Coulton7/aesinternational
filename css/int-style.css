@@ -999,8 +999,8 @@ align-items: center;
 .tour-caption{
   position: absolute;
   bottom: 12%;
-  left:14%;
-  width: 85%;
+  left:-7%;
+  width: 100%;
 }
 
 .location-pop-up, .rockford, .fairfield, .longview, .marion, .avtssi, .mss, .llp, .connect-text{
@@ -1230,7 +1230,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
     display: block;
   }
   .tour-caption{
-    bottom: 0;
+    bottom: 10%;
   }
 }
 
@@ -1445,7 +1445,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
     display: block;
   }
   .tour-caption{
-    bottom: 12%;
+    bottom: 18%;
   }
 }
 
