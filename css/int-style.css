@@ -1111,6 +1111,15 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px, rgba(0, 0, 0, 0.2) 0px 2px 24px;
   cursor: pointer;
 }
+
+body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .overlay-btn{
+  top: 4.2em;
+}
+
+body.navbar-is-fixed-top.navbar-administration .overlay-btn{
+  top: 2em;
+}
+
 /*Fontawesome Google logo*/
 @media screen and (max-width: 767px) {
   .maintenance-page .flex-header {
