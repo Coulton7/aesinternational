@@ -1090,6 +1090,10 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
     font-weight: normal;
 }
 
+.close-dialog:hover{
+  color: #dd1e25;
+}
+
 .enquiry-icon {
   color: #ffffff;
   border-radius: 50%;
