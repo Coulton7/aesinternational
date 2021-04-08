@@ -1125,6 +1125,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
+  padding-top: 46.1%; 
 }
 
 /*Fontawesome Google logo*/
