@@ -1089,6 +1089,24 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
     opacity: 1;
     font-weight: normal;
 }
+
+.enquiry-icon {
+  color: #ffffff;
+  border-radius: 50%;
+  width: 3.5em;
+  height: 3.5em;
+  background-color: #002a5b;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  z-index: 1032;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px, rgba(0, 0, 0, 0.2) 0px 2px 24px;
+  cursor: pointer;
+}
 /*Fontawesome Google logo*/
 @media screen and (max-width: 767px) {
   .maintenance-page .flex-header {
