@@ -1048,6 +1048,13 @@ align-items: center;
   text-decoration: none;
 }
 
+.ui-dialog .ui-dialog-titlebar-close{
+  height: 0;
+  width: 0;
+  padding: 0;
+  border: none;
+}
+
 
 body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .close-dialog, body.navbar-is-fixed-top.navbar-administration .close-dialog{
   color: #ffffff;
