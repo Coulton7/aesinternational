@@ -999,7 +999,7 @@ align-items: center;
 .tour-caption{
   position: absolute;
   bottom: 12%;
-  left:-7%;
+  left:0%;
   width: 100%;
 }
 
@@ -1445,7 +1445,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
     display: block;
   }
   .tour-caption{
-    bottom: 18%;
+    bottom: 29%;
   }
 }
 
