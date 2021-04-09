@@ -898,6 +898,14 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   margin-top: 3em;
 }
 
+.node-type-case-studies .field-name-field-product-image .field-items{
+  display: inline-flex;
+}
+
+.node-type-case-studies .field-name-field-product-image .field-items .field-item.odd, .node-type-case-studies .field-name-field-product-image .field-items .field-item.even {
+  width: 33.3%;
+}
+
 .left-arrow, .right-arrow {
   color: #5cabdf;
   text-shadow: 0 0 3px #ffffff;
