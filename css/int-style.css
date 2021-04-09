@@ -1129,8 +1129,9 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   padding-bottom: 36%
 }
 
-.footer-joining{
-  margin-top: -0.5em;
+.footer-positioning{
+  margin-top: -4em;
+  padding-top: 4em;
 }
 
 /*Fontawesome Google logo*/
