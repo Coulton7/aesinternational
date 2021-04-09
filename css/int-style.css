@@ -840,6 +840,7 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   position: relative;
   right: 77%;
   border-top-right-radius: 5%;
+  border: 1px solid #888c8f;
 }
 
 .grey-upper-curve {
@@ -868,7 +869,8 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   height: 100.015%;
   transform: skewX(40deg);
   width: 200%;
-  border-bottom-left-radius: 5%
+  border-bottom-left-radius: 5%;
+  border: 1px solid #888c8f;
 }
 
 .grey-lower-banner {
