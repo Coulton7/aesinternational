@@ -104,7 +104,7 @@
   ?>
 
 <div class="clearfix"></div>
-  <div class="container-fluid">
+  <div class="container-fluid margin-top-2em">
     <div class="row-eq-height">
       <div class="col-xs-8 fullscreen">
         <div class="grey-banner">
@@ -126,8 +126,10 @@
     </div>
     <div class="row-eq-height">
       <div class="col-xs-8 fullscreen">
-        <div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2 col-xs-10 col-xs-offset-1">
-          <?php print render($content['field_api__plan_types']); ?>
+        <div class="col-sm-12">
+          <div class="api-plans-ref">
+            <?php print render($content['field_api__plan_types']); ?>
+          </div>
         </div>
         <div class="rrssb">
         </div>
