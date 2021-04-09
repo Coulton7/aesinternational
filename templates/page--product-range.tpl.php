@@ -353,7 +353,7 @@
 
 			<footer>
 				<?php if (!empty($page['footer'])): ?>
-			  	<div class="footer <?php print $container_class; ?> footer-background">
+			  	<div class="footer footer-join <?php print $container_class; ?> footer-background">
 						<?php print render($page['footer']); ?>
 					</div>
 				<?php endif; ?>
