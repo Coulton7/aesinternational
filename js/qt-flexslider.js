@@ -1,7 +1,7 @@
 (function($){
   $(document).ready(function() {
-    $('.location-branches .nav-tabs').children('li').find('a').on('click', function(){
-      $('.optionset-flexlsider-location').resize();
+    $('#quicktabs-your_regional_branch .nav-tabs').children('li').find('a').on('click', function(){
+      $('.flexslider').resize();
     });
   });
 })(jQuery);
