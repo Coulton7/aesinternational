@@ -704,7 +704,7 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   color: #ffffff;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:focus {
   background: #fa010a;
   margin-bottom: 0;
   color: #ffffff !important;
