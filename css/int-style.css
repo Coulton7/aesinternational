@@ -548,7 +548,7 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   outline-width: 1px;
 }
 
-.btn-contact:hover {
+.btn-contact:hover, .btn-contact:focus {
   background: #004a8c;
   color: #ffffff;
   outline-offset: 1px;
@@ -724,9 +724,10 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   margin-right: auto;
 }
 
-.entitytype-product_enquiry-form .btn:hover {
+.entitytype-product_enquiry-form .btn:hover, .entitytype-product_enquiry-form .btn:focus {
   background-color: #fa010a;
-  border-color: #fa010a color:#ffffff;
+  border-color: #fa010a;
+  color:#ffffff;
 }
 
 .field-name-field-external-link a {
