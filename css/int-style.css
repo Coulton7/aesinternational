@@ -18,6 +18,12 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   padding-top: 1px;
 }
 
+.directionNav .slides img{
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
 .optionset-flexslider-location .slides>li:nth-child(1){
   display: block;
   -webkit-backface-visibility: visible;
