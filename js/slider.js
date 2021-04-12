@@ -7,6 +7,16 @@
 
     });
 
+    $('.directionNav').flexslider({
+      controlNav: false,
+      directionNav: true
+    });
+
+    $('.controlNav').flexslider({
+      controlNav: true,
+      directionNav: false
+    });
+
     $.each($(".flexslider .slides li img"), function() {
       var newContainer = document.createElement("div");
       var newDiv = document.createElement("div");
