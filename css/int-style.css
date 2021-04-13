@@ -1708,6 +1708,9 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .front .caption-container {
     top: 23%;
   }
+  .large-cta-block{
+    margin-top: -1.5em;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1773,6 +1776,9 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     margin-left: 16.666667%;
     width: 66.66666667%;
   }
+  .large-cta-block{
+    margin-top: -2.5em;
+  }
 }
 
 @media screen and (min-width: 1500px) {
@@ -1782,6 +1788,9 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     margin-bottom: -10%;
     margin-left: auto;
     margin-right: auto;
+  }
+  .large-cta-block{
+    margin-top: -3.5em;
   }
 }
 
