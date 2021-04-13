@@ -1141,7 +1141,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
 }
 
 body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixed-top.navbar-administration .change:after {
-  top: 2em;
+  top: 3em;
 }
 
 .us-team-photo{
