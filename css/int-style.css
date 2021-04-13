@@ -1179,6 +1179,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   margin-top: -3.5em;
 }
 
+.large-img-cta-block{
+  margin-top: -12.5em
+}
+
 /*Fontawesome Google logo*/
 @media screen and (max-width: 767px) {
   .maintenance-page .flex-header {
