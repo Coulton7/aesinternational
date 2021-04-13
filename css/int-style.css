@@ -24,6 +24,14 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   height: auto;
 }
 
+.directionNav .flex-direction-nav .flex-prev{
+  left: 1em;
+}
+
+.directionNav .flex-direction-nav .flex-next{
+  right: 1em;
+}
+
 .optionset-flexslider-location .slides>li:nth-child(1), .directionNav .slides>li:nth-child(1){
   display: block;
   -webkit-backface-visibility: visible;
