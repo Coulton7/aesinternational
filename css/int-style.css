@@ -1551,6 +1551,11 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .large-cta-block{
     margin-top: -1.5em;
   }
+  .directionNav .slides img{
+    width: auto;
+    display: block;
+    height: auto;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -1715,7 +1720,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     margin-top: -3.5em;
   }
   .directionNav .slides img{
-    width: auto;
+    width: 100%;
     display: block;
     height: auto;
   }
