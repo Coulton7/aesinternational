@@ -907,7 +907,8 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
 .field-industry {
   text-align: center;
   height: 100%;
-  padding: 3.5em;
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
   color: #ffffff;
 }
 
