@@ -1333,6 +1333,11 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .tour-caption{
     bottom: 10%;
   }
+  .directionNav .slides img{
+    width: auto;
+    display: block;
+    height: auto;
+  }
 }
 
 @media screen and (min-width:501px) and (max-width: 767px) {
