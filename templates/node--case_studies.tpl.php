@@ -105,7 +105,7 @@
 
 <div class="clearfix"></div>
   <div class="container-fluid margin-top-2em">
-    <div class="row-eq-height">
+    <div class="row-eq-height flex">
       <div class="col-xs-8 fullscreen">
         <div class="grey-banner">
           <div class="case-ref">
@@ -124,7 +124,7 @@
         </div>
       </div>
     </div>
-    <div class="row-eq-height">
+    <div class="row-eq-height flex">
       <div class="col-xs-8 fullscreen">
         <div class="col-sm-12">
           <div class="api-plans-ref">
