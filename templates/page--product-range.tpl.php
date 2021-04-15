@@ -279,9 +279,6 @@
 						<ul class="action-links"><?php print render($action_links); ?></ul>
 					<?php endif; ?>
 
-					<div class="<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-10 col-sm-	offset-1 col-lg-8 col-lg-offset-2'; }
-						else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-12 fullscreen'; }
-						else { print 'col-sm-12 fullscreen'; } ?>">
 							<?php print render($page['content']); ?>
 					</div>
 
