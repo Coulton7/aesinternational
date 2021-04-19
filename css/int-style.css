@@ -1157,8 +1157,8 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
-  padding-top: 8.1%;
-  padding-bottom: 38%
+  padding-top: 10.1%;
+  padding-bottom: 36%
 }
 
 .footer-positioning {
@@ -1352,6 +1352,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
   .api-plans-ref {
     margin-top: 2em;
+  }
+  .us-team-photo{
+    padding-top: 3.1%;
+    padding-bottom: 43%;
   }
 }
 
@@ -1582,6 +1586,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .api-plans-ref {
     margin-top: 2em;
   }
+  .us-team-photo{
+    padding-top: 3.1%;
+    padding-bottom: 43%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -1746,6 +1754,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .large-cta-block {
     margin-top: -3.5em;
   }
+  .us-team-photo{
+    padding-top: 6.1%;
+    padding-bottom: 40%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1815,6 +1827,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .large-cta-block {
     margin-top: -4.5em;
   }
+  .us-team-photo{
+    padding-top: 8.1%;
+    padding-bottom: 38%;
+  }
 }
 
 @media screen and (min-width: 1500px) {
@@ -1828,6 +1844,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
   .large-cta-block {
     margin-top: -5.5em;
+  }
+  .us-team-photo{
+    padding-top: 10.1%;
+    padding-bottom: 36%;
   }
 }
 
