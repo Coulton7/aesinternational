@@ -17,6 +17,11 @@
       directionNav: false
     });
 
+    $('.base-slider').flexslider({
+      controlNav: false,
+      directionNav: false
+    });
+
     $.each($(".flexslider .slides li img"), function() {
       var newContainer = document.createElement("div");
       var newDiv = document.createElement("div");
