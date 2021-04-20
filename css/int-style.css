@@ -1204,6 +1204,15 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   max-width: 75%;
 }
 
+.chem-pharm-logo-container{
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  top: 12%;
+  left: 31%;
+}
+
 /*Fontawesome Google logo*/
 @media screen and (max-width: 767px) {
   .maintenance-page .flex-header {
