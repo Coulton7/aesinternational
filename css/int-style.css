@@ -1384,6 +1384,16 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .graphic-slider-img {
     max-width: 100%;
   }
+
+  .footer-social-icons{
+    display: flex;
+    align-self: center;
+    margin-bottom: 0;
+  }
+
+  .footer-social-icons a:nth-child(1){
+    padding-left: 0;
+  }
 }
 
 @media screen and (min-width:501px) and (max-width: 767px) {
@@ -1625,6 +1635,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
   .footer-social-icons{
     align-self: center;
+  }
+
+  .footer-social-icons a:nth-child(1){
+    padding-left: 0.5em;
   }
 }
 
