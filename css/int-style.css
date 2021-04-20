@@ -1210,7 +1210,9 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   height: 100%;
   width: 40%;
   top: 12%;
-  left: 30%;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 /*Fontawesome Google logo*/
