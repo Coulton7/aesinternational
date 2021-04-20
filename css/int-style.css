@@ -1887,4 +1887,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     margin-left: auto;
     margin-right: auto;
   }
+  .graphic-slider-img{
+    max-width: 50%;
+  }
 }
