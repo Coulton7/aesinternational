@@ -18,7 +18,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   padding-top: 1px;
 }
 
-.directionNav .slides img, .controlNav .slides img {
+.directionNav .slides img, .controlNav .slides img, .base-slider .slides img {
   width: 100%;
   display: block;
   height: auto;
