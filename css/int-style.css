@@ -1620,6 +1620,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .graphic-slider-img {
     max-width: 100%;
   }
+
+  .footer-social-icons{
+    align-self: center;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -1793,6 +1797,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .graphic-slider-img {
     max-width: 75%;
   }
+
+  .footer-social-icons{
+    align-self: center;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1867,6 +1875,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     padding-top: 8.1%;
     padding-bottom: 38%;
   }
+
+  .footer-social-icons{
+    align-self: center;
+  }
 }
 
 @media screen and (min-width: 1500px) {
@@ -1885,6 +1897,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .us-team-photo {
     padding-top: 10.1%;
     padding-bottom: 36%;
+  }
+
+  .footer-social-icons{
+    align-self: auto;
   }
 }
 
