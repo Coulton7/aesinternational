@@ -116,7 +116,7 @@
       <div class="col-xs-1 fullscreen">
         <div class="grey-upper-wave">
         </div>
-        <div class="grey-upper-curve">
+        <div class="grey-upper-curve hidden-xs">
         </div>
       </div>
       <div class="col-xs-3 fullscreen">
@@ -137,7 +137,7 @@
       <div class="col-xs-1 fullscreen">
         <div class="grey-lower-wave">
         </div>
-        <div class="grey-lower-curve">
+        <div class="grey-lower-curve hiden-xs">
         </div>
       </div>
       <div class="col-xs-3 fullscreen">
