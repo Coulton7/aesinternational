@@ -7,10 +7,25 @@
 
     });
 
+    $('.directionNav').flexslider({
+      controlNav: false,
+      directionNav: true
+    });
+
+    $('.controlNav').flexslider({
+      controlNav: true,
+      directionNav: false
+    });
+
+    $('.base-slider').flexslider({
+      controlNav: false,
+      directionNav: false
+    });
+
     $.each($(".flexslider .slides li img"), function() {
       var newContainer = document.createElement("div");
       var newDiv = document.createElement("div");
-      var titleDiv = document.createElement("div");
+      var titleDiv = document.createElement("h1");
       var titleText = $(this).attr('title');
       var altText = $(this).attr('alt');
       $(newContainer).html(titleDiv, newDiv);
