@@ -1383,8 +1383,8 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
   .graphic-slider-img {
     max-width: 100%;
-    padding-top: 48.1%;
-    padding-bottom: 59%;
+    padding-top: 21.1%;
+    padding-bottom: 21%;
   }
 
   .footer-social-icons{
@@ -1415,6 +1415,12 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     position: absolute;
     z-index: 103;
   }
+
+  .graphic-slider-img {
+    max-width: 100%;
+    padding-top: 21.1%;
+    padding-bottom: 21%;
+  }
 }
 
 @media screen and (max-width:500px) {
@@ -1438,6 +1444,12 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     top: 3.3em;
     position: absolute;
     z-index: 103;
+  }
+
+  .graphic-slider-img {
+    max-width: 100%;
+    padding-top: 48.1%;
+    padding-bottom: 59%;
   }
 }
 
