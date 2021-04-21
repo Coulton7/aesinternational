@@ -104,8 +104,8 @@
   ?>
 
 <div class="clearfix"></div>
-  <div class="container-fluid">
-    <div class="row-eq-height">
+  <div class="container-fluid margin-top-2em">
+    <div class="row-eq-height flex">
       <div class="col-xs-8 fullscreen">
         <div class="grey-banner">
           <div class="case-ref">
@@ -116,7 +116,7 @@
       <div class="col-xs-1 fullscreen">
         <div class="grey-upper-wave">
         </div>
-        <div class="grey-upper-curve">
+        <div class="grey-upper-curve hidden-xs">
         </div>
       </div>
       <div class="col-xs-3 fullscreen">
@@ -124,10 +124,12 @@
         </div>
       </div>
     </div>
-    <div class="row-eq-height">
+    <div class="row-eq-height flex">
       <div class="col-xs-8 fullscreen">
-        <div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2 col-xs-10 col-xs-offset-1">
-          <?php print render($content['field_api__plan_types']); ?>
+        <div class="col-sm-12">
+          <div class="api-plans-ref">
+            <?php print render($content['field_api__plan_types']); ?>
+          </div>
         </div>
         <div class="rrssb">
         </div>
@@ -135,7 +137,7 @@
       <div class="col-xs-1 fullscreen">
         <div class="grey-lower-wave">
         </div>
-        <div class="grey-lower-curve">
+        <div class="grey-lower-curve hiden-xs">
         </div>
       </div>
       <div class="col-xs-3 fullscreen">
