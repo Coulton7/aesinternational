@@ -1405,6 +1405,12 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .grey-upper-wave {
     transform: skewX(21deg);
   }
+
+  .ind-flex-item-caption {
+    top: 0;
+    width: 83.333%;
+    left: 8.333%;
+  }
 }
 
 @media screen and (min-width:501px) and (max-width: 767px) {
@@ -1673,6 +1679,12 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .grey-upper-wave {
     transform: skewX(40deg);
   }
+
+  .ind-flex-item-caption {
+    top: 5%;
+    width: 83.333%;
+    left: 8.333%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -1849,6 +1861,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
   .footer-social-icons{
     align-self: center;
+  }
+  .ind-flex-item-caption {
+    width: 66.6667%;
+    left: 16.6667%;
   }
 }
 
