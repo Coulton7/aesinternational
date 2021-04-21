@@ -1374,6 +1374,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
   .api-plans-ref {
     margin-top: 2em;
+    overflow-x: hidden;
   }
 
   .us-team-photo {
@@ -1395,6 +1396,14 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
   .footer-social-icons a:nth-child(1){
     padding-left: 0;
+  }
+
+  .grey-lower-wave {
+    transform: skewX(21deg);
+  }
+
+  .grey-upper-wave {
+    transform: skewX(21deg);
   }
 }
 
@@ -1655,6 +1664,14 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
   .footer-social-icons a:nth-child(1){
     padding-left: 0.5em;
+  }
+
+  .grey-lower-wave {
+    transform: skewX(40deg);
+  }
+
+  .grey-upper-wave {
+    transform: skewX(40deg);
   }
 }
 
