@@ -1941,6 +1941,9 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     padding-top: 8.1%;
     padding-bottom: 38%;
   }
+  .graphic-slider-img {
+    max-width: 70%;
+  }
 
   .footer-social-icons{
     align-self: center;
@@ -1966,6 +1969,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .us-team-photo {
     padding-top: 10.1%;
     padding-bottom: 36%;
+  }
+
+  .graphic-slider-img{
+    max-width: 55%;
   }
 
   .footer-social-icons{
