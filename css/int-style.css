@@ -1865,6 +1865,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .ind-flex-item-caption {
     width: 66.6667%;
     left: 16.6667%;
+    top: 5%;
   }
 }
 
@@ -1943,6 +1944,9 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
   .footer-social-icons{
     align-self: center;
+  }
+  .ind-flex-item-caption {
+    top: 15%;
   }
 }
 
