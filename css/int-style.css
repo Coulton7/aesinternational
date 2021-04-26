@@ -853,7 +853,7 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   height: 100%;
   transform: skewX(40deg);
   position: relative;
-  right: 77%;
+  right: 75%;
   border-top-right-radius: 5%;
   border: 1px solid #888c8f;
 }
