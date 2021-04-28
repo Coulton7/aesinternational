@@ -673,7 +673,7 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   width: 100%;
 }
 
-) .map-icons ul {
+.map-icons ul {
   display: flex;
   justify-content: center;
   list-style: none;
