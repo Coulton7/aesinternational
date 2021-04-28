@@ -656,7 +656,7 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   color: #bd4030;
 }
 
-.social-contact a::after {
+.social-contact a::before {
   font-family: "Font Awesome 5 Brands";
   content: " \f0e1";
   color: #0077b5;
@@ -666,7 +666,7 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   font-weight: 900;
 }
 
-.social-contact a:hover::after {
+.social-contact a:hover::before {
   color: #006ba2;
 }
 
