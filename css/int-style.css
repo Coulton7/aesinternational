@@ -663,6 +663,7 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   position: relative;
   font-size: 2em;
   bottom: -0.5em;
+  font-weight: 900;
 }
 
 .social-contact:nth-child(1) a.social-link:hover::after {
@@ -1167,7 +1168,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 }
 
 .us-rockford-photo {
-  background-image: url(/files/locations/aes-rockfrod-stripbackground.jpg);
+  background-image: url("/files/locations/aes-rockfrod-stripbackground.jpg");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
