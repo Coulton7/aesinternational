@@ -656,7 +656,7 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   color: #bd4030;
 }
 
-.social-contact:nth-child(1) a:after {
+.social-contact:nth-child(1) a.social-link::after {
   font-family: "Font Awesome 5 Brands";
   content: " \f0e1";
   color: #0077b5;
@@ -665,7 +665,7 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   bottom: -0.5em;
 }
 
-.social-contact:nth-child(1) a:hover::after {
+.social-contact:nth-child(1) a.social-link:hover::after {
   color: #006ba2;
 }
 
