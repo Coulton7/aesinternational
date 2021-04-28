@@ -1256,10 +1256,6 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     margin-top: 0;
   }
 
-  .flex_gradient {
-    overflow: hidden;
-  }
-
   .action-menu {
     top: 3.3em
   }
