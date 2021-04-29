@@ -1056,8 +1056,6 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   opacity: initial !important;
   overflow-y: scroll;
   transition: 0.5s;
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
 }
 
 .ui-widget-header {
