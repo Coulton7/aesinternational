@@ -656,17 +656,16 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   color: #bd4030;
 }
 
-.social-contact a::before {
+.social-contact a.social-link::after {
   font-family: "Font Awesome 5 Brands";
   content: " \f0e1";
   color: #0077b5;
   position: relative;
   font-size: 2em;
-  bottom: -0.5em;
   font-weight: 900;
 }
 
-.social-contact a:hover::before {
+.social-contact a.social-link:hover::after {
   color: #006ba2;
 }
 
