@@ -1205,9 +1205,9 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 .chem-pharm-logo-container{
   display: flex;
   position: absolute;
-  height: auto;
-  width: 38%;
-  top: 31%;
+  height: 100%;
+  width: 37%;
+  top: 13%;
   left: 0;
   right: 0;
   margin: auto;
