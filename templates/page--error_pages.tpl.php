@@ -108,9 +108,8 @@
 						</div>
 						<div class="section-shadow-menu">
 						</div>
-					</header>
+				</header>
 
-					</div>
 				</div>
 			</div>
 
@@ -144,11 +143,8 @@
 					</div>
 				</div>
 
-				<?php if ($page['preface']): ?>
-					<?php print render($page['preface']);?>
 				</div>
 			</div>
-				<?php endif; ?>
 
 			<div class="row wavelower row-eq-height">
   			<div class="col-sm-9 col-xs-0 fullscreen">
@@ -177,8 +173,11 @@
 			<div class="tablet-fix">
 				<section id="main-content" class="col-sm-12">
 					<div class="clearfix">
-						<?php if (!empty($tabs)): ?>
-						<?php print render($tabs); ?>
+						<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+							<?php if (!empty($tabs)): ?>
+								<?php print render($tabs); ?>
+							<?php endif; ?>
+						</div>
 					</div>
 					<?php print render($page['content']); ?>
 				</section>
@@ -188,8 +187,18 @@
 </div>
 
 
-<div id="footer-wrapper">
-	<div id="footer">
-	 <?php if (!empty($footer)): print $footer; endif; ?>
-	</div>
-</div>
+<footer>
+	<?php if (!empty($page['footer'])): ?>
+		<div class="footer <?php print $container_class; ?> footer-background">
+			<?php print render($page['footer']); ?>
+		</div>
+	<?php endif; ?>
+
+	<?php if ($page['footer_lower']): ?>
+		<div class="footer_lower <?php print $container_class; ?> dark-grey-gradient">
+			<div class="section-shadow">
+				<?php print render($page['footer_lower']);?>
+			</div>
+		</div>
+	<?php endif; ?>
+</footer>
