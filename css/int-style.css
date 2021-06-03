@@ -1127,6 +1127,14 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   top: 2.15em;
 }
 
+.large-cta-block {
+  margin-top: -3.5em;
+}
+
+.large-img-cta-block {
+  margin-top: -12.5em
+}
+
 .virtual-tour:hover {
   width: 100%;
   content: url(https://www.aesseal.com/sites/aesseal.com/files/sidebar/360-panel-desktop-over.png);
