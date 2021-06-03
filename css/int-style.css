@@ -639,15 +639,16 @@ p a[target="_blank"]:after {
   margin-right: 0;
 }
 
-.social-contact:nth-child(1) a:after {
+.social-contact a.social-link::after {
   font-family: "Font Awesome 5 Brands";
   content: " \f0e1";
   color: #0077b5;
   position: relative;
   font-size: 2em;
+  font-weight: 900;
 }
 
-.social-contact:nth-child(1) a:after {
+.social-contact a.social-link:hover::after {
   color: #006ba2;
 }
 
