@@ -969,6 +969,54 @@ p a[target="_blank"]:after {
   opacity: 1;
 }
 
+.carousel-slider .flex-direction-nav a, .optionset-4panel-whitepaper .flex-direction-nav a {
+  top: 50%;
+  opacity: 0.7;
+  display: block;
+  border: 1px solid #e5e5e7;
+  border-radius: 50%;
+  background-color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.carousel-slider:hover .flex-direction-nav a.flex-prev {
+  left: 0;
+  opacity: 0.7;
+}
+
+.carousel-slider .flex-direction-nav a.flex-prev {
+  left: 0;
+}
+
+.carousel-slider .flex-direction-nav a.flex-next {
+  right: 0;
+}
+
+.carousel-slider:hover .flex-direction-nav a.flex-next {
+  right: 0;
+  opacity: 0.7;
+}
+
+.carousel-slider .flex-direction-nav a.flex-prev:hover, .carousel-slider .flex-direction-nav a.flex-next:hover {
+  opacity: 1;
+}
+
+.flex-direction-nav a:before {
+  font-size: 30px;
+}
+
+.prod-resources .carousel-slider .slides {
+  zoom: 1;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
 .virtual-tour:hover {
   width: 100%;
   content: url(https://www.aesseal.com/sites/aesseal.com/files/sidebar/360-panel-desktop-over.png);
