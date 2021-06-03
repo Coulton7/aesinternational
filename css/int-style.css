@@ -969,6 +969,16 @@ p a[target="_blank"]:after {
   opacity: 1;
 }
 
+.virtual-tour:hover {
+  width: 100%;
+  content: url(https://www.aesseal.com/sites/aesseal.com/files/sidebar/360-panel-desktop-over.png);
+}
+
+.meet-team .view-content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media screen and (max-width: 767px) {
   .maintenance-page .flex-header {
     font-size: 25px;
