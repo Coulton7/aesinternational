@@ -175,7 +175,7 @@
 										<?php if(!empty($breadcrumb)): print $breadcrumb; endif?>
 										<div class="breadcrumb-sitemap">
 											<li>
-												<a href="/sitemap">
+												<a href="/content">
 													<i class="fas fa-sitemap"></i>
 												</a>
 											</li>
