@@ -1226,8 +1226,15 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 }
 
 .virtual-tour:hover {
-  width: 100%;
-  content: url(https://www.aesseal.com/sites/aesseal.com/files/sidebar/360-panel-desktop-over.png);
+  background-image: url(/sites/aesseal.com/files/sidebar/360-panel-desktop-over.png);
+  background-size: 100%;
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-position: 100% 24%;
+}
+
+.virtual-tour:hover img {
+  opacity: 0;
 }
 
 .meet-team .view-content{
