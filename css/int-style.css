@@ -81,7 +81,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   border-bottom: none;
   margin: 0;
   padding: 0;
-   color: #ffffff;
+  color: #ffffff;
 }
 
 .breadcrumb-sitemap {
@@ -1046,7 +1046,7 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   height: 100%;
 }
 
-.Willow, .Chickasaw, .Birmingham, .Sherwood, .Pontiac, .Edmonds, .Lombard, .Plymouth, .Richardson, .Overland, .Littleton, .Layton, .Meadow, .National, .Kenai, .Kingsport, .Alamitos, .Phoenix, .Paso, .Griffin, .Bakersfield, .Witchita, .Albuquerque, .Plainville  {
+.Willow, .Chickasaw, .Birmingham, .Sherwood, .Pontiac, .Edmonds, .Lombard, .Plymouth, .Richardson, .Overland, .Littleton, .Layton, .Meadow, .National, .Kenai, .Kingsport, .Alamitos, .Phoenix, .Paso, .Griffin, .Bakersfield, .Witchita, .Albuquerque, .Plainville {
   display: none;
   height: 100%;
   width: 100%;
@@ -1214,7 +1214,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   max-width: 75%;
 }
 
-.chem-pharm-logo-container{
+.chem-pharm-logo-container {
   display: flex;
   position: absolute;
   height: 100%;
@@ -1237,7 +1237,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   opacity: 0;
 }
 
-.meet-team .view-content{
+.meet-team .view-content {
   display: flex;
   flex-wrap: wrap;
 }
@@ -1411,13 +1411,13 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     padding-bottom: 21%;
   }
 
-  .footer-social-icons{
+  .footer-social-icons {
     display: flex;
     align-self: center;
     margin-bottom: 0;
   }
 
-  .footer-social-icons a:nth-child(1){
+  .footer-social-icons a:nth-child(1) {
     padding-left: 0;
   }
 
@@ -1636,6 +1636,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
   .europe {
     height: 26%;
+    top: 22.5%;
   }
 
   .middle-east-upper {
@@ -1687,11 +1688,11 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     padding-bottom: 0;
   }
 
-  .footer-social-icons{
+  .footer-social-icons {
     align-self: center;
   }
 
-  .footer-social-icons a:nth-child(1){
+  .footer-social-icons a:nth-child(1) {
     padding-left: 0.5em;
   }
 
@@ -1828,28 +1829,36 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   }
 
   .africa-upper {
-    top: 42.5%;
+    top: 43.5%;
+    left: 43%;
+    height: 14%;
   }
 
-  .asia {
-    top: 35%;
-  }
-
-  .australasia {
-    bottom: 15%;
-    height: 26%;
+  .africa-lower {
+    top: 55%;
+    height: 23%;
+    left: 46%;
   }
 
   .europe {
-    height: 30%;
-  }
-
-  .middle-east-upper {
-    top: 43%;
+    height: 25%;
+    top: 18.5%;
   }
 
   .middle-east-lower {
-    top: 47%;
+    top: 45%;
+    left: 55%;
+  }
+
+  .south-america {
+    bottom: 11.5%;
+    height: 31%;
+    left: 28%;
+  }
+
+  .north-america {
+    height: 41%;
+    width: 38%;
   }
 
   .maintenance-page .flex-header {
@@ -1882,7 +1891,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     max-width: 90%;
   }
 
-  .footer-social-icons{
+  .footer-social-icons {
     align-self: center;
   }
 
@@ -1970,11 +1979,39 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     max-width: 75%;
   }
 
-  .footer-social-icons{
+  .footer-social-icons {
     align-self: center;
   }
+
   .ind-flex-item-caption {
     top: 15%;
+  }
+
+  .africa-upper {
+    top: 47%;
+    left: 44%;
+  }
+
+  .africa-lower {
+    top: 57%;
+    height: 28%;
+    left: 47%;
+  }
+
+  .europe {
+    height: 27%;
+    top: 20%;
+  }
+
+  .north-america {
+    height: 41%;
+    width: 38%;
+  }
+
+  .south-america {
+    bottom: 11.5%;
+    height: 31%;
+    left: 28%;
   }
 }
 
@@ -1996,12 +2033,47 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     padding-bottom: 36%;
   }
 
-  .graphic-slider-img{
+  .graphic-slider-img {
     max-width: 55%;
   }
 
-  .footer-social-icons{
+  .footer-social-icons {
     align-self: auto;
+  }
+
+  .africa-upper {
+    top: 42.75%;
+    left: 44%;
+    height: 15%;
+  }
+
+  .africa-lower {
+    top: 54%;
+    height: 23%;
+    left: 46%;
+  }
+
+  .europe {
+    height: 22.75%;
+  }
+
+  .middle-east-upper {
+    top: 42.75%;
+  }
+
+  .middle-east-lower {
+    top: 44%;
+  }
+
+  .north-america {
+    height: 44%;
+    width: 38%;
+  }
+
+  .south-america {
+    bottom: 13%;
+    height: 33%;
+    left: 28%;
   }
 }
 
@@ -2013,7 +2085,57 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     margin-left: auto;
     margin-right: auto;
   }
-  .graphic-slider-img{
+
+  .graphic-slider-img {
     max-width: 50%;
+  }
+
+  .africa-upper {
+    top: 41%;
+    left: 40%;
+    height: 16%;
+  }
+
+  .africa-lower {
+    top: 53%;
+    height: 23%;
+    left: 42%;
+    width: 16%;
+  }
+
+  .australasia {
+    bottom: 15%;
+    height: 21%;
+    left: 65%;
+  }
+
+  .asia {
+    position: absolute;
+    right: 8%;
+    height: 28%;
+    width: 34%;
+  }
+
+  .europe {
+    height: 22.75%;
+    top: 19%;
+    left: 39%;
+  }
+
+  .middle-east-upper {
+    top: 39.75%;
+    left: 50.5%;
+  }
+
+  .middle-east-lower {
+    top: 43%;
+    left: 52.95%;
+    width: 4.5%;
+  }
+
+  .south-america {
+    bottom: 13%;
+    height: 34%;
+    left: 25%;
   }
 }
