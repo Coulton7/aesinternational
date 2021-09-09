@@ -1175,7 +1175,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 .us-rockford-photo {
   background-image: url("/files/locations/aes-rockfrod-stripbackground.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-position: center;
   padding-top: 28.13%;
   padding-bottom: 28.13%;
