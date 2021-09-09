@@ -1177,8 +1177,9 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
-  padding-top: 10.875%;
-  padding-bottom: 36%;
+  padding-top: 28.13%;
+  padding-bottom: 28.13%;
+  margin-bottom: -3em;
 }
 
 .large-cta-block {
