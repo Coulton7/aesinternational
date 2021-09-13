@@ -1059,6 +1059,14 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   color: #ffffff;
 }
 
+.location-pop-up .row-eq-height.show .show {
+  display: flex!important;
+}
+
+.location-pop-up .row-eq-height.show {
+  display: flex!important;
+}
+
 .ui-widget-overlay {
   background: rgba(0, 0, 0, .85) !important;
   opacity: initial !important;
