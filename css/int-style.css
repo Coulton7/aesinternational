@@ -695,7 +695,6 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   display: inline-block;
   background: #dd1e25;
   color: #ffffff !important;
-  color: #ffffff !important;
   border-radius: 30px;
   border: 2px solid transparent!important;
   box-shadow: none;
@@ -715,8 +714,10 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
 .entitytype-product_enquiry-form .btn {
   margin-top: 20px;
   background-color: #DD1E25;
-  border-color: #DD1E25;
   color: #ffffff;
+  border-radius: 30px;
+  border: 2px solid transparent!important;
+  box-shadow: none;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -724,7 +725,7 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
 
 .entitytype-product_enquiry-form .btn:hover, .entitytype-product_enquiry-form .btn:focus {
   background-color: #fa010a;
-  border-color: #fa010a;
+  border: 2px solid #ffffff!important;
   color: #ffffff;
 }
 
