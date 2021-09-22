@@ -701,8 +701,10 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   display: inline-block;
   background: #dd1e25;
   color: #ffffff !important;
-  border: none !important;
-  border-radius: 0;
+  color: #ffffff !important;
+  border-radius: 30px;
+  border: 2px solid transparent!important;
+  box-shadow: none;
 }
 
 .btn-primary a {
@@ -713,10 +715,7 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   background: #fa010a;
   margin-bottom: 0;
   color: #ffffff !important;
-  outline-offset: 1px;
-  outline-style: solid;
-  outline-color: #ffffff;
-  outline-width: 1px;
+  border: 2px solid #ffffff!important;
 }
 
 .entitytype-product_enquiry-form .btn {
