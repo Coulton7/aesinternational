@@ -135,14 +135,6 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   overflow-wrap: break-word;
 }
 
-.breadcrumb>li:last-child {
-  display: inline-block;
-  background-color: transparent;
-  color: #000000;
-  transform: skew(0);
-  max-width: 87%;
-}
-
 .breadcrumb>li+li:before {
   padding: 0;
   color: #4c698c;
@@ -1264,10 +1256,6 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     display: block;
   }
 
-  .breadcrumb>li:last-child {
-    max-width: 87%;
-  }
-
   .basic_page .flexslider .slides li img {
     margin-top: -8%;
     margin-bottom: -8%;
@@ -1525,10 +1513,6 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     display: block;
   }
 
-  .breadcrumb>li:last-child {
-    max-width: 87%;
-  }
-
   .flex-header h1 {
     font-size: 3em;
     line-height: 52px;
@@ -1735,10 +1719,6 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     line-height: 39px;
   }
 
-  .breadcrumb>li:last-child {
-    max-width: 87%;
-  }
-
   .flex-header {
     top: 0.2em;
     text-align: left;
@@ -1915,10 +1895,6 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     font-size: 1em;
     line-height: 36px;
     top: 0;
-  }
-
-  .breadcrumb>li:last-child {
-    max-width: 100%;
   }
 
   .action-menu {
