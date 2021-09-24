@@ -1875,8 +1875,8 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   }
 
   .ind-flex-item-caption {
-    width: 66.6667%;
-    left: 16.6667%;
+    width: 50%;
+    left: 25%;
     top: 5%;
   }
 }
