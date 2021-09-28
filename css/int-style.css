@@ -1247,7 +1247,11 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
 .ui-dialog-content::-webkit-scrollbar-thumb {
   border-radius: 8px;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.ui-dialog .ui-dialog-content {
+  background: rgba(0,0,0,0.5)!important;
 }
 
 /*Fontawesome Google logo*/
