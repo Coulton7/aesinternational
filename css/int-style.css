@@ -1497,6 +1497,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     padding-top: 48.1%;
     padding-bottom: 59%;
   }
+
+  .prod-range-nav-item {
+    position: relative;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1712,6 +1716,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     top: 5%;
     width: 83.333%;
     left: 8.333%;
+  }
+
+  .prod-range-nav-item {
+    position: relative;
   }
 }
 
