@@ -1254,18 +1254,17 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   background: rgba(0,0,0,0.5)!important;
 }
 
-/*search page resultls button*/
 #edit-submit-news {
   height: 34px;
   color: #ffffff;
   background-color: #dd1e25;
   border-color: #dd1e25;
   font-size: inherit;
-  padding: 5px 12px;
+  padding: 6px 16px;
   margin-top: 0;
+  line-height: 5px;
 }
 
-/*new search*/
 #edit-submit-news:hover {
   background-color: #fa010a;
   outline: none;
@@ -1278,7 +1277,9 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   background-color: #dd1e25;
   border-color: #dd1e25;
   font-size: inherit;
-  padding: 5px 12px;
+  padding: 6px 16px;
+  line-height: 5px;
+  border-radius: 30px;
 }
 
 #edit-submit-case-studies:hover {
