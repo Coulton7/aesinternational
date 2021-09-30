@@ -1248,6 +1248,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 .ui-dialog-content::-webkit-scrollbar-thumb {
   border-radius: 8px;
   background-color: rgba(0, 0, 0, .8);
+  border: 1px solid #535354;
 }
 
 .ui-dialog .ui-dialog-content {
