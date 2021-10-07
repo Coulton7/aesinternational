@@ -1487,6 +1487,9 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     width: 83.333%;
     left: 8.333%;
   }
+  .prod-range-nav-item {
+    position: relative;
+  }
 }
 
 @media screen and (min-width:501px) and (max-width: 767px) {
