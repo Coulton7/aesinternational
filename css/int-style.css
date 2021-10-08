@@ -1476,7 +1476,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   }
 
   .footer-social-icons {
-    display: flex;
+    display: block;
     align-self: center;
     margin-bottom: 0;
   }
