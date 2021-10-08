@@ -554,6 +554,14 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   display: none;
 }
 
+.social-body{
+  padding: 1em;
+}
+
+.social-body p{
+  overflow: hidden;
+}
+
 .user-flex {
   display: -webkit-box;
   display: -webkit-flex;
