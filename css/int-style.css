@@ -560,6 +560,7 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
 
 .social-body p{
   overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .user-flex {
