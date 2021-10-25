@@ -137,7 +137,7 @@
       <div class="col-xs-1 fullscreen">
         <div class="grey-lower-wave">
         </div>
-        <div class="grey-lower-curve hiden-xs">
+        <div class="grey-lower-curve hidden-xs">
         </div>
       </div>
       <div class="col-xs-3 fullscreen">
