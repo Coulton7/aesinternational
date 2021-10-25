@@ -14,6 +14,14 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   margin-top: 4.3em;
 }
 
+body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .overlay-btn, body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .change:after {
+  top: 4.2em;
+}
+
+body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixed-top.navbar-administration .change:after {
+  top: 2.15em;
+}
+
 .flexslider {
   margin: 0 !important;
   background: none !important;
@@ -26,7 +34,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   padding-top: 1px;
 }
 
-.optionset-flexslider-location .slides>li:nth-child(1){
+.optionset-flexslider-location .slides>li:nth-child(1) {
   display: block;
   -webkit-backface-visibility: visible;
   padding-top: 1px;
@@ -827,7 +835,7 @@ p a[target="_blank"]:after {
 }
 
 .node-type-case-studies #block-rrssb-rrssb {
-  margin: 0;
+  margin: 1em;
   max-width: 80%;
 }
 
@@ -837,9 +845,9 @@ p a[target="_blank"]:after {
 
 .ind-icon {
   position: absolute;
-  bottom: -40%;
+  bottom: -20%;
   z-index: 10;
-  right: 30%;
+  right: 40%;
 }
 
 .grey-banner {
@@ -853,8 +861,9 @@ p a[target="_blank"]:after {
   height: 100%;
   transform: skewX(40deg);
   position: relative;
-  right: 77%;
+  right: 75%;
   border-top-right-radius: 5%;
+  border: 1px solid #888c8f;
 }
 
 .grey-upper-curve {
@@ -883,7 +892,8 @@ p a[target="_blank"]:after {
   height: 100.015%;
   transform: skewX(40deg);
   width: 200%;
-  border-bottom-left-radius: 5%
+  border-bottom-left-radius: 5%;
+  border: 1px solid #888c8f;
 }
 
 .grey-lower-banner {
@@ -904,9 +914,22 @@ p a[target="_blank"]:after {
 
 .field-industry {
   text-align: center;
-  transform: translateY(40%);
   height: 100%;
-  padding: 2.5em;
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+  color: #ffffff;
+}
+
+.api-plans-ref {
+  margin-top: 3em;
+}
+
+.node-type-case-studies .field-name-field-product-image .field-items {
+  display: inline-flex;
+}
+
+.node-type-case-studies .field-name-field-product-image .field-items .field-item.odd, .node-type-case-studies .field-name-field-product-image .field-items .field-item.even {
+  width: 33.3%;
 }
 
 .left-arrow, .right-arrow {
@@ -937,6 +960,10 @@ p a[target="_blank"]:after {
 
 .location-branches .tabbable {
   margin-bottom: 0;
+}
+
+.location-branches .nav-tabs {
+  border-bottom: 5px solid #5B82AD;
 }
 
 .location-branches .nav-tabs li a {
@@ -1016,6 +1043,30 @@ p a[target="_blank"]:after {
   align-items: center;
 }
 
+.tour-caption {
+  position: absolute;
+  bottom: 12%;
+  left: 0%;
+  width: 100%;
+}
+
+.location-pop-up, .Rockford, .Fairfield, .Longview, .Marion, .Lombard, .Corpus, .Odessa, .connect-text {
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+
+.ME, .NH, .VT, .NY, .MA, .CT, .PA, .RI, .NJ, .DE, .MD, .WV, .NC, .SC, .GA, .AL, .FL, .MS, .TN, .KY, .OH, .MI, .IN, .IL, .WI, .MN, .IA, .MO, .AR, .LA, .TX, .OK, .KS, .NE, .SD, .ND, .MT, .WY, .CO, .NM, .AZ, .UT, .ID, .WA, .OR, .NV, .CA, .AK, .HI {
+  display: none;
+  height: 100%;
+}
+
+.Willow, .Chickasaw, .Birmingham, .Sherwood, .Pontiac, .Edmonds, .Lombard, .Plymouth, .Richardson, .Overland, .Littleton, .Layton, .Meadow, .National, .Kenai, .Kingsport, .Alamitos, .Phoenix, .Paso, .Griffin, .Bakersfield, .Wichita, .Albuquerque, .Plainville {
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+
 #Map>*:hover, #Map>g>path:hover, #Lands>*:hover, #Lands>g>path:hover {
   fill: #002a5b !important;
   stroke: #004a8c;
@@ -1025,6 +1076,14 @@ p a[target="_blank"]:after {
 
 .location-pop-up h3 {
   color: #ffffff;
+}
+
+.location-pop-up .row-eq-height.show .show {
+  display: flex!important;
+}
+
+.location-pop-up .row-eq-height.show {
+  display: flex!important;
 }
 
 .ui-widget-overlay {
@@ -1118,12 +1177,50 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   cursor: pointer;
 }
 
-body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .overlay-btn, body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .change:after {
-  top: 4.2em;
+.graphic-slider-img {
+  max-width: 75%;
 }
 
-body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixed-top.navbar-administration .change:after {
-  top: 2.15em;
+.us-team-photo {
+  background-image: url("/sites/aesseal.us/files/pictures/Team-Photo-Mangham.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 10.1%;
+  padding-bottom: 36%
+}
+
+.footer-positioning {
+  margin-top: -4.5em;
+  padding-top: 4em;
+}
+
+.us-rockford-photo {
+  background-image: url("/files/locations/aes-rockfrod-stripbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 28.13%;
+  padding-bottom: 28.13%;
+  margin-bottom: -3em;
+}
+
+.large-cta-block {
+  margin-top: -3.5em;
+}
+
+.large-img-cta-block {
+  margin-top: -12.5em
+}
+
+.ind-flex-item-caption {
+  display: flex;
+  flex-flow: column;
+  top: 5%;
+  height: 100%;
+  width: 66.667%;
+  left: 16.6667%;
+  position: absolute;
 }
 
 .useful-links-wrap {
@@ -1137,22 +1234,98 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   max-width: 75%;
 }
 
-.large-cta-block {
-  margin-top: -3.5em;
-}
-
-.large-img-cta-block {
-  margin-top: -12.5em
+.chem-pharm-logo-container {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 37%;
+  top: 13%;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .virtual-tour:hover {
-  width: 100%;
-  content: url(https://www.aesseal.com/sites/aesseal.com/files/sidebar/360-panel-desktop-over.png);
+  background-image: url(/sites/aesseal.com/files/sidebar/360-panel-desktop-over.png);
+  background-size: 100%;
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-position: 100% 24%;
 }
 
-.meet-team .view-content{
+.virtual-tour:hover img {
+  opacity: 0;
+}
+
+.meet-team .view-content {
   display: flex;
   flex-wrap: wrap;
+}
+
+.prod-range-nav-item {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.ui-dialog-content::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 11px;
+  height: 11px;
+}
+
+.ui-dialog-content::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, .8);
+  border: 1px solid #535354;
+}
+
+.ui-dialog .ui-dialog-content {
+  background: rgba(0,0,0,0.5)!important;
+}
+
+#edit-submit-news {
+  height: 34px;
+  color: #ffffff;
+  background-color: #dd1e25;
+  border-color: #dd1e25;
+  font-size: inherit;
+  padding: 6px 16px;
+  margin-top: 0;
+  line-height: 5px;
+}
+
+#edit-submit-news:hover {
+  background-color: #fa010a;
+  outline: none;
+  color: #ffffff;
+}
+
+#edit-submit-case-studies {
+  height: 34px;
+  color: #ffffff;
+  background-color: #dd1e25;
+  border-color: #dd1e25;
+  font-size: inherit;
+  padding: 6px 16px;
+  line-height: 5px;
+  border-radius: 30px;
+}
+
+#edit-submit-case-studies:hover {
+  background-color: #fa010a;
+  outline: none;
+  color: #ffffff;
+}
+
+.view-case-studies .views-exposed-widgets {
+  width: 100%;
+  min-height: 1em;
+  padding: 1em;
+  margin-bottom: 20px;
+  background-color: #e5e5e7;
+  border: 1px solid #e3e3e3;
+  border-radius: 0;
 }
 
 @media screen and (max-width: 767px) {
@@ -1299,12 +1472,62 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .maintenance-page .flex-caption {
     display: block;
   }
+
+  .tour-caption {
+    bottom: 10%;
+  }
+
+  .field-industry {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+  }
+
+  .api-plans-ref {
+    margin-top: 2em;
+    overflow-x: hidden;
+  }
+
+  .us-team-photo {
+    padding-top: 3.1%;
+    padding-bottom: 43%;
+  }
+
+  .graphic-slider-img {
+    max-width: 100%;
+    padding-top: 21.1%;
+    padding-bottom: 21%;
+  }
+
+  .footer-social-icons {
+    display: block;
+    align-self: center;
+    margin-bottom: 0;
+  }
+
+  .footer-social-icons a:nth-child(1) {
+    padding-left: 0;
+  }
+
+  .grey-lower-wave {
+    transform: skewX(21deg);
+  }
+
+  .grey-upper-wave {
+    transform: skewX(21deg);
+  }
+
+  .ind-flex-item-caption {
+    top: 0;
+    width: 83.333%;
+    left: 8.333%;
+  }
+  .prod-range-nav-item {
+    position: relative;
+  }
 }
 
 @media screen and (min-width:501px) and (max-width: 767px) {
 
-  /*Apply to flex-gradient for international sites but for the home/frontpage
-  use the class .front .front_flex-margin*/
   .front__flex-margin {
     -ms-transform: none;
     -webkit-transform: none;
@@ -1317,6 +1540,12 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     top: 3.3em;
     position: absolute;
     z-index: 103;
+  }
+
+  .graphic-slider-img {
+    max-width: 100%;
+    padding-top: 21.1%;
+    padding-bottom: 21%;
   }
 }
 
@@ -1339,6 +1568,20 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     top: 3.3em;
     position: absolute;
     z-index: 103;
+  }
+
+  .graphic-slider-img {
+    max-width: 100%;
+    padding-top: 48.1%;
+    padding-bottom: 59%;
+  }
+
+  .prod-range-nav-item {
+    position: relative;
+  }
+
+  .view-case-studies .views-exposed-widgets {
+      display: block;
   }
 }
 
@@ -1375,7 +1618,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   }
 
   .search-block .form-item {
-  width: 71%;
+    width: 71%;
   }
 
   .socialmedia {
@@ -1442,6 +1685,11 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     width: 85%;
   }
 
+  .action-menu {
+    position: absolute;
+    z-index: 103;
+  }
+
   .africa-upper {
     top: 50.5%;
   }
@@ -1457,6 +1705,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
   .europe {
     height: 26%;
+    top: 22.5%;
   }
 
   .middle-east-upper {
@@ -1477,6 +1726,64 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   }
 
   .maintenance-page .flex-caption {
+    display: block;
+  }
+
+  .tour-caption {
+    bottom: 29%;
+  }
+
+  .large-cta-block {
+    margin-top: -1.5em;
+  }
+
+  .field-industry {
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+  }
+
+  .api-plans-ref {
+    margin-top: 2em;
+  }
+
+  .us-team-photo {
+    padding-top: 3.1%;
+    padding-bottom: 43%;
+  }
+
+  .graphic-slider-img {
+    max-width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .footer-social-icons {
+    align-self: center;
+  }
+
+  .footer-social-icons a:nth-child(1) {
+    padding-left: 0.5em;
+  }
+
+  .grey-lower-wave {
+    transform: skewX(40deg);
+  }
+
+  .grey-upper-wave {
+    transform: skewX(40deg);
+  }
+
+  .ind-flex-item-caption {
+    top: 5%;
+    width: 83.333%;
+    left: 8.333%;
+  }
+
+  .prod-range-nav-item {
+    position: relative;
+  }
+
+  .view-case-studies .views-exposed-widgets {
     display: block;
   }
 }
@@ -1532,7 +1839,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   }
 
   .search-block .form-item {
-  width: 72%;
+    width: 72%;
   }
 
   .view-key-branches .view-content {
@@ -1585,28 +1892,36 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   }
 
   .africa-upper {
-    top: 42.5%;
+    top: 43.5%;
+    left: 43%;
+    height: 14%;
   }
 
-  .asia {
-    top: 35%;
-  }
-
-  .australasia {
-    bottom: 15%;
-    height: 26%;
+  .africa-lower {
+    top: 55%;
+    height: 23%;
+    left: 46%;
   }
 
   .europe {
-    height: 30%;
-  }
-
-  .middle-east-upper {
-    top: 43%;
+    height: 25%;
+    top: 18.5%;
   }
 
   .middle-east-lower {
-    top: 47%;
+    top: 45%;
+    left: 55%;
+  }
+
+  .south-america {
+    bottom: 11.5%;
+    height: 31%;
+    left: 28%;
+  }
+
+  .north-america {
+    height: 41%;
+    width: 38%;
   }
 
   .maintenance-page .flex-header {
@@ -1624,6 +1939,29 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
   .front .caption-container {
     top: 23%;
+  }
+
+  .large-cta-block {
+    margin-top: -3.5em;
+  }
+
+  .us-team-photo {
+    padding-top: 6.1%;
+    padding-bottom: 40%;
+  }
+
+  .graphic-slider-img {
+    max-width: 90%;
+  }
+
+  .footer-social-icons {
+    align-self: center;
+  }
+
+  .ind-flex-item-caption {
+    width: 50%;
+    left: 25%;
+    top: 5%;
   }
 }
 
@@ -1656,7 +1994,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   }
 
   .search-block .form-item {
-  width: 73%;
+    width: 73%;
   }
 
   .socialmedia ul li {
@@ -1694,6 +2032,58 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     margin-left: 16.666667%;
     width: 66.66666667%;
   }
+
+  .large-cta-block {
+    margin-top: -4.5em;
+  }
+
+  .us-team-photo {
+    padding-top: 8.1%;
+    padding-bottom: 38%;
+  }
+
+  .graphic-slider-img {
+    max-width: 75%;
+  }
+
+  .footer-social-icons {
+    align-self: center;
+  }
+
+  .ind-flex-item-caption {
+    top: 15%;
+  }
+
+  .africa-upper {
+    top: 47%;
+    left: 44%;
+  }
+
+  .africa-lower {
+    top: 57%;
+    height: 28%;
+    left: 47%;
+  }
+
+  .europe {
+    height: 27%;
+    top: 20%;
+  }
+
+  .north-america {
+    height: 41%;
+    width: 38%;
+  }
+
+  .south-america {
+    bottom: 11.5%;
+    height: 31%;
+    left: 28%;
+  }
+
+  .view-case-studies .views-exposed-widgets {
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 1500px) {
@@ -1704,6 +2094,58 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     margin-left: auto;
     margin-right: auto;
   }
+
+  .large-cta-block {
+    margin-top: -8em;
+  }
+
+  .us-team-photo {
+    padding-top: 10.1%;
+    padding-bottom: 36%;
+  }
+
+  .graphic-slider-img {
+    max-width: 55%;
+  }
+
+  .footer-social-icons {
+    align-self: auto;
+  }
+
+  .africa-upper {
+    top: 42.75%;
+    left: 44%;
+    height: 15%;
+  }
+
+  .africa-lower {
+    top: 54%;
+    height: 23%;
+    left: 46%;
+  }
+
+  .europe {
+    height: 22.75%;
+  }
+
+  .middle-east-upper {
+    top: 42.75%;
+  }
+
+  .middle-east-lower {
+    top: 44%;
+  }
+
+  .north-america {
+    height: 44%;
+    width: 38%;
+  }
+
+  .south-america {
+    bottom: 13%;
+    height: 33%;
+    left: 28%;
+  }
 }
 
 @media screen and (min-width: 2000px) {
@@ -1713,5 +2155,58 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     margin-bottom: -10%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .graphic-slider-img {
+    max-width: 50%;
+  }
+
+  .africa-upper {
+    top: 41%;
+    left: 40%;
+    height: 16%;
+  }
+
+  .africa-lower {
+    top: 53%;
+    height: 23%;
+    left: 42%;
+    width: 16%;
+  }
+
+  .australasia {
+    bottom: 15%;
+    height: 21%;
+    left: 65%;
+  }
+
+  .asia {
+    position: absolute;
+    right: 8%;
+    height: 28%;
+    width: 34%;
+  }
+
+  .europe {
+    height: 22.75%;
+    top: 19%;
+    left: 39%;
+  }
+
+  .middle-east-upper {
+    top: 39.75%;
+    left: 50.5%;
+  }
+
+  .middle-east-lower {
+    top: 43%;
+    left: 52.95%;
+    width: 4.5%;
+  }
+
+  .south-america {
+    bottom: 13%;
+    height: 34%;
+    left: 25%;
   }
 }
