@@ -156,6 +156,9 @@ p a[target="_blank"]:after {
   background-size: contain;
   position: relative;
   top: 0.15em;
+  height: 1em;
+  width: 1em;
+  display: inline-block;
 }
 
 .icon-magnifying-glass:before {
