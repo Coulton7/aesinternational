@@ -347,8 +347,10 @@
 	<?php if (!empty($page['footer_banner'])): ?>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="iceberg-bottomsea footer_banner">
-					<?php print render($page['footer_banner']); ?>
+				<div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+					<div class="footer_banner">
+						<?php print render($page['footer_banner']); ?>
+					</div>
 				</div>
 			</div>
 		</div>
