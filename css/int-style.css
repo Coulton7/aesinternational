@@ -563,6 +563,11 @@ p a[target="_blank"]:after {
   display: none;
 }
 
+.social-body p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .user-flex {
   display: -webkit-box;
   display: -webkit-flex;
