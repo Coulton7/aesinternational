@@ -8,13 +8,14 @@ function aesinternational_preprocess_page(&$vars) {
     if (isset($vars['node']->type)) {
         $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->type;
     }
-
+    drupal_add_library('system','ui.dialog');
     drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/logoscroll.js');
-  	drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/fade-text.js');
+    drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/fade-text.js');
     drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/nav-btn.js');
     drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/slider-options.js');
     drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/jquery.scrolling-tabs.min.js');
     drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/scrolling-tabs-init.js');
+    drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/svg-map-click.js');
 }
 
 function aesinternational_js_alter(&$javascript){
