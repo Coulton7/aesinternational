@@ -577,6 +577,10 @@ p a[target="_blank"]:after {
   flex-direction: column;
 }
 
+.masonry-item {
+  padding: 0.5em;
+}
+
 .view-employees .masonry-item {
   padding: 0;
 }
