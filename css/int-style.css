@@ -1510,6 +1510,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .prod-range-nav-item {
     position: relative;
   }
+
+  .region-flas a{
+    margin-right: 1.1em;
+  }
 }
 
 @media screen and (min-width:501px) and (max-width: 767px) {
@@ -1797,6 +1801,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .view-case-studies .views-exposed-widgets {
     display: block;
   }
+
+  .region-flas a{
+    margin-right: 0.8em;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -1984,6 +1992,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     left: 25%;
     top: 5%;
   }
+
+  .region-flas a{
+    margin-right: 1em;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -2101,6 +2113,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .chem-pharm-logo-container {
     width: 37%;
     top: 13%;
+  }
+
+  .region-flas a{
+    margin-right: 1.1em;
   }
 }
 
