@@ -2092,6 +2092,11 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .view-case-studies .views-exposed-widgets {
     display: flex;
   }
+
+  .chem-pharm-logo-container {
+    width: 37%;
+    top: 13%;
+  }
 }
 
 @media screen and (min-width: 1500px) {
@@ -2216,5 +2221,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     bottom: 13%;
     height: 34%;
     left: 25%;
+  }
+
+  .chem-pharm-logo-container {
+    width: 33%;
+    top: 10%;
   }
 }
