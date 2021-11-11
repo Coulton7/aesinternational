@@ -1278,9 +1278,12 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   background-color: #dd1e25;
   border-color: #dd1e25;
   font-size: inherit;
-  padding: 6px 16px;
+  padding: 6px 12px;
   margin-top: 0;
   line-height: 5px;
+  bottom: 1px;
+  border-radius: 30px;
+  position: relative;
 }
 
 #edit-submit-news:hover {
