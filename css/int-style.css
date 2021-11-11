@@ -912,6 +912,8 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
 
 .api-plans-ref {
   margin-top: 3em;
+  position: relative;
+  z-index: 1;
 }
 
 .node-type-case-studies .field-name-field-product-image .field-items {
