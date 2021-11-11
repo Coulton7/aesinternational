@@ -2011,7 +2011,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
     width: 73%;
   }
 
-  .socialmedia ul li {
+  .socialmedia ul li, .region-flags a {
     margin-right: 1.1em;
   }
 
