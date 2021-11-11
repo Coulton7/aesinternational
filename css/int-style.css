@@ -1304,6 +1304,9 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   padding: 6px 16px;
   margin-top: 0;
   line-height: 5px;
+  bottom: 1px;
+  border-radius: 30px;
+  position: relative;
 }
 
 #edit-submit-news:hover {
