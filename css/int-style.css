@@ -568,6 +568,10 @@ p a[target="_blank"]:after {
   text-overflow: ellipsis;
 }
 
+.social-date{
+  margin-top: 0;
+}
+
 .user-flex {
   display: -webkit-box;
   display: -webkit-flex;
