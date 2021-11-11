@@ -1436,7 +1436,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
     margin-right: 0;
   }
 
-  .socialmedia ul li {
+  .socialmedia ul li, .region-flags a {
     margin-right: 1.8em;
     width: 2.8em;
     height: 2.8em
@@ -1685,7 +1685,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
     margin-right: 0;
   }
 
-  .socialmedia ul li {
+  .socialmedia ul li, .region-flags a {
     margin-right: 0.9em;
     margin-bottom: 0.9em;
   }
@@ -1895,7 +1895,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
     z-index: 4;
   }
 
-  .socialmedia ul li {
+  .socialmedia ul li, .region-flags a {
     margin-right: 1em;
   }
 
