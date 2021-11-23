@@ -2098,6 +2098,11 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   .view-case-studies .views-exposed-widgets {
     display: flex;
   }
+
+  .chem-pharm-logo-container {
+    width: 37%;
+    top: 13%;
+  }
 }
 
 @media (min-width: 1247px){
