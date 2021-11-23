@@ -717,10 +717,6 @@ p a[target="_blank"]:after {
   content: url('/sites/all/themes/aesbs337/images/icon/FontAwesome/external-link-alt-ffffff.svg');
 }
 
-.flex-direction-nav {
-  display: none;
-}
-
 .btn-primary {
   list-style-type: none;
   display: inline-block;
