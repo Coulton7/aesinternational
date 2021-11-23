@@ -1266,6 +1266,11 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   height: 11px;
 }
 
+.ui-dialog-content::-webkit-button{
+  color: #ffffff;
+  border-color: #000000;
+}
+
 .ui-dialog-content::-webkit-scrollbar-thumb {
   border-radius: 8px;
   background-color: rgba(0, 0, 0, .8);
