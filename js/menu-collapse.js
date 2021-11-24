@@ -1,9 +1,14 @@
 (function($){
   function autocollapse() {
     var navbar = $('#autocollapse');
-    navbar.removeClass('collapsed'); // set standart view
-    if(navbar.innerHeight() > 60) // check if we've got 2 lines
-    navbar.addClass('collapsed'); // force collapse mode
+    navbar.removeClass('collapsed');
+    if(navbar.innerHeight() > 60) {
+      navbar.addClass('collapsed');
+      $('#overlay-btn').addClass('display-none');
+    } else {
+      navbar.removeClass('collapsed');
+      $('#overlay-btn').removeClass('display-none');
+    }
   }
 
   $(document).on('ready', autocollapse);
