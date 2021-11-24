@@ -76,6 +76,7 @@
 <link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
 <script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js"></script>
 <script src="/sites/all/themes/aesinternational/js/slider.js"></script>
+<script src="/sites/all/themes/aesinternational/js/menu-collapse.js"></script>
 
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
@@ -96,7 +97,7 @@
 			</div>
 
 			<div class="col-sm-10 col-xs-10 fullscreen">
-				<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
+				<header id="autocollapse" role="banner" class="<?php print $navbar_classes; ?>">
 
 					<div class="<?php print $container_class; ?>">
 						<div class="navbar-header">
