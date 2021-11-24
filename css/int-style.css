@@ -1238,11 +1238,11 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 }
 
 .virtual-tour:hover {
-  background-image: url(/sites/aesseal.com/files/sidebar/360-panel-desktop-over.png);
-  background-size: 100%;
+  background-image: url("../images/360-tour-inverse-over.svg");
+  background-size: 50%;
   opacity: 1;
   background-repeat: no-repeat;
-  background-position: 100% 24%;
+  background-position: 50%;
 }
 
 .virtual-tour:hover img {
@@ -1522,6 +1522,21 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
   .region-flas a{
     margin-right: 1.1em;
+  }
+
+  .virtual-tour-banner {
+    background-image: url("../images/360-tour-background-520.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+  }
+
+  .virtual-tour-logo{
+    max-width: 50%;
+  }
+
+  .virtual-tour:hover {
+    background-size: 50%;
   }
 }
 
@@ -1814,6 +1829,21 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .region-flas a{
     margin-right: 0.8em;
   }
+
+  .virtual-tour-banner {
+    background-image: url("../images/360-tour-background-1920.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .virtual-tour-logo{
+    max-width: 33%;
+  }
+
+  .virtual-tour:hover {
+    background-size: 33%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -2005,6 +2035,21 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .region-flas a{
     margin-right: 1em;
   }
+
+  .virtual-tour-banner {
+    background-image: url("../images/360-tour-background-1920.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .virtual-tour-logo{
+    max-width: 33%;
+  }
+
+  .virtual-tour:hover {
+    background-size: 33%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -2124,8 +2169,16 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     top: 13%;
   }
 
-  .region-flas a{
+  .region-flags a{
     margin-right: 1.1em;
+  }
+
+  .virtual-tour-logo{
+    max-width: 33%;
+  }
+
+  .virtual-tour:hover {
+    background-size: 33%;
   }
 }
 
