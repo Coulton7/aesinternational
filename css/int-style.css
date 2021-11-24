@@ -1363,7 +1363,6 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
 #autocollapse.collapsed .navbar-nav {
   float: none !important;
-  margin: 7.5px -15px;
 }
 
 #autocollapse.collapsed .navbar-nav>li {
