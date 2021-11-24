@@ -1238,7 +1238,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 }
 
 .virtual-tour:hover {
-  background-image: url("../images/360-tour-inverse-over.svg");
+  background-image: url("/sites/all/themes/aesbs337/images/graphics/360-tour-inverse-over.svg");
   background-size: 50%;
   opacity: 1;
   background-repeat: no-repeat;
@@ -1525,7 +1525,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   }
 
   .virtual-tour-banner {
-    background-image: url("../images/360-tour-background-520.png");
+    background-image: url("/sites/all/themes/aesbs337/images/graphics/360-tour-background-520.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 25%;
@@ -1831,7 +1831,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   }
 
   .virtual-tour-banner {
-    background-image: url("../images/360-tour-background-1920.png");
+    background-image: url("/sites/all/themes/aesbs337/images/graphics/360-tour-background-1920.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -2037,7 +2037,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   }
 
   .virtual-tour-banner {
-    background-image: url("../images/360-tour-background-1920.png");
+    background-image: url("/sites/all/themes/aesbs337/images/graphics/360-tour-background-1920.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
