@@ -1344,6 +1344,8 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
 #autocollapse.collapsed .navbar-toggle {
   display: block;
+  margin-top: 0.65em;
+  margin-bottom: 0.65em;
 }
 
 #autocollapse.collapsed .navbar-collapse {
