@@ -4,10 +4,10 @@
     navbar.removeClass('collapsed');
     if(navbar.innerHeight() > 60) {
       navbar.addClass('collapsed');
-      $('#overlay-btn').addClass('display-none');
+      $('#overlay-btn').addClass('display-none-important');
     } else {
       navbar.removeClass('collapsed');
-      $('#overlay-btn').removeClass('display-none');
+      $('#overlay-btn').removeClass('display-none-important');
     }
   }
 
