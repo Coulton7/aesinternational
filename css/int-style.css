@@ -1379,7 +1379,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .search-block {
     position: absolute;
     top: 25.2em;
-    left: 8%;
+    left: -17%;
     width: 23em !important;
   }
 
