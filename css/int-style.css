@@ -1,3 +1,11 @@
+body.navbar-is-fixed-top.navbar-administration .navbar-fixed-top {
+  top: 39px;
+}
+
+body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .navbar-fixed-top {
+  top: 79px;
+}
+
 body.navbar-is-fixed-top.navbar-administration .navigation_col .action-menu {
   margin-top: 2.5em;
 }
