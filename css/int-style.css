@@ -1375,10 +1375,6 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   padding-bottom: 10px;
 }
 
-.desktop-stream{
-  padding-top: 8em;
-}
-
 @media screen and (max-width: 370px) {
   .search-block {
     position: absolute;
