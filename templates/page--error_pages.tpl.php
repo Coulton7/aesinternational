@@ -73,6 +73,7 @@
  * @ingroup templates
  */
 ?>
+<script src="/sites/all/themes/aesinternational/js/menu-collapse.js"></script>
 
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">

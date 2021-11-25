@@ -77,6 +77,7 @@
 <script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js"></script>
 <script src="/sites/all/themes/aesinternational/js/slider.js"></script>
 <script src="/sites/all/themes/aesinternational/js/qt-flexslider.js"></script>
+<script src="/sites/all/themes/aesinternational/js/menu-collapse.js"></script>
 
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
