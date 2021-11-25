@@ -207,30 +207,15 @@
 					else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; }
 					else { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; } ?>">
 
-         <!--- <?php if (!empty($title)): ?>
-  					<h1 class="page-header" id="page-main-heading"><?php print $title; ?></h1>
-					<?php endif; ?>-->
-
 			<div class="<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
 														else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-12'; }
 														else { print 'col-sm-12'; }
 											?>">
 
-	<!--  <div class="breadcrumb-wrap">
-            <div class="container-fluid">
-              <div class="row">
-                  <?php if (!empty($breadcrumb)): print t("You are here") . $breadcrumb; endif;?> New breadcrumb location -->
-			<!--</div>
-              </div>
-            </div>
-          </div>-->
-
-
-
 		<?php if (!empty($page['sidebar_first'])): ?>
 			<aside class="col-sm-4 col-md-3" role="complementary">
 				<?php print render($page['sidebar_first']); ?>
-			</aside>  <!-- /#sidebar-first -->
+			</aside>
 		<?php endif; ?>
 
 		<div class="tablet-fix">
@@ -279,7 +264,7 @@
 		<?php if (!empty($page['sidebar_second'])): ?>
 			<aside class="col-sm-4 col-md-3" role="complementary">
 				<?php print render($page['sidebar_second']); ?>
-			</aside>  <!-- /#sidebar-second -->
+			</aside>
 		<?php endif; ?>
 	</div>
    </div>
