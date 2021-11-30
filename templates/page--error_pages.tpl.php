@@ -77,7 +77,7 @@
 
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
-		
+
 		<div class="row waveupper row-eq-height">
 			<div class="col-sm-2 col-xs-2 fullscreen">
 				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
@@ -95,26 +95,46 @@
 
 			<div class="col-sm-10 col-xs-10 fullscreen">
 				<header id="autocollapse" role="banner" class="<?php print $navbar_classes; ?>">
+
 					<div class="<?php print $container_class; ?>">
 						<div class="navbar-header">
+
+							<?php if (!empty($site_name)): ?>
+								<a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
+							<?php endif; ?>
+
+							<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+									<span class="sr-only"><?php print t('Toggle navigation'); ?></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							<?php endif; ?>
 						</div>
 					</div>
 
-					<div class="navbar-collapse">
-						<div class="container-fluid navbar-container">
-							<nav role="navigation">
-								<ul class="menu nav navbar-nav">
-									<li class="first leaf">
-										<a class="btn-disabled disabled" href="#">&nbsp;</a>
-									</li>
+					<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
+
+						<div class="navbar-collapse collapse">
+							<div class="container-fluid navbar-container">
+
+								<nav role="navigation">
+									<?php if (!empty($primary_nav)): ?>
+										<?php print render($primary_nav); ?>
+									<?php endif; ?>
+
+									<?php if (!empty($page['navigation'])): ?>
+										<?php print render($page['navigation']); ?>
+									<?php endif; ?>
 								</nav>
 							</div>
 						</div>
-						<div class="section-shadow-menu">
-						</div>
-				</header>
+						<div class="section-shadow-menu"></div>
+					<?php endif; ?>
 
-				</div>
+				</header>
+			</div>
 			</div>
 
 			<?php if (!empty($header)): ?>
