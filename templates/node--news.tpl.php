@@ -100,9 +100,9 @@
         <div class="col-xs-4">
            <div class="author-margin">
               <div class="publish-date">
-                 <sup>
+                 <p>
                    <?php if($submitted){echo "Posted: " . date("F j, Y", $node->created);}?>
-                 </sup>
+                 </p>
               </div>
            </div>
         </div>
