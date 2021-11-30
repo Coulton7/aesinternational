@@ -135,7 +135,7 @@
 
 				</header>
 			</div>
-			</div>
+		</div>
 
 			<?php if (!empty($header)): ?>
 				<div id="header-region">
