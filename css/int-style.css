@@ -1461,6 +1461,18 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   background-repeat: no-repeat;
 }
 
+.prod-eqnuery-btn-bottom-left {
+  position: absolute;
+  bottom: 6em;
+  left: 0;
+}
+
+.prod-eqnuery-btn-bottom-right {
+  position: absolute;
+  bottom: 6em;
+  right: 0;
+}
+
 .hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b.hs-custom-style fieldset{
   padding: 0.5em;
 }
