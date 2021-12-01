@@ -1422,42 +1422,42 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 .gas-seals-background {
   background-image: url("/sites/all/themes/aesinternational/images/product/gascompressorseal_backcut.png");
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 0 50%;
   background-repeat: no-repeat;
 }
 
 .cart-seals-background {
   background-image: url("/sites/all/themes/aesinternational/images/product/CAPI-13_backcut.png");
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 0 50%;
   background-repeat: no-repeat;
 }
 
 .seal-support-background {
   background-image: url("/sites/all/themes/aesinternational/images/product/GasSystem-backcut.png");
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 0 50%;
   background-repeat: no-repeat;
 }
 
 .labtecta-background {
   background-image: url("/sites/all/themes/aesinternational/images/product/Lab_Tecta_66IC_backcut.png");
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 0 50%;
   background-repeat: no-repeat;
 }
 
 .comp-seals-background {
   background-image: url("/sites/all/themes/aesinternational/images/product/TO5-23_backcut.png");
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 0 50%;
   background-repeat: no-repeat;
 }
 
 .gland-packing-background {
   background-image: url("/sites/all/themes/aesinternational/images/product/Packing-backcut.png");
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 0 50%;
   background-repeat: no-repeat;
 }
 
