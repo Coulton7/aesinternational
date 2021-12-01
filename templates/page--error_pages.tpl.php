@@ -137,28 +137,46 @@
 			</div>
 		</div>
 
-			<?php if (!empty($header)): ?>
-				<div id="header-region">
-					<?php print $header; ?>
+		<?php if ($page['navigation_col']): ?>
+			<div class="navigation_col">
+				<div class="action-menu text-center">
+					<div class="col-sm-2 col-xs-2 fullscreen">
+					</div>
+					<div class="col-sm-10 col-sm-offset-2 col-xs-12 no-padding">
+					<?php print render($page['navigation_col']);?>
 				</div>
-			<?php endif; ?>
+				</div>
+			</div>
+		<?php endif; ?>
 
-			<div class="preface front__flex-margin">
-				<div class= "flex-gradient">
-					<div class="row">
-						<div class="col-sm-10 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-							<div class="flex-header">
-								<?php if(!empty($title)): ?>
-									<h1 class="page-header" id="page-main-heading"><?php print strstr($title, "®") ? str_replace("®", "<sup?®</sup>", $title) : $title; ?></h1>
-								<?php endif ?>
-							</div>
+		<?php if ($page['vex_banner']):?>
+			<div class="vex-banner">
+				<?php print render($page['vex_banner']);?>
+			</div>
+		<?php endif; ?>
+
+		<div class="preface front__flex-margin">
+			<div class= "flex-gradient">
+				<div class="row">
+					<div class="col-sm-10 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+						<div class="flex-header">
+							<?php if(!empty($title)): ?>
+								<h1 class="page-header" id="page-main-heading"><?php print strstr($title, "®") ? str_replace("®", "<sup?®</sup>", $title) : $title; ?></h1>
+							<?php endif ?>
 						</div>
-						<div class="col-lg-7 col-lg-offset-2 col-md-7 col-md-offset-1 col-sm-8">
-							<div class="flex-caption">
-								<div class="breadcrumb-wrap">
-									<div class="container-fluid">
-										<div class="row">
-											<?php if(!empty($breadcrumb)): print $breadcrumb; endif?>
+					</div>
+					<div class="col-lg-7 col-lg-offset-2 col-md-7 col-md-offset-1 col-sm-8">
+						<div class="flex-caption">
+							<div class="breadcrumb-wrap">
+								<div class="container-fluid">
+									<div class="row">
+										<?php if(!empty($breadcrumb)): print $breadcrumb; endif?>
+										<div class="breadcrumb-sitemap">
+											<li>
+												<a href="/contents">
+													<i class="fas fa-sitemap"></i>
+												</a>
+											</li>
 										</div>
 									</div>
 								</div>
@@ -166,29 +184,49 @@
 						</div>
 					</div>
 				</div>
+			</div>
 
+			<?php if ($page['preface']): ?>
+				<?php print render($page['preface']);?>
+			</div>
+		</div>
+		<?php endif; ?>
+
+
+		<?php if ($page['wavelower']): ?>
+		<div class="row wavelower row-eq-height">
+			<div class="col-sm-9 col-xs-0 fullscreen">
+				<div class="bottom-gap">
 				</div>
 			</div>
 
-			<div class="row wavelower row-eq-height">
-  			<div class="col-sm-9 col-xs-0 fullscreen">
-  				<div class="bottom-gap">
-  				</div>
-  			</div>
+			<div class="col-sm-3 col-xs-12 fullscreen">
 
-  			<div class="col-sm-3 col-xs-12 fullscreen">
-  				<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"></img>
-		      <div class="socialmedia text-center">
-		        <ul>
-		          <li> <a href="https://twitter.com/AESSEALplc" target="_self" title="AESSEAL Twitter"></a></li>
-		          <li> <a href="http://www.linkedin.com/company/aesseal" target="_self" title="AESEEAL Linkedin"></a></li>
-		          <li> <a href="https://www.aesseal.com/en/contact-us" target="_self" title="Contact Us"></a></li>
-		          <li> <a href="https://www.aesseal.com/en/locations" target="_self" title="Browse all Locations"></a></li>
-		          <li> <a href="https://www.aesseal.com/locations/europe/gb/syk/aesseal-plc-headquarters" target="_self" title="View Global Headquarters"> </a></li>
-		        </ul>
-		      </div>
-		  	</div>
-		  </div>
+				<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"></img>
+
+				<?php print render($page['wavelower']); ?>
+				<div class="socialmedia text-center">
+				<?php
+					$block = module_invoke('views', 'block_view', 'social_icons-block');
+					print render($block['content']);
+				?>
+				</div>
+			</div>
+		</div>
+		<?php endif; ?>
+	</div>
+</div>
+
+<div class="col-sm-12 fullscreen">
+	<div class="mobile-search">
+		<div class="row-deep">
+		</div>
+	</div>
+			<?php if($page['header']):?>
+				<div class="header">
+					<?php print render($page['header']); ?>
+				</div>
+			<?php endif; ?>
 </div>
 
 <div class="main-container <?php print $container_class; ?>">
