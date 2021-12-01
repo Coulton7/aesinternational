@@ -1461,6 +1461,58 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   background-repeat: no-repeat;
 }
 
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b.hs-custom-style fieldset{
+  padding: 0.5em;
+}
+
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-richtext, .hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b.submitted-message {
+  color: #ffffff;
+}
+
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-form-field label:not(.hs-error-msg) {
+  color: #ffffff;
+}
+
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .legal-consent-container .hs-richtext {
+  color: #ffffff;
+}
+
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-input:not([type=file])) {
+  background-color: #000;
+  color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0 15px;
+  width: 100%;
+}
+
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-form-checkbox-display span {
+  margin-left: 10px;
+}
+
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .grecaptcha-badge {
+  float: right;
+}
+
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-button {
+  list-style-type: none;
+  display: inline-block;
+  background: #dd1e25;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 30px;
+  padding: 6px 16px;
+  border: 2px solid transparent!important;
+  box-shadow: none;
+}
+
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-button:hover {
+  background: #ad1c1c;
+  margin-bottom: 0;
+  color: #ffffff !important;
+  border: 2px solid #ffffff;!important;
+}
+
 @media screen and (max-width: 370px) {
   .search-block {
     position: absolute;
