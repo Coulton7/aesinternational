@@ -2376,8 +2376,8 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   }
 
   .chem-pharm-logo-container {
-    width: 37%;
-    top: 13%;
+    width: 35%;
+    top: 12%;
   }
 
   .region-flags a {
@@ -2458,6 +2458,11 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     bottom: 13%;
     height: 33%;
     left: 28%;
+  }
+
+  .chem-pharm-logo-container {
+    width: 33%;
+    top: 10%;
   }
 }
 
