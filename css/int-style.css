@@ -1880,6 +1880,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     margin-top: 1em;
   }
 
+  html:lang(fr) .search-block .form-item {
+    width: 63%;
+  }
+
   .search-block .form-item {
     width: 71%;
   }
@@ -2111,6 +2115,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     top: 3.4em
   }
 
+  html:lang(fr) .search-block .form-item {
+    width: 50%;
+  }
+
   .search-block .form-item {
     width: 70%;
   }
@@ -2288,6 +2296,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
   .action-menu {
     top: 3em;
+  }
+
+  html:lang(fr) .search-block .form-item {
+    width: 63%;
   }
 
   .search-block .form-item {
