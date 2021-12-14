@@ -1471,7 +1471,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
 .client-services-background {
   background-image: url("/sites/all/themes/aesinternational/images/photos/Gas-Assembly-Pro-Jul11-050-cut.jpeg");
-  background-size: contain;
+  background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
 }
@@ -2074,13 +2074,6 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .virtual-tour:hover {
     background-size: 33%;
   }
-
-  .client-services-background {
-    background-image: url("/sites/all/themes/aesinternational/images/photos/Gas-Assembly-Pro-Jul11-050-cut.jpeg");
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -2292,12 +2285,6 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     background-size: 33%;
   }
 
-  .client-services-background {
-    background-image: url("/sites/all/themes/aesinternational/images/photos/Gas-Assembly-Pro-Jul11-050-cut.jpeg");
-    background-size: contain;
-    background-position: left;
-    background-repeat: no-repeat;
-  }
 }
 
 @media screen and (min-width: 1200px) {
