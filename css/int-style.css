@@ -1195,7 +1195,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   background-image: url("/sites/aesseal.us/files/pictures/Team-Photo-Mangham.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   padding-top: 10.1%;
   padding-bottom: 36%
 }
