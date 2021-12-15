@@ -2261,9 +2261,9 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   }
 
   .ind-flex-item-caption {
-    width: 50%;
-    left: 25%;
-    top: 5%;
+    width: 65%;
+    left: 20%;
+    top: -5%;
   }
 
   .region-flags a {
@@ -2370,6 +2370,8 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
   .ind-flex-item-caption {
     top: 15%;
+    width: 50%;
+    left: 25%;
   }
 
   .africa-upper {
