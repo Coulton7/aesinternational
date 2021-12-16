@@ -1358,6 +1358,12 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   border-radius: 0;
 }
 
+.view-news .views-exposed-widgets {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3.75em;
+}
+
 #autocollapse.collapsed .navbar-header {
   float: none;
 }
