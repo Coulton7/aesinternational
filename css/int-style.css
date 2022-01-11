@@ -1352,7 +1352,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   margin-bottom: 0;
   color: #ffffff !important;
   border: 2px solid #ffffff;
-   !important;
+}
+
+.uppercurve {
+  z-index: 1029;
 }
 
 .blank-social {
