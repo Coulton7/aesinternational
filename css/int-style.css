@@ -1356,7 +1356,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 }
 
 .blank-social {
-  z-index: 9
+  z-index: 9;
 }
 
 @media screen and (max-width: 370px) {
