@@ -1626,6 +1626,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     padding-top: 21.1%;
     padding-bottom: 21%;
   }
+
+  .search-block{
+    right: 0;
+  }
 }
 
 @media screen and (max-width:500px) {
