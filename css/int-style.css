@@ -34,7 +34,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   color: #ffffff;
   position: relative;
   bottom: unset;
-  text-align: left;
+  text-align: center;
   font-weight: 700;
   text-shadow: 1px 1px 1px #000;
   padding-left: 0;
@@ -1387,7 +1387,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
   .flex-header {
     top: 0;
-    text-align: left;
+    text-align: center;
     display: block;
   }
 
@@ -1916,7 +1916,6 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
   .flex-header {
     top: 0.2em;
-    text-align: left;
   }
 
   .flex-header h1 {
