@@ -67,6 +67,14 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   padding: 0 0.5em
 }
 
+.input-group-btn {
+  font-size: inherit;
+}
+
+.input-group-btn:last-child>.btn {
+    border-radius: 30px
+}
+
 a.white-text {
   color: #ffffff;
 }
