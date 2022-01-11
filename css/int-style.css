@@ -1,5 +1,13 @@
+body.navbar-is-fixed-top.navbar-administration .navbar-fixed-top {
+  top: 39px;
+}
+
+body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .navbar-fixed-top {
+  top: 79px;
+}
+
 body.navbar-is-fixed-top.navbar-administration .navigation_col .action-menu {
-  margin-top: 2.1em;
+  margin-top: 2.5em;
 }
 
 body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .navigation_col .action-menu {
@@ -12,11 +20,30 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   border: none !important;
 }
 
+.flexslider .slides>li:first-child {
+  display: block;
+  -webkit-backface-visibility: visible;
+  padding-top: 1px;
+}
+
+.flex-direction-nav {
+  display: none;
+}
+
 .flex-header {
   color: #ffffff;
   position: relative;
   bottom: unset;
-  text-align: center;
+  text-align: left;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #000;
+  padding-left: 0;
+}
+
+.flex-header h1 {
+  color: #ffffff;
+  text-align: left;
+  border-bottom: none;
 }
 
 .flex-caption {
@@ -24,27 +51,29 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   position: relative;
   bottom: unset;
   width: auto;
-  text-align: center;
+  padding-left: 0;
 }
 
-.flexslider .slides li img {
-  margin-top: -8%;
-  margin-bottom: -8%;
-}
-
-p a[target="_blank"]:after {
+p a[target="_blank"]:after, a[target="_blank"]:after {
   font-family: 'Font Awesome 5 Free';
   content: " \f35d";
   font-weight: 900;
 }
 
-a.white-text{
+.search-block #search-api-page-search-form-search-page div:last-child::before, .search-block #search-api-page-search-form-search-site-page div:last-child::before {
+  font-family: 'Font Awesome 5 Free';
+  content: " \f002";
+  font-weight: 900;
+  padding: 0 0.5em
+}
+
+a.white-text {
   color: #ffffff;
 }
 
 .front .flex-header {
   padding-left: 0.4em;
-  color: #dd1e25;
+  color: #ffffff;
   position: relative;
   bottom: unset;
   text-align: left;
@@ -64,8 +93,9 @@ a.white-text{
   margin-bottom: 0;
 }
 
-.social-id{
+.social-id {
   width: 100%;
+  z-index: auto;
 }
 
 .flex_gradient {
@@ -76,9 +106,9 @@ a.white-text{
   -o-background-size: cover;
   background-size: cover;
   background: #004a8c;
-  background-image: -moz-linear-gradient(-45deg, #002a5b 0%, #193f6b 41%, #002a5b 100%);
-  background-image: -webkit-linear-gradient(-45deg, #002a5b 0%, #193f6b 41%, #002a5b 100%);
-  background-image: linear-gradient(135deg, #002a5b 0%, #193f6b 41%, #002a5b 100%);
+  background-image: -moz-linear-gradient(-45deg, #002a5b 0%, #193f6b 41%, #002A5B 100%);
+  background-image: -webkit-linear-gradient(-45deg, #002a5b 0%, #193f6b 41%, #002A5B 100%);
+  background-image: linear-gradient(135deg, #002A5B 0%, #193f6b 41%, #002A5B 100%);
   -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#002a5b', endColorstr='#004a8c', GradientType=1);
   background-attachment: fixed;
 }
@@ -107,7 +137,7 @@ a.white-text{
   height: auto;
 }
 
-.gmap-blocktitle{
+.gmap-blocktitle {
   position: relative;
   z-index: 6;
   margin-top: -3.4em;
@@ -115,7 +145,7 @@ a.white-text{
   color: #ffffff;
 }
 
-#gmap-map-home-gmap0{
+#gmap-map-home-gmap0 {
   z-index: 4;
   float: left;
 }
@@ -180,7 +210,7 @@ a.white-text{
   position: static;
 }
 
-.image-placeholder{
+.image-placeholder {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -189,7 +219,6 @@ a.white-text{
   width: 100%;
   background-color: #f5fbfe;
 }
-
 
 .africa-upper {
   position: absolute;
@@ -328,26 +357,37 @@ a.white-text{
 .iceberg-testhouse {
   background-image: url(/sites/all/themes/aesinternational/images/photos/iceberg-testhouse.jpg);
   background-position: 60% 50%;
-}
-
-.iceberg-refurbish {
-  background-image: url(/sites/all/themes/aesinternational/images/photos/iceberg-refurbish.jpg);
-  background-position: 60% 50%;
+  background-size: cover;
 }
 
 .iceberg-workshop {
   background-image: url(/sites/all/themes/aesinternational/images/photos/iceberg-workshop.jpg);
+  background-size: cover;
+}
+
+.iceberg-grounds {
+  background-image: url(/sites/all/themes/aesinternational/images/photos/iceberg-inc-grounds.jpg);
+  background-size: cover;
+}
+
+.iceberg-support {
+  background-image: url(/sites/all/themes/aesinternational/images/photos/iceberg-supportsetup.jpg);
+  background-size: cover;
 }
 
 .iceberg-contact {
   margin-top: -2.25em;
 }
 
-.iceberg-mapsea{
+.iceberg-mapsea {
   margin-top: -7.5em;
 }
 
-.labtecta-icebergsea{
+.iceberg-feedsea {
+  margin-top: -5em;
+}
+
+.labtecta-icebergsea {
   padding-bottom: 15em;
 }
 
@@ -358,6 +398,7 @@ a.white-text{
   border-radius: 7px;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
   z-index: 5;
+  margin-bottom: -2.25em;
 }
 
 .contact-block a {
@@ -367,27 +408,33 @@ a.white-text{
 .btn-contact {
   background: #002A5B;
   color: #ffffff;
-  border-bottom: none;
-  outline-offset: 1px;
-  outline-style: solid;
-  outline-color: #5B82AD;
-  outline-width: 1px;
+  border-radius: 30px;
+  border: 2px solid #5B82AD;
 }
 
-.btn-contact:hover {
+.btn-contact:hover, .btn-contact:focus {
   background: #004a8c;
   color: #ffffff;
-  outline-offset: 1px;
-  outline-style: solid;
-  outline-color: #ffffff;
-  outline-width: 1px;
+  border: 2px solid #ffffff;
 }
 
 .social-profile-icon {
   display: none;
 }
 
-/*Hide the social profile field icon that is provided*/
+.social-body {
+  padding: 1em;
+}
+
+.social-body p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.social-date {
+  margin-top: 0;
+}
+
 .user-flex {
   display: -webkit-box;
   display: -webkit-flex;
@@ -395,6 +442,10 @@ a.white-text{
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
+}
+
+.masonry-item {
+  padding: 0.5em;
 }
 
 .view-employees .masonry-item {
@@ -492,8 +543,7 @@ a.white-text{
   width: 100%;
 }
 
-/*Map icon block (but only really applies to map icon*/
-) .map-icons ul {
+.map-icons ul {
   display: flex;
   justify-content: center;
   list-style: none;
@@ -501,12 +551,10 @@ a.white-text{
   flex-wrap: wrap;
 }
 
-/*Set the map icons inline horizontal*/
 .map-icons li a {
   border-bottom: none;
 }
 
-/*Hides the border bottom on all links in map icons*/
 .map-icon ul li:nth-child(1) a:after {
   font-family: 'FontAwesome';
   content: " \f041";
@@ -514,9 +562,11 @@ a.white-text{
   font-size: 2.5em;
 }
 
-/*Fontawesome map icon logo*/
-.flex-direction-nav {
-  display: none;
+.map-icon ul li:nth-child(2) a:after {
+  font-family: 'FontAwesome';
+  content: "\f1a0";
+  color: #d34836;
+  font-size: 2.5em;
 }
 
 .btn-primary {
@@ -524,55 +574,50 @@ a.white-text{
   display: inline-block;
   background: #dd1e25;
   color: #ffffff !important;
-  border: none !important;
-  border-radius: 0;
+  border-radius: 30px;
+  border: 2px solid transparent !important;
+  box-shadow: none;
 }
 
 .btn-primary a {
   color: #ffffff;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:focus {
   background: #fa010a;
   margin-bottom: 0;
   color: #ffffff !important;
-  outline-offset: 1px;
-  outline-style: solid;
-  outline-color: #ffffff;
-  outline-width: 1px;
+  border: 2px solid #ffffff !important;
 }
 
 .entitytype-product_enquiry-form .btn {
   margin-top: 20px;
   background-color: #DD1E25;
-  border-color: #DD1E25;
   color: #ffffff;
+  border-radius: 30px;
+  border: 2px solid transparent !important;
+  box-shadow: none;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.input-group-btn{
-  font-size: inherit;
-}
-
-/*color for the button on the form*/
-.entitytype-product_enquiry-form .btn:hover {
+.entitytype-product_enquiry-form .btn:hover, .entitytype-product_enquiry-form .btn:focus {
   background-color: #fa010a;
-  border-color: #fa010a color:#ffffff;
+  border: 2px solid #ffffff !important;
+  color: #ffffff;
 }
 
 .field-name-field-external-link a {
-list-style-type: none;
-display: inline-block;
-background: #dd1e25;
-color: #ffffff !important;
-border: none !important;
-border-radius: 0;
-padding: 5px 15px;
+  list-style-type: none;
+  display: inline-block;
+  background: #dd1e25;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 0;
+  padding: 5px 15px;
 }
 
-/*color for the button on the form*/
 .field-name-field-tags {
   display: inline-flex;
 }
@@ -594,7 +639,17 @@ padding: 5px 15px;
   border: 3px solid #ffffff;
 }
 
-.author-picture:empty{
+.author-margin {
+  margin-top: 0.5em;
+}
+
+.user-picture {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}
+
+.author-picture:empty {
   border: none;
   margin-top: 0;
 }
@@ -634,13 +689,6 @@ padding: 5px 15px;
   outline-width: 1px;
 }
 
-.map-icon ul li:nth-child(2) a:after {
-  font-family: 'FontAwesome';
-  content: "\f1a0";
-  color: #d34836;
-  font-size: 2.5em;
-}
-
 .print-media {
   display: none;
 }
@@ -664,39 +712,51 @@ padding: 5px 15px;
 }
 
 .node-type-case-studies #block-rrssb-rrssb {
-  margin: 0;
+  margin: 1em;
   max-width: 80%;
 }
 
-.grey-banner{
-  background-color: #888c8f;
+.field-industry p {
   color: #ffffff;
 }
 
-.grey-upper-wave{
+.ind-icon {
+  position: absolute;
+  bottom: -20%;
+  z-index: 10;
+  right: 40%;
+}
+
+.grey-banner {
+  background-color: #888c8f;
+  color: #ffffff;
+  border-top-right-radius: 14%;
+}
+
+.grey-upper-wave {
   background-color: #888c8f;
   height: 100%;
   transform: skewX(40deg);
   position: relative;
-  right: 77%;
+  right: 75%;
   border-top-right-radius: 5%;
+  border: 1px solid #888c8f;
 }
 
-.grey-upper-curve{
+.grey-upper-curve {
   background-color: #ffffff;
   height: 100%;
   position: relative;
   right: -23%;
-  border-bottom-left-radius: 6%;
   top: -99%;
   transform: skewX(38deg);
 }
 
-.grey-lower-curve{
+.grey-lower-curve {
   background-color: #ffffff;
   height: 100%;
   transform: skewX(38deg);
-  border-top-right-radius: 2%;
+  border-top-right-radius: 6%;
   top: -100%;
   position: relative;
   left: -98%;
@@ -704,40 +764,74 @@ padding: 5px 15px;
   z-index: 0;
 }
 
-.grey-lower-wave{
+.grey-lower-wave {
   background-color: #888c8f;
-  height: 100%;
+  height: 100.015%;
   transform: skewX(40deg);
   width: 200%;
-  border-bottom-left-radius: 5%
+  border-bottom-left-radius: 5%;
+  border: 1px solid #888c8f;
 }
 
-.grey-lower-wave::before{
-  content:"";
+.grey-lower-wave::before {
+  content: "";
   height: 20%;
   border-bottom-left-radius: 2% 60%;
   color: #e5e5e7
 }
 
-.grey-lower-banner{
+.grey-lower-banner {
   background-color: #888c8f;
   height: 100%;
 }
 
-.left-arrow, .right-arrow{
+.case-ref {
+  color: #ffffff;
+  margin-left: 2em;
+  padding: 1.5em;
+}
+
+.case-ref p {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.field-industry {
+  text-align: center;
+  height: 100%;
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+  color: #ffffff;
+}
+
+.api-plans-ref {
+  margin-top: 3em;
+  position: relative;
+  z-index: 1;
+}
+
+.node-type-case-studies .field-name-field-product-image .field-items {
+  display: inline-flex;
+}
+
+.node-type-case-studies .field-name-field-product-image .field-items .field-item.odd, .node-type-case-studies .field-name-field-product-image .field-items .field-item.even {
+  width: 33.3%;
+}
+
+.left-arrow, .right-arrow {
   color: #5cabdf;
   text-shadow: 0 0 3px #ffffff;
 }
 
 .scrtabs-tab-container {
-height: 3.8em;
+  height: 3.8em;
 }
 
 .scrtabs-tabs-fixed-container {
   height: 100%;
 }
 
-.scrtabs-tab-scroll-arrow{
+.scrtabs-tab-scroll-arrow {
   height: 100%;
   border-top: 1px solid #ddd;
 }
@@ -779,34 +873,535 @@ height: 3.8em;
   opacity: 1;
 }
 
-/*Fontawesome Google logo*/
-@media screen and (max-width: 767px) {
-  .front__flex-margin {
-    margin-top: 0;
+.carousel-slider .flex-direction-nav a, .optionset-4panel-whitepaper .flex-direction-nav a {
+  top: 50%;
+  opacity: 0.7;
+  display: block;
+  border: 1px solid #e5e5e7;
+  border-radius: 50%;
+  background-color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.carousel-slider:hover .flex-direction-nav a.flex-prev {
+  left: 0;
+  opacity: 0.7;
+}
+
+.carousel-slider .flex-direction-nav a.flex-prev {
+  left: 0;
+}
+
+.carousel-slider .flex-direction-nav a.flex-next {
+  right: 0;
+}
+
+.carousel-slider:hover .flex-direction-nav a.flex-next {
+  right: 0;
+  opacity: 0.7;
+}
+
+.carousel-slider .flex-direction-nav a.flex-prev:hover, .carousel-slider .flex-direction-nav a.flex-next:hover {
+  opacity: 1;
+}
+
+.flex-direction-nav a:before {
+  font-size: 30px;
+}
+
+.prod-resources .carousel-slider .slides {
+  zoom: 1;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.ui-widget-overlay {
+  background: rgba(0, 0, 0, .85) !important;
+  opacity: initial !important;
+  overflow-y: scroll;
+  transition: 0.5s;
+}
+
+.ui-widget-header {
+  background: none !important;
+  border: none !important;
+  color: #ffffff !important;
+}
+
+.ui-widget-content {
+  background: none !important;
+  border: none !important;
+  color: #ffffff !important;
+}
+
+.ui-widget {
+  font-size: inherit !important;
+}
+
+.ui-widget-content a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+  height: 0;
+  width: 0;
+  padding: 0;
+  border: none;
+}
+
+body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .close-dialog, body.navbar-is-fixed-top.navbar-administration .close-dialog {
+  color: #ffffff;
+  position: fixed;
+  font-size: 3em;
+  float: right;
+  z-index: 1032;
+  top: 3.5em;
+  right: 1.2em;
+  height: 1em;
+  width: 1em;
+  transition: 0.5s;
+  pointer-events: auto;
+  cursor: pointer;
+  opacity: 1;
+  font-weight: normal;
+}
+
+.close-dialog {
+  color: #ffffff;
+  position: fixed;
+  font-size: 3em;
+  float: right;
+  z-index: 1032;
+  top: 1.5em;
+  right: 1.2em;
+  height: 1em;
+  width: 1em;
+  transition: 0.5s;
+  pointer-events: auto;
+  cursor: pointer;
+  opacity: 1;
+  font-weight: normal;
+}
+
+.close-dialog:hover, body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .close-dialog:hover, body.navbar-is-fixed-top.navbar-administration .close-dialog:hover {
+  color: #dd1e25;
+}
+
+.enquiry-icon {
+  color: #ffffff;
+  border-radius: 50%;
+  width: 3.5em;
+  height: 3.5em;
+  background-color: #002a5b;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  z-index: 1032;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px, rgba(0, 0, 0, 0.2) 0px 2px 24px;
+  cursor: pointer;
+}
+
+body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .overlay-btn, body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .change:after {
+  top: 4.2em;
+}
+
+body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixed-top.navbar-administration .change:after {
+  top: 2.15em;
+}
+
+.footer-positioning {
+  margin-top: -4.5em;
+  padding-top: 4em;
+}
+
+.large-cta-block {
+  margin-top: -3.5em;
+}
+
+.large-img-cta-block {
+  margin-top: -12.5em
+}
+
+.ind-flex-item-caption {
+  display: flex;
+  flex-flow: column;
+  top: 5%;
+  height: 100%;
+  width: 66.667%;
+  left: 16.6667%;
+  position: absolute;
+}
+
+.useful-links-wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.graphic-slider-img {
+  max-width: 75%;
+}
+
+.chem-pharm-logo-container {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 37%;
+  top: 13%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.virtual-tour:hover {
+  background-image: url("/sites/all/themes/aesbs337/images/graphics/360-tour-inverse-over.svg");
+  background-size: 50%;
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.virtual-tour:hover img {
+  opacity: 0;
+}
+
+.meet-team .view-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.prod-range-nav-item {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.ui-dialog-content::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 11px;
+  height: 11px;
+}
+
+.ui-dialog-content::-webkit-button {
+  color: #ffffff;
+  border-color: #000000;
+}
+
+.ui-dialog-content::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, .8);
+  border: 1px solid #535354;
+}
+
+.ui-dialog .ui-dialog-content {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+#edit-submit-news {
+  height: 34px;
+  color: #ffffff;
+  background-color: #dd1e25;
+  border-color: #dd1e25;
+  font-size: inherit;
+  padding: 6px 16px;
+  margin-top: 0;
+  line-height: 5px;
+  bottom: 1px;
+  border-radius: 30px;
+  position: relative;
+}
+
+#edit-submit-news:hover {
+  background-color: #fa010a;
+  outline: none;
+  color: #ffffff;
+}
+
+#edit-submit-case-studies {
+  height: 34px;
+  color: #ffffff;
+  background-color: #dd1e25;
+  border-color: #dd1e25;
+  background-image: none;
+  text-shadow: none;
+  font-size: inherit;
+  padding: 6px 16px;
+  line-height: 5px;
+  border-radius: 30px;
+}
+
+#edit-submit-case-studies:hover {
+  background-color: #fa010a;
+  outline: none;
+  color: #ffffff;
+}
+
+.view-case-studies .views-exposed-widgets {
+  width: 100%;
+  min-height: 1em;
+  padding: 1em;
+  margin-bottom: 20px;
+  background-color: #e5e5e7;
+  border: 1px solid #e3e3e3;
+  border-radius: 0;
+}
+
+.view-news .views-exposed-widgets {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3.75em;
+}
+
+#autocollapse.collapsed .navbar-header {
+  float: none;
+}
+
+#autocollapse.collapsed .navbar-toggle {
+  display: block;
+  margin-top: 0.65em;
+  margin-bottom: 0.65em;
+}
+
+#autocollapse.collapsed .navbar-collapse {
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+#autocollapse.collapsed .navbar-collapse.collapse {
+  display: none !important;
+}
+
+#autocollapse.collapsed .navbar-collapse.collapse.in {
+  display: block !important;
+}
+
+#autocollapse.collapsed .navbar-nav {
+  float: none !important;
+}
+
+#autocollapse.collapsed .navbar-nav>li {
+  float: none;
+  text-align: center;
+}
+
+#autocollapse.collapsed .navbar-nav>li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.iceberg-sea-padding-top {
+  padding-top: 8em;
+}
+
+.btn-group .btn-lightgrey:nth-child(1) {
+  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+.btn-group .btn-lightgrey:nth-child(2) {
+  border-left: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+.btn-group .btn-white:nth-child(1) {
+  border-right: 2px solid #e5e5e7;
+  border-bottom: 2px solid #e5e5e7;
+}
+
+.btn-group .btn-white:nth-child(2) {
+  border-left: 2px solid #e5e5e7;
+  border-bottom: 2px solid #e5e5e7;
+}
+
+.btn-group .btn-red:nth-child(1) {
+  border-right: 2px solid #ffffff;
+}
+
+.btn-group .btn-red:nth-child(2) {
+  border-left: 2px solid #ffffff;
+}
+
+.gas-seals-background {
+  background-image: url("/sites/all/themes/aesinternational/images/product/gascompressorseal_backcut.png");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.cart-seals-background {
+  background-image: url("/sites/all/themes/aesinternational/images/product/CAPI-13_backcut.png");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.seal-support-background {
+  background-image: url("/sites/all/themes/aesinternational/images/product/GasSystem-backcut.png");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.labtecta-background {
+  background-image: url("/sites/all/themes/aesinternational/images/product/Lab_Tecta_66IC_backcut.png");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.comp-seals-background {
+  background-image: url("/sites/all/themes/aesinternational/images/product/TO5-23_backcut.png");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.gland-packing-background {
+  background-image: url("/sites/all/themes/aesinternational/images/product/Packing-backcut.png");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.client-services-background {
+  background-image: url("/sites/all/themes/aesinternational/images/photos/Gas-Assembly-Pro-Jul11-050-cut.jpeg");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.prod-enquiry-btn-bottom-left {
+  position: absolute;
+  bottom: 6em;
+  left: 0;
+}
+
+.prod-enquiry-btn-bottom-right {
+  position: absolute;
+  bottom: 6em;
+  right: 0;
+}
+
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b.hs-custom-style fieldset {
+  padding: 0.5em;
+}
+
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-richtext, .hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b.submitted-message {
+  color: #ffffff;
+}
+
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-form-field label:not(.hs-error-msg) {
+  color: #ffffff;
+}
+
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .legal-consent-container .hs-richtext {
+  color: #ffffff;
+}
+
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-input:not([type=file])) {
+  background-color: #000;
+  color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0 15px;
+  width: 100%;
+}
+
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-form-checkbox-display span {
+  margin-left: 10px;
+}
+
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .grecaptcha-badge {
+  float: right;
+}
+
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-button {
+  list-style-type: none;
+  display: inline-block;
+  background: #dd1e25;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 30px;
+  padding: 6px 16px;
+  border: 2px solid transparent !important;
+  box-shadow: none;
+}
+
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-button:hover {
+  background: #ad1c1c;
+  margin-bottom: 0;
+  color: #ffffff !important;
+  border: 2px solid #ffffff;
+   !important;
+}
+
+@media screen and (max-width: 370px) {
+  .search-block {
+    position: absolute;
+    top: 25.2em;
+    left: -17%;
+    width: 23em !important;
   }
 
-  .flex_gradient {
-    overflow: hidden;
+  .front .search-block {
+    top: 10.2em;
+    left: -17%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .maintenance-page .flex-header {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .maintenance-page .flex-caption {
+    font-size: 22px;
+    line-height: 36px;
+  }
+
+  .tour-header {
+    font-size: 2.4em;
+    line-height: 40px
+  }
+
+  .flex-header {
+    top: 0;
+    text-align: left;
+    display: block;
+  }
+
+  .basic_page .flexslider .slides li img {
+    margin-top: -8%;
+    margin-bottom: -8%;
+  }
+
+  .front__flex-margin {
+    margin-top: 0;
   }
 
   .action-menu {
     top: 3.3em
   }
 
-  .lang-switch a{
-    margin-right: 3em;
-  }
-
-  .locale-untranslated{
+  .locale-untranslated {
     color: #888c8f;
   }
 
   .socialmedia {
     margin-top: 1em;
-  }
-
-  .iceberg-mapsea{
-    margin-top: -10.75em;
   }
 
   .not-front .socialmedia ul {
@@ -825,47 +1420,40 @@ height: 3.8em;
     padding-right: 0.8em;
   }
 
-  /*padding bewteen the icons*/
   .map-icon ul li:nth-child(2) a:after {
     padding-right: 0.8em;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(1) a:after {
     margin-right: 0.4em;
     font-size: 3em;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(2) a:after {
     margin-right: 0.4em;
     font-size: 3em;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(3) a:after {
     margin-right: 0.4em;
     font-size: 3em;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(4) a:after {
     margin-right: 0.4em;
     font-size: 3em;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(5) a:after {
     margin-right: 0.4em;
     font-size: 3em;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .africa-upper {
     top: 48.5%;
   }
@@ -894,6 +1482,117 @@ height: 3.8em;
   .row.bannerimage {
     overflow: hidden;
   }
+
+  .iceberg-mapsea {
+    margin-top: -10.75em;
+  }
+
+  .maintenance-page .flex-header {
+    display: block;
+  }
+
+  .maintenance-page .flex-caption {
+    display: block;
+  }
+
+  .tour-caption {
+    bottom: 10%;
+  }
+
+  .field-industry {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+  }
+
+  .api-plans-ref {
+    margin-top: 2em;
+    overflow-x: hidden;
+  }
+
+  .graphic-slider-img {
+    max-width: 100%;
+    padding-top: 58.1%;
+    padding-bottom: 62%;
+  }
+
+  .footer-social-icons {
+    display: inline-block;
+    align-self: center;
+    margin-bottom: 0;
+  }
+
+  .footer-social-icons a:nth-child(1) {
+    padding-left: 0;
+  }
+
+  .grey-lower-wave {
+    transform: skewX(21deg);
+  }
+
+  .grey-upper-wave {
+    transform: skewX(21deg);
+  }
+
+  .ind-flex-item-caption {
+    top: 0;
+    width: 83.333%;
+    left: 8.333%;
+  }
+
+  .prod-range-nav-item {
+    position: relative;
+  }
+
+  .region-flas a {
+    margin-right: 1.1em;
+  }
+
+  .virtual-tour-banner {
+    background-image: url("/sites/all/themes/aesbs337/images/graphics/360-tour-background-520.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+  }
+
+  .virtual-tour-logo {
+    max-width: 50%;
+  }
+
+  .virtual-tour:hover {
+    background-size: 50%;
+  }
+
+  .flex_gradient {
+    overflow: hidden;
+  }
+
+  .lang-switch a {
+    margin-right: 3em;
+  }
+
+  .socialmedia {
+    margin-top: 1em;
+  }
+
+  .iceberg-mapsea {
+    margin-top: -10.75em;
+  }
+
+  .not-front .socialmedia ul {
+    margin-top: 1em;
+  }
+
+  .bottom-gap {
+    height: 4em;
+  }
+
+  .sub-menu ul.menu.nav {
+    display: block;
+  }
+
+  .row.bannerimage {
+    overflow: hidden;
+  }
 }
 
 @media screen and (min-width:501px) and (max-width: 767px) {
@@ -901,15 +1600,23 @@ height: 3.8em;
   /*Apply to flex-gradient for international sites but for the home/frontpage
   use the class .front .front_flex-margin*/
   .front__flex-margin {
-    transform: scale(1.5);
-    transform-origin: top;
-    margin-bottom: 16%;
+    -ms-transform: none;
+    -webkit-transform: none;
+    transform: none;
+    transform-origin: none;
+    margin-bottom: 0;
   }
 
   .action-menu {
     top: 3.3em;
     position: absolute;
     z-index: 103;
+  }
+
+  .graphic-slider-img {
+    max-width: 100%;
+    padding-top: 21.1%;
+    padding-bottom: 21%;
   }
 }
 
@@ -925,15 +1632,66 @@ height: 3.8em;
     position: absolute;
     z-index: 103;
   }
+
+  .graphic-slider-img {
+    max-width: 100%;
+    padding-top: 48.1%;
+    padding-bottom: 59%;
+  }
+
+  .prod-range-nav-item {
+    position: relative;
+  }
+
+  .view-case-studies .views-exposed-widgets {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .maintenance-page .flex-header {
+    font-size: 26px;
+    line-height: 42px;
+  }
+
+  .maintenance-page .flex-caption {
+    font-size: 23px;
+    line-height: 37px;
+  }
+
+  .tour-header {
+    font-size: 2.6em;
+    line-height: 42px
+  }
+
+  .basic_page .flexslider .slides li img {
+    margin-top: -6%;
+    margin-bottom: -6%;
+  }
+
   .action-menu {
     top: 3.45em
   }
 
-  .lang-switch a{
+  .lang-switch a {
     margin-right: 0;
+  }
+
+  .flex-header {
+    top: 0.2em;
+    display: block;
+  }
+
+  .flex-header h1 {
+    font-size: 3em;
+    line-height: 52px;
+  }
+
+  .flex-caption {
+    font-size: 1em;
+    line-height: 26px;
+    top: 0em;
+    display: block;
   }
 
   .flex_gradient {
@@ -948,7 +1706,11 @@ height: 3.8em;
     margin-top: 1em;
   }
 
-  .iceberg-mapsea{
+  .search-block .form-item {
+    width: 71%;
+  }
+
+  .iceberg-mapsea {
     margin-top: -7.5em;
   }
 
@@ -970,42 +1732,35 @@ height: 3.8em;
     padding-right: 0.7em;
   }
 
-  /*padding bewteen the icons*/
   .map-icon ul li:nth-child(2) a:after {
     padding-right: 0.8em;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(1) a:after {
     padding-right: 0.7em;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(2) a:after {
     padding-right: 0.8em;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(3) a:after {
     padding-right: 0.8em;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(4) a:after {
     padding-right: 0.8em;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(5) a:after {
     padding-right: 0.8em;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .action-menu {
     position: absolute;
     z-index: 103;
@@ -1040,11 +1795,137 @@ height: 3.8em;
     margin-left: 8.33333333%;
     width: 83.33333333%;
   }
+
+  .maintenance-page .flex-header {
+    display: block;
+  }
+
+  .maintenance-page .flex-caption {
+    display: block;
+  }
+
+  .tour-caption {
+    bottom: 29%;
+  }
+
+  .large-cta-block {
+    margin-top: -1.5em;
+  }
+
+  .field-industry {
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+  }
+
+  .api-plans-ref {
+    margin-top: 2em;
+  }
+
+  .graphic-slider-img {
+    max-width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .footer-social-icons {
+    align-self: center;
+  }
+
+  .footer-social-icons a:nth-child(1) {
+    padding-left: 0.5em;
+  }
+
+  .grey-lower-wave {
+    transform: skewX(40deg);
+  }
+
+  .grey-upper-wave {
+    transform: skewX(40deg);
+  }
+
+  .ind-flex-item-caption {
+    top: 5%;
+    width: 83.333%;
+    left: 8.333%;
+  }
+
+  .prod-range-nav-item {
+    position: relative;
+  }
+
+  .view-case-studies .views-exposed-widgets {
+    display: block;
+  }
+
+  .region-flags a {
+    margin-right: 0.8em;
+  }
+
+  .virtual-tour-banner {
+    background-image: url("/sites/all/themes/aesbs337/images/graphics/360-tour-background-1920.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .virtual-tour-logo {
+    max-width: 33%;
+  }
+
+  .virtual-tour:hover {
+    background-size: 33%;
+  }
 }
 
 @media screen and (min-width: 992px) {
+  .flex-gradient {
+    padding-top: 7em;
+  }
+
+  .maintenance-page .flex-header {
+    font-size: 2.8em;
+    line-height: 58px;
+  }
+
+  .tour-header {
+    font-size: 3em;
+    line-height: 58px;
+  }
+
+  .maintenance-page .flex-caption {
+    font-size: 1.3em;
+    line-height: 36px;
+  }
+
+  .maintenance-page .flex-caption {
+    font-size: 24px;
+    line-height: 39px;
+  }
+
+  .flex-header {
+    top: 0.2em;
+    text-align: left;
+  }
+
+  .flex-header h1 {
+    font-size: 1.1em;
+    line-height: 58px;
+  }
+
+  .basic_page .flexslider .slides li img {
+    max-width: 95%;
+    margin-top: -7%;
+    margin-bottom: -7%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .action-menu {
     top: 3.4em
+  }
+
+  .search-block .form-item {
+    width: 70%;
   }
 
   .banner-subtitle {
@@ -1066,43 +1947,36 @@ height: 3.8em;
     padding-right: 0.6em;
   }
 
-  /*padding bewteen the icons*/
   .map-icon ul li:nth-child(2) a:after {
     padding-right: 0.6em;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(1) a:after {
     padding-left: 0;
     padding-right: 0.6em;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(2) a:after {
     padding-right: 0.6em;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(3) a:after {
     padding-right: 0.6em;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(4) a:after {
     padding-right: 0.6em;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(5) a:after {
     padding-right: 0;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .action-menu {
     position: absolute;
     top: 3em;
@@ -1110,38 +1984,115 @@ height: 3.8em;
   }
 
   .africa-upper {
-    top: 42.5%;
+    top: 43.5%;
+    left: 43%;
+    height: 14%;
   }
 
-  .asia {
-    top: 35%;
-  }
-
-  .australasia {
-    bottom: 15%;
-    height: 26%;
+  .africa-lower {
+    top: 55%;
+    height: 23%;
+    left: 46%;
   }
 
   .europe {
-    height: 30%;
-  }
-
-  .middle-east-upper {
-    top: 43%;
+    height: 25%;
+    top: 18.5%;
   }
 
   .middle-east-lower {
-    top: 47%;
+    top: 45%;
+    left: 55%;
+  }
+
+  .south-america {
+    bottom: 11.5%;
+    height: 31%;
+    left: 28%;
+  }
+
+  .north-america {
+    height: 41%;
+    width: 38%;
+  }
+
+  .maintenance-page .flex-header {
+    display: block;
+  }
+
+  .maintenance-page .flex-caption {
+    display: block;
+  }
+
+  .maintenance-page .caption-container {
+    top: 0;
+    width: 56%;
   }
 
   .front .caption-container {
     top: 23%;
   }
+
+  .large-cta-block {
+    margin-top: -3.5em;
+  }
+
+  .graphic-slider-img {
+    max-width: 90%;
+  }
+
+  .footer-social-icons {
+    align-self: center;
+  }
+
+  .ind-flex-item-caption {
+    width: 65%;
+    left: 20%;
+    top: -5%;
+  }
+
+  .region-flags a {
+    margin-right: 1em;
+  }
+
+  .virtual-tour-banner {
+    background-image: url("/sites/all/themes/aesbs337/images/graphics/360-tour-background-1920.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .virtual-tour-logo {
+    max-width: 33%;
+  }
+
+  .virtual-tour:hover {
+    background-size: 33%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
+  .flex-gradient {
+    padding-top: 6em;
+  }
+
+  .flex-header h1 {
+    font-size: 1.1em;
+    line-height: 63px;
+  }
+
+  .flex-caption {
+    font-size: 1em;
+    line-height: 36px;
+    top: 0;
+  }
+
   .action-menu {
     top: 3em;
+  }
+
+  .search-block .form-item {
+    width: 72%;
   }
 
   .banner-subtitle {
@@ -1152,8 +2103,233 @@ height: 3.8em;
     top: 28%;
   }
 
+  .maintenance-page .caption-container {
+    top: 0;
+    width: 56%;
+  }
+
+  .maintenance-page .flex-header {
+    font-size: 2.8em;
+    line-height: 58px;
+  }
+
+  .maintenance-page .flex-caption {
+    font-size: 1.3em;
+    line-height: 36px;
+  }
+
+  .basic_page .flexslider .slides li img {
+    max-width: 95%;
+    margin-top: -8%;
+    margin-bottom: -8%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .location-branches .scrtabs-tab-container {
     margin-left: 16.666667%;
     width: 66.66666667%;
+  }
+
+  .large-cta-block {
+    margin-top: -4.5em;
+  }
+
+  .graphic-slider-img {
+    max-width: 75%;
+  }
+
+  .footer-social-icons {
+    align-self: center;
+  }
+
+  .ind-flex-item-caption {
+    top: 15%;
+    width: 50%;
+    left: 25%;
+  }
+
+  .africa-upper {
+    top: 47%;
+    left: 44%;
+  }
+
+  .africa-lower {
+    top: 57%;
+    height: 28%;
+    left: 47%;
+  }
+
+  .europe {
+    height: 27%;
+    top: 20%;
+  }
+
+  .north-america {
+    height: 41%;
+    width: 38%;
+  }
+
+  .south-america {
+    bottom: 11.5%;
+    height: 31%;
+    left: 28%;
+  }
+
+  .view-case-studies .views-exposed-widgets {
+    display: flex;
+  }
+
+  .chem-pharm-logo-container {
+    width: 35%;
+    top: 12%;
+  }
+
+  .region-flags a {
+    margin-right: 1.1em;
+  }
+
+  .virtual-tour-logo {
+    max-width: 33%;
+  }
+
+  .virtual-tour:hover {
+    background-size: 33%;
+  }
+}
+
+@media (min-width: 1247px) {
+  #block-rrssb-rrssb {
+    padding-bottom: 4em
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .basic_page .flexslider .slides li img {
+    max-width: 95%;
+    margin-top: -10%;
+    margin-bottom: -10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .large-cta-block {
+    margin-top: -8em;
+  }
+
+  .graphic-slider-img {
+    max-width: 55%;
+  }
+
+  .footer-social-icons {
+    align-self: auto;
+  }
+
+  .africa-upper {
+    top: 42.75%;
+    left: 44%;
+    height: 15%;
+  }
+
+  .africa-lower {
+    top: 54%;
+    height: 23%;
+    left: 46%;
+  }
+
+  .europe {
+    height: 22.75%;
+  }
+
+  .middle-east-upper {
+    top: 42.75%;
+  }
+
+  .middle-east-lower {
+    top: 44%;
+  }
+
+  .north-america {
+    height: 44%;
+    width: 38%;
+  }
+
+  .south-america {
+    bottom: 13%;
+    height: 33%;
+    left: 28%;
+  }
+
+  .chem-pharm-logo-container {
+    width: 33%;
+    top: 10%;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .basic_page.flexslider .slides li img {
+    max-width: 85%;
+    margin-top: -10%;
+    margin-bottom: -10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .graphic-slider-img {
+    max-width: 50%;
+  }
+
+  .africa-upper {
+    top: 41%;
+    left: 40%;
+    height: 16%;
+  }
+
+  .africa-lower {
+    top: 53%;
+    height: 23%;
+    left: 42%;
+    width: 16%;
+  }
+
+  .australasia {
+    bottom: 15%;
+    height: 21%;
+    left: 65%;
+  }
+
+  .asia {
+    position: absolute;
+    right: 8%;
+    height: 28%;
+    width: 34%;
+  }
+
+  .europe {
+    height: 22.75%;
+    top: 19%;
+    left: 39%;
+  }
+
+  .middle-east-upper {
+    top: 39.75%;
+    left: 50.5%;
+  }
+
+  .middle-east-lower {
+    top: 43%;
+    left: 52.95%;
+    width: 4.5%;
+  }
+
+  .south-america {
+    bottom: 13%;
+    height: 34%;
+    left: 25%;
+  }
+
+  .chem-pharm-logo-container {
+    width: 33%;
+    top: 10%;
   }
 }
