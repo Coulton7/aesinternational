@@ -1062,7 +1062,17 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   width: 100%;
 }
 
-.ME, .NH, .VT, .NY, .MA, .CT, .PA, .RI, .NJ, .DE, .MD, .WV, .NC, .SC, .GA, .AL, .FL, .MS, .TN, .KY, .OH, .MI, .IN, .IL, .WI, .MN, .IA, .MO, .AR, .LA, .TX, .OK, .KS, .NE, .SD, .ND, .MT, .WY, .CO, .NM, .AZ, .UT, .ID, .WA, .OR, .NV, .CA, .AK, .HI {
+.ME, .NH, .VT, .NY, .MA, .CT, .PA, .RI, .NJ, .DE, .MD, .WV, .NC, .SC, .GA, .AL, .FL, .MS, .TN, .KY, .OH, .MI, .IN, .IL {
+  display: none;
+  height: 100%;
+}
+
+.WI {
+  display: none;
+  height: 100%;
+}
+
+ .MN, .IA, .MO, .AR, .LA, .TX, .OK, .KS, .NE, .SD, .ND, .MT, .WY, .CO, .NM, .AZ, .UT, .ID, .WA, .OR, .NV, .CA, .AK, .HI {
   display: none;
   height: 100%;
 }
