@@ -1415,6 +1415,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   padding-top: 8em;
 }
 
+.blue-btn:hover {
+  border: 2px solid #ffffff!important;
+}
+
 .btn-group .btn-lightgrey:nth-child(1) {
   border-right: 2px solid #ffffff;
   border-bottom: 2px solid #ffffff;
