@@ -1443,6 +1443,14 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   border-left: 2px solid #ffffff;
 }
 
+.btn-group.btn-views-group .btn-red:nth-child(1) {
+  margin-right: 2px;
+}
+
+.btn-group.btn-views-group .btn-red:nth-child(2) {
+  margin-left: 2px;
+}
+
 .gas-seals-background {
   background-image: url("/sites/all/themes/aesinternational/images/product/gascompressorseal_backcut.png");
   background-size: cover;
