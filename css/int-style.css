@@ -1596,6 +1596,12 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     top: 10.2em;
     left: -17%;
   }
+  
+  .ind-slide-title {
+    margin: 0;
+    font-size: 25px;
+    line-height: 40px;
+  }
 }
 
 @media screen and (max-width: 767px) {
