@@ -1871,6 +1871,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .view-case-studies .views-exposed-widgets {
     display: block;
   }
+
+  .ind-slide-title {
+    margin: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -2118,6 +2122,10 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   .virtual-tour:hover {
     background-size: 33%;
   }
+
+  .ind-slide-title {
+    margin: 0;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -2329,6 +2337,9 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     background-size: 33%;
   }
 
+  .ind-slide-title {
+    margin: inherit;
+  }
 }
 
 @media screen and (min-width: 1200px) {
