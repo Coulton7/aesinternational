@@ -1596,11 +1596,18 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
     top: 10.2em;
     left: -17%;
   }
-  
+
   .ind-slide-title {
     margin: 0;
     font-size: 25px;
     line-height: 40px;
+    text-align: center;
+  }
+
+  .ind-slide-body{
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
   }
 }
 
@@ -1880,6 +1887,15 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
 
   .ind-slide-title {
     margin: 0;
+    font-size: inherit;
+    line-height: inherit;
+    text-align: left;
+  }
+
+  .ind-slide-body{
+    font-size: inherit;
+    line-height: inherit;
+    text-align: left;
   }
 }
 
