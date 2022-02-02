@@ -1217,7 +1217,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn {
   top: 2.15em;
 }
 
-, body.navbar-is-fixed-top.navbar-administration .change:after {
+body.navbar-is-fixed-top.navbar-administration .change:after {
   top: 3.15em;
 }
 
