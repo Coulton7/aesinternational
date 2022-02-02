@@ -1198,8 +1198,8 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   height: 3.5em;
   background-color: #002a5b;
   position: fixed;
-  bottom: 1em;
-  right: 1em;
+  bottom: 0.75em;
+  right: 0.75em;
   z-index: 1032;
   text-align: center;
   display: flex;
