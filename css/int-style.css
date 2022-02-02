@@ -1209,7 +1209,11 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   cursor: pointer;
 }
 
-body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .overlay-btn, body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .change:after {
+body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .overlay-btn {
+  top: 4.2em;
+}
+
+body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .change:after {
   top: 4.2em;
 }
 
