@@ -1980,7 +1980,7 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
   }
 
   .sub-menu ul.menu.nav {
-    display: flex;
+    display: block;
   }
 
   .map-icon ul li:nth-child(1) a:after {
