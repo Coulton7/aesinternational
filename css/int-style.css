@@ -1316,6 +1316,11 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
   flex-wrap: wrap;
 }
 
+.meet-team .pager li>a {
+  background-color: #dd1e25;
+  border: 1px solid #dd1e25;
+}
+
 .prod-range-nav-item {
   position: absolute;
   bottom: 0;
