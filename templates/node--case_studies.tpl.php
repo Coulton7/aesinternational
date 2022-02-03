@@ -111,12 +111,12 @@
 </div>
   <div class="container-fluid margin-top-2em margin-bottom-3em padding-bottom">
     <div class="row-eq-height flex">
-      <div class="col-sm-7 col-xs-4 fullscreen">
+      <div class="clo-lg-8 col-sm-7 col-xs-4 fullscreen">
       </div>
-      <div class="col-sm-2 col-xs-3">
+      <div class="col-lg-1 col-sm-2 col-xs-3">
         <img class="img-adaptive grey-case-wave" src="/sites/all/themes/aesbs337/images/logos/wavelower.svg" />
       </div>
-      <div class="col-sm-3 col-xs-5 fullscreen">
+      <div class="col-lg-3 col-sm-3 col-xs-5 fullscreen">
         <div class="grey-case-banner">
           <div class="field-industry">
             <?php print render($content['field_case_ref']); ?>
