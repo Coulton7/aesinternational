@@ -958,6 +958,12 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   display: inline-flex;
 }
 
+.field-name-field-document a:before {
+  font-family: 'Font Awesome 5 Free';
+  content: "\f019    ";
+  font-weight: 900;
+}
+
 .field-name-field-document a{
     list-style-type: none;
     display: inline-block;
