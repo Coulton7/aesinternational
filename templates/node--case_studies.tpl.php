@@ -99,16 +99,9 @@
     hide($content['field_tags']);
     hide($content['field_industry']);
     hide($content['field_case_ref']);
-    hide($content['field_api__plan_types']);
     print render($content);
   ?>
-
 <div class="clearfix"></div>
-<div class="col-sm-12">
-  <div class="api-plans-ref">
-    <?php print render($content['field_api__plan_types']); ?>
-  </div>
-</div>
   <div class="container-fluid margin-top-2em margin-bottom-3em padding-bottom">
     <div class="row position-rel row-eq-height flex">
       <div class="clo-lg-8 col-sm-7 col-xs-4 fullscreen">
