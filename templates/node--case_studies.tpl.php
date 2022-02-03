@@ -106,8 +106,8 @@
     <div class="row position-rel row-eq-height flex">
       <div class="clo-lg-8 col-sm-7 col-xs-4 fullscreen">
       </div>
-      <div class="col-lg-1 col-sm-2 col-xs-3">
-        <img class="img-responsive grey-case-wave" src="/sites/all/themes/aesbs337/images/logos/wavelower.svg" />
+      <div class="col-lg-2 col-sm-2 col-xs-3">
+        <img class="img-responsive grey-case-wave" src="/sites/all/themes/aesbs337/images/logos/wave-lower.svg" />
       </div>
       <div class="col-lg-3 col-sm-3 col-xs-5 fullscreen">
         <div class="grey-case-banner">
