@@ -1789,14 +1789,6 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
     padding-left: 0;
   }
 
-  .grey-lower-wave {
-    transform: skewX(21deg);
-  }
-
-  .grey-upper-wave {
-    transform: skewX(21deg);
-  }
-
   .ind-flex-item-caption {
     top: 0;
     width: 83.333%;
