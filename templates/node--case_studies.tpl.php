@@ -109,12 +109,15 @@
     <?php print render($content['field_api__plan_types']); ?>
   </div>
 </div>
-  <div class="container-fluid margin-top-2em">
+  <div class="container-fluid margin-top-2em margin-bottom-3em padding-bottom">
     <div class="row-eq-height flex">
-      <div class="col-xs-9 fullscreen">
+      <div class="col-xs-8 fullscreen">
+      </div>
+      <div class="col-xs-1">
+        <img class="img-responsive grey-case-wave" src="/sites/all/themes/aesbs337/images/logos/wavelower.svg" />
       </div>
       <div class="col-xs-3 fullscreen">
-        <div class="grey-lower-banner">
+        <div class="grey-case-banner">
           <div class="field-industry">
             <?php print render($content['field_case_ref']); ?>
             <?php print render($content['field_industry']); ?>
