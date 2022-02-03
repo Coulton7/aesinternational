@@ -1889,6 +1889,10 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
     display: block;
   }
 
+  .ind-slide-title {
+    margin: 0;
+  }
+
   .prod-resources{
     padding: 1em 1.5em 1em 1.5em;
   }
