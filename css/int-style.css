@@ -958,6 +958,24 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   display: inline-flex;
 }
 
+.field-name-field-document a{
+    list-style-type: none;
+    display: inline-block;
+    background: #dd1e25;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 30px;
+    padding: 5px 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.file-icon {
+  display: none;
+}
+
 .node-type-case-studies .field-name-field-product-image .field-items .field-item.odd, .node-type-case-studies .field-name-field-product-image .field-items .field-item.even {
   width: 33.3%;
 }
