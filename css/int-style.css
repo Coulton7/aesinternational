@@ -2192,6 +2192,10 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
     top: 55%;
   }
 
+  .sub-menu ul.menu.nav {
+    display: flex;
+  }
+
   .view-key-branches .view-content {
     display: flex;
     flex-wrap: wrap;
