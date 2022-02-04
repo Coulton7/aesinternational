@@ -890,7 +890,7 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
 }
 
 .grey-case-wave {
-  filter: invert(42%) sepia(6%) saturate(151%) hue-rotate(131deg) brightness(73%) contrast(83%);
+  /*filter: invert(42%) sepia(6%) saturate(151%) hue-rotate(131deg) brightness(73%) contrast(83%);*/
   height: 100%;
   right: -1px;
   position: absolute;
