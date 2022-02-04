@@ -1892,6 +1892,10 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
   .region-flags a {
     margin-right: 2em;
   }
+
+  .front .base-slider {
+    padding-bottom: 5em;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -2134,6 +2138,10 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
 
   .ind-slide-title {
     margin: 0;
+  }
+
+  .front .base-slider {
+    padding-bottom: 0;
   }
 }
 
