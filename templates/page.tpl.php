@@ -209,17 +209,11 @@
 				<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"></img>
 
 				<?php print render($page['wavelower']); ?>
-				<div class="socialmedia text-center">
-				<?php
-					$block = module_invoke('views', 'block_view', 'social_icons-block');
-					print render($block['content']);
-				?>
-				</div>
+
 			</div>
 		</div>
 		<?php endif; ?>
 	</div>
-</div>
 
 <div class="col-sm-12 fullscreen">
 	<div class="mobile-search">
