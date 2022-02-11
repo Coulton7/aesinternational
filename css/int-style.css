@@ -633,13 +633,15 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   position: relative;
   font-size: 2.5em;
   font-weight: 900;
+  margin-right: 0.4em;
 }
 
-.socialmedia ul li:nth-child(2) {
+.socialmedia ul li:nth-child(2) a {
   color: #0077b5;
   position: relative;
   font-size: 2.5em;
   font-weight: 900;
+  margin-right: 0.4em;
 }
 
 .socialmedia ul li:nth-child(3) a {
@@ -647,6 +649,7 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   position: relative;
   font-size: 2.5em;
   font-weight: 900;
+  margin-right: 0.4em;
 }
 
 .socialmedia ul li:nth-child(4) a {
@@ -654,6 +657,7 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   position: relative;
   font-size: 2.5em;
   font-weight: 900;
+  margin-right: 0.4em;
 }
 
 .socialmedia ul li:nth-child(5) a {
@@ -697,10 +701,9 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
 }
 
 .social-flag {
-  height: 2.5em;
-  width: 2.5em;
+  height: 1em;
+  width: 1em;
   position: relative;
-  top: -0.5em;
 }
 
 .social-contact a.social-link:hover::after {
