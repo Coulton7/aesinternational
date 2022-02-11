@@ -637,6 +637,13 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   font-size: 2.5em;
 }
 
+.socialmedia ul li:nth-child(1) a {
+  color: #1da1f2;
+  position: relative;
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
 .socialmedia ul li:nth-child(2) a:after {
   font-family: "Font Awesome 5 Brands";
   content: " \f0e1";
@@ -645,9 +652,23 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   font-size: 2.5em;
 }
 
+.socialmedia ul li:nth-child(2) {
+  color: #0077b5;
+  position: relative;
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
 .socialmedia ul li:nth-child(3) a:after {
   font-family: "Font Awesome 5 Free";
   content: " \f098";
+  color: #d34836;
+  position: relative;
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
+.socialmedia ul li:nth-child(3) a {
   color: #d34836;
   position: relative;
   font-size: 2.5em;
@@ -663,6 +684,13 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   font-weight: 900;
 }
 
+.socialmedia ul li:nth-child(4) a {
+  color: #d34836;
+  position: relative;
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
 .socialmedia ul li:nth-child(5) a:after {
   font-family: "Font Awesome 5 Free";
   content: " \f3c5";
@@ -672,15 +700,22 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   font-weight: 900;
 }
 
-.socialmedia ul li:nth-child(1) a:hover::after {
+.socialmedia ul li:nth-child(5) a {
+  color: #002a5b;
+  position: relative;
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
+.socialmedia ul li:nth-child(1) a:hover::after, .socialmedia ul li:nth-child(1) a:hover {
   color: #1a90d9;
 }
 
-.socialmedia ul li:nth-child(2) a:hover::after {
+.socialmedia ul li:nth-child(2) a:hover::after, .socialmedia ul li:nth-child(2) a:hover {
   color: #006ba2;
 }
 
-.socialmedia ul li:nth-child(3) a:hover::after {
+.socialmedia ul li:nth-child(3) a:hover::after, .socialmedia ul li:nth-child(3) a:hover {
   color: #bd4030;
 }
 
@@ -688,8 +723,12 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   color: #004a8c;
 }
 
-.socialmedia ul li:nth-child(5) a:hover::after {
+.socialmedia ul li:nth-child(4) a:hover {
   color: #bd4030;
+}
+
+.socialmedia ul li:nth-child(5) a:hover {
+  color: #004a8c;
 }
 
 .social-contact a.social-link::after {
