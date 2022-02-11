@@ -740,6 +740,13 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   font-weight: 900;
 }
 
+.social-flag {
+  height: 2.5em;
+  width: 2.5em;
+  position: relative;
+  top: -0.5em;
+}
+
 .social-contact a.social-link:hover::after {
   color: #006ba2;
 }
