@@ -48,6 +48,15 @@ function aesinternational_theme(){
 	return $items;
 }
 
+function aesinternational_form_alter(&$form, &$form_state, &$form_id){
+  if($form_id = 'qs') {
+    $form['qs']['#attributes']['placeholder'] = t('Enter your keywords');
+  }
+  if($form_id = 'qs') {
+    $form['qs']['#attributes']['placeholder'] = t('Enter your keywords');
+  }
+}
+
 function aesinternational_preprocess_user_login(&$vars){
 }
 
