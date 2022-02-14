@@ -109,7 +109,7 @@
     <div class="row">
       <div class="col-sm-8 col-xs-12">
         <?php
-					$block = module_invoke('views', 'block_view', 'related_product-block');
+					$block = module_invoke('views', 'block_view', 'related_products-block');
 					print render($block['content']);
 				?>
       </div>
