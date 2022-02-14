@@ -516,6 +516,14 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   margin-top: auto;
 }
 
+.view-search .views-exposed-form .views-exposed-widget .form-submit {
+  margin-top: 0;
+}
+
+.view-search .views-exposed-form .views-exposed-widget, .search-block .views-exposed-form .views-exposed-widget {
+  padding: 0.1em 1em 0 0 ;
+}
+
 .entity.entity-entityform-type h2 {
   display: none;
 }
