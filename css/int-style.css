@@ -516,7 +516,7 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   margin-top: auto;
 }
 
-.view-search .views-exposed-form .views-exposed-widget .form-submit {
+.view-search .views-exposed-form .views-exposed-widget .form-submit, .search-block .views-exposed-form .views-exposed-widget .form-submit {
   margin-top: 0;
 }
 
