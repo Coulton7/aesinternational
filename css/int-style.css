@@ -524,6 +524,12 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   padding: 0.1em 1em 0 0 ;
 }
 
+.view-search .views-exposed-form .views-exposed-widget .form-submit {
+  padding: 6px 12px;
+  height: 34px;
+  line-height: 5px
+}
+
 .entity.entity-entityform-type h2 {
   display: none;
 }
