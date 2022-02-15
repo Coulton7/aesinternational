@@ -199,6 +199,18 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   padding: 0 0.5em
 }
 
+.search-block .views-widget .form-item {
+  width: 100%;
+  display: flex;
+}
+
+.search-block .views-widget .form-item::before {
+  font-family: 'Font Awesome 5 Free';
+  content: " \f002";
+  font-weight: 900;
+  padding: 0 0.5em;
+}
+
 .front .flex-header {
   padding-left: 0.4em;
   color: #ffffff;
