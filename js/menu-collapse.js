@@ -12,13 +12,13 @@
   }
 
   function menuItemOverlay() {
-    var overlayBtn = document.querySelector('#overlay-btn').getBoundingClientRect();
+    var overlayBtn = document.querySelector('.overlay-btn').getBoundingClientRect();
     var overlayBtnLeft = overlayBtn.left;
-    var overlayBtnRight = overlayBtn.left+overlayBtn.width;
+    var overlayBtnRight = overlayBtn.right;
 
     var menuItem = document.querySelector('.last').getBoundingClientRect();
     var menuItemLeft = menuItem.left;
-    var menuItemRight = menuItem.left+menuItem.width;
+    var menuItemRight = menuItem.right;
 
     if ((menuItemRight >= overlayBtnLeft) && (menuItemRight < overlayBtnRight)) {
       var horizontalMatch = true
