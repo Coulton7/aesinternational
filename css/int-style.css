@@ -213,7 +213,11 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
 
 .view-search .views-row-odd {
   background-color: #f4f4f4;
-  padding: 1em;
+  padding: 1em 0.5em;
+}
+
+.view-search .views-row-even {
+  padding: 1em 0.5em;
 }
 
 .view-search .list-row {
