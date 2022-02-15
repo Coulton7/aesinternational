@@ -21,16 +21,16 @@
     var menuItemRight = menuItem.right;
 
     if ((menuItemRight > overlayBtnLeft) && (menuItemRight < overlayBtnRight)) {
-      var horizontalMatch = true
+      var horizontalMatch = true;
     }
     else {
-      var horizontalMatch = false
+      var horizontalMatch = false;
     }
 
     if (horizontalMatch == true) {
-      $('#overlay-btn').addClass('display-none-important')
+      $('#overlay-btn').addClass('display-none-important');
     } else {
-      $('#overlay-btn').removeClass('display-none-important')
+      $('#overlay-btn').removeClass('display-none-important');
     }
   }
 
