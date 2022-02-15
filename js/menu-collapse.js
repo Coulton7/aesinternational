@@ -28,9 +28,9 @@
     }
 
     if (horizontalMatch == true) {
-      $('#overlay-btn').addClass('display-none')
+      $('#overlay-btn').addClass('display-none-important')
     } else {
-      $('#overlay-btn').removeClass('display-none')
+      $('#overlay-btn').removeClass('display-none-important')
     }
   }
 
