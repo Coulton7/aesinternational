@@ -12,19 +12,19 @@
   }
 
   function menuItemOverlay() {
-    var overlayBtn = document.querySelector('.overlay-btn').getBoundingClientRect();
-    var overlayBtnLeft = overlayBtn.left;
-    var overlayBtnRight = overlayBtn.right;
+    let overlayBtn = document.querySelector('.overlay-btn').getBoundingClientRect();
+    let overlayBtnLeft = overlayBtn.left;
+    let overlayBtnRight = overlayBtn.right;
 
-    var menuItem = document.querySelector('.last').getBoundingClientRect();
-    var menuItemLeft = menuItem.left;
-    var menuItemRight = menuItem.right;
+    let menuItem = document.querySelector('.last').getBoundingClientRect();
+    let menuItemLeft = menuItem.left;
+    let menuItemRight = menuItem.right;
 
     if ((menuItemRight > overlayBtnLeft) && (menuItemRight < overlayBtnRight)) {
-      var horizontalMatch = true;
+      let horizontalMatch = true;
     }
     else {
-      var horizontalMatch = false;
+      let horizontalMatch = false;
     }
 
     if (horizontalMatch == true) {
