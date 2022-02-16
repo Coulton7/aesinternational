@@ -1475,6 +1475,10 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
   padding-bottom: 10px;
 }
 
+#autocollapse.collapsed .overlay-btn {
+  display: none;
+}
+
 .iceberg-sea-padding-top{
   padding-top: 8em;
 }
