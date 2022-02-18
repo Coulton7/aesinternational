@@ -107,7 +107,8 @@
   <div class="clearfix"></div>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-8 col-xs-12">
+      <div class="col-lg-8 col-sm-10 col-sm-offset-1 col-lg-offset-2">
+        <h2>Related Products</h2>
         <?php
 					$block = module_invoke('views', 'block_view', 'related_products-block');
 					print render($block['content']);
