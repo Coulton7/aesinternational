@@ -1545,11 +1545,21 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
   background-repeat: no-repeat;
 }
 
+.cart-seals-background.lazy-back {
+  background-image: none;
+  background-color: #ffffff;
+}
+
 .cart-seals-background {
   background-image: url("/sites/all/themes/aesinternational/images/product/CAPI-13_backcut.png");
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
+}
+
+.seal-support-background.lazy-back {
+  background-image: none;
+  background-color: #e5e5e7;
 }
 
 .seal-support-background {
@@ -1559,11 +1569,21 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
   background-repeat: no-repeat;
 }
 
+.labtecta-background.lazy-back {
+  background-image: none;
+  background-color: #ffffff;
+}
+
 .labtecta-background {
   background-image: url("/sites/all/themes/aesinternational/images/product/Lab_Tecta_66IC_backcut.png");
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
+}
+
+.comp-seals-background.lazy-back {
+  background-image: none;
+  background-color: #e5e5e7;
 }
 
 .comp-seals-background {
@@ -1573,11 +1593,21 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
   background-repeat: no-repeat;
 }
 
+.gland-packing-background.lazy-back {
+  background-image: none;
+  background-color: #ffffff;
+}
+
 .gland-packing-background {
   background-image: url("/sites/all/themes/aesinternational/images/product/Packing-backcut.png");
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
+}
+
+.client-services-background.lazy-back {
+  background-image: none;
+  background-color: #888C8F;
 }
 
 .client-services-background {
