@@ -976,17 +976,17 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
 }
 
 .field-name-field-document a, .field-name-field-download-link a {
-    list-style-type: none;
-    display: inline-block;
-    background: #dd1e25;
-    color: #ffffff !important;
-    border: none !important;
-    border-radius: 30px;
-    padding: 5px 15px;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 1em;
-    margin-top: 1em;
+  list-style-type: none;
+  display: inline-block;
+  background: #dd1e25;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 30px;
+  padding: 5px 15px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 .file-icon {
