@@ -975,7 +975,7 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   font-weight: 900;
 }
 
-.field-name-field-document a, .field-name-field-download-link a{
+.field-name-field-document a, .field-name-field-download-link a {
     list-style-type: none;
     display: inline-block;
     background: #dd1e25;
