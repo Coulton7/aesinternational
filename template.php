@@ -57,9 +57,6 @@ function aesinternational_form_alter(&$form, &$form_state, &$form_id){
   }
 }
 
-function aesinternational_preprocess_user_login(&$vars){
-}
-
 function aesinternational_preprocess_node(&$variables) {
   $node = $variables['node'];
   $date = format_date($node->created, 'custom', 'F j, Y');
