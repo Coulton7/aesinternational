@@ -628,7 +628,7 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
 }
 
 .social-body {
-  padding: 0 1em 1em 1em;
+  padding: 1px 1em 1em 1em;
 }
 
 .social-body p {
@@ -664,7 +664,7 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
 }
 
 .job-location{
-  padding: 0 1em;
+  padding: 1px 1em 1em 1em;
 }
 
 .view-employees .masonry-item .views-field.views-field-picture {
