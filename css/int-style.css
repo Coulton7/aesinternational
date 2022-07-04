@@ -1520,6 +1520,12 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
 .btn-group .btn-lightgrey:nth-child(2) {
   border-left: 2px solid #ffffff;
   border-bottom: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+}
+
+.btn-group .btn-lightgrey:nth-child(2) {
+  border-left: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
 }
 
 .btn-group .btn-white:nth-child(1) {
@@ -1528,6 +1534,12 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
 }
 
 .btn-group .btn-white:nth-child(2) {
+  border-left: 2px solid #e5e5e7;
+  border-bottom: 2px solid #e5e5e7;
+  border-right: 2px solid #e5e5e7;
+}
+
+.btn-group .btn-white:nth-child(3) {
   border-left: 2px solid #e5e5e7;
   border-bottom: 2px solid #e5e5e7;
 }
