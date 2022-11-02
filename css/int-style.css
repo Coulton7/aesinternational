@@ -1198,6 +1198,10 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   border: none;
 }
 
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif!important;
+}
+
 body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .close-dialog, body.navbar-is-fixed-top.navbar-administration .close-dialog {
   color: #ffffff;
   position: fixed;
