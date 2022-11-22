@@ -631,11 +631,6 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   padding: 1px 1em 1em 1em;
 }
 
-.social-body p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 .social-date {
   margin-top: 0;
 }
