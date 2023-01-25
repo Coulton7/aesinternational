@@ -23,6 +23,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
 .flexslider .slides>li:first-child {
   display: block;
   -webkit-backface-visibility: visible;
+  backface-visibility: visible;
   padding-top: 1px;
 }
 
@@ -117,7 +118,7 @@ a.white-text {
   background-image: -moz-linear-gradient(-45deg, #002a5b 0%, #193f6b 41%, #002A5B 100%);
   background-image: -webkit-linear-gradient(-45deg, #002a5b 0%, #193f6b 41%, #002A5B 100%);
   background-image: linear-gradient(135deg, #002A5B 0%, #193f6b 41%, #002A5B 100%);
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#002a5b', endColorstr='#004a8c', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#002a5b', endColorstr='#004a8c', GradientType=1);
   background-attachment: fixed;
 }
 
@@ -338,6 +339,7 @@ a.white-text {
 .flexslider .slides>li:first-child {
   display: block;
   -webkit-backface-visibility: visible;
+  backface-visibility: visible;
 }
 
 .view-news .views-exposed-form label {
@@ -1318,7 +1320,7 @@ body.navbar-is-fixed-top.navbar-administration .overlay-btn, body.navbar-is-fixe
   color: #ffffff;
 }
 
-.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-input:not([type=file])) {
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-input:not([type=file]) {
   background-color: #000;
   color: #ffffff;
   border: 1px solid #ccc;
