@@ -582,6 +582,11 @@ p a[target="_blank"]:after, a[target="_blank"]:after {
   background-size: cover;
 }
 
+.iceberg-support-jp {
+  background-image: url(/sites/jp.peakseal.com/files/iceberg-jp-moriseki.jpg);
+  background-size: cover;
+}
+
 .iceberg-contact {
   margin-top: -2.25em;
 }
