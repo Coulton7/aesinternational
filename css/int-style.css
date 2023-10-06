@@ -1446,7 +1446,7 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
   color: #ffffff;
 }
 
-#edit-submit-case-studies {
+#edit-submit-case-studies, #edit-submit-product-brochure {
   height: 34px;
   color: #ffffff;
   background-color: #dd1e25;
@@ -1459,13 +1459,13 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
   border-radius: 30px;
 }
 
-#edit-submit-case-studies:hover {
+#edit-submit-case-studies:hover, #edit-submit-product-brochure:hover {
   background-color: #fa010a;
   outline: none;
   color: #ffffff;
 }
 
-.view-case-studies .views-exposed-widgets {
+.view-case-studies .views-exposed-widgets, .view-product-brochure .views-exposed-widget {
   width: 100%;
   min-height: 1em;
   padding: 1em;
@@ -2003,7 +2003,7 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
     position: relative;
   }
 
-  .view-case-studies .views-exposed-widgets {
+  .view-case-studies .views-exposed-widgets, .view-product-brochure .views-exposed-widget {
     display: block;
   }
 
@@ -2250,7 +2250,7 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
     position: relative;
   }
 
-  .view-case-studies .views-exposed-widgets {
+  .view-case-studies .views-exposed-widgets, .view-product-brochure .views-exposed-widget {
     display: block;
   }
 
@@ -2629,7 +2629,7 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
     left: 28%;
   }
 
-  .view-case-studies .views-exposed-widgets {
+  .view-case-studies .views-exposed-widgets, .view-product-brochure .views-exposed-widget {
     display: flex;
   }
 
