@@ -1446,6 +1446,16 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
   color: #ffffff;
 }
 
+.news-dropdown {
+  left: 37%;
+  font-size: inherit;
+}
+
+.news-dropdown>li>a {
+  padding: 0.5em;
+  border-bottom: #e5e5e7;
+}
+
 #edit-submit-case-studies, #edit-submit-product-brochure {
   height: 34px;
   color: #ffffff;
