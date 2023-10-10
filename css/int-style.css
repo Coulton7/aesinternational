@@ -1824,9 +1824,9 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
 
   .search-block-jp {
     right: 0;
-    top: 9em;
+    top: 12em;
     position: relative;
-    margin-left: 0;
+    margin-left: -3.25em;
   }
 
   .sub-menu ul.menu.nav {
@@ -2034,6 +2034,20 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
 
   .prod-range-nav-item {
     position: relative;
+  }
+
+  .front .search-block-jp {
+    right: 0;
+    top: 11em;
+    position: relative;
+    margin-left: 0;
+  }
+
+  .search-block-jp {
+    right: 0;
+    top: 9em;
+    position: relative;
+    margin-left: 0;
   }
 
   .view-case-studies .views-exposed-widgets, .view-product-brochure .views-exposed-widget {
