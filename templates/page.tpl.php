@@ -205,9 +205,8 @@ if(!empty($file_fid)) {
 
 			<?php if ($page['preface']): ?>
 				<?php print render($page['preface']);?>
-			</div>
+			<?php endif; ?>
 		</div>
-		<?php endif; ?>
 
 
 		<?php if ($page['wavelower']): ?>
