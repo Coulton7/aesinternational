@@ -2046,6 +2046,12 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
     height: 7em;
   }
 
+  .search-block-jp {
+    right: 0;
+    top: 14em;
+    position: relative;
+  }
+
   .client-services-background {
     background-image: url("/sites/all/themes/aesinternational/images/photos/Gas-Assembly-Pro-Jul11-050-cut.jpeg");
     background-size: cover;
