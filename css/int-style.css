@@ -1771,6 +1771,10 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
     line-height: 36px;
   }
 
+  .no-padding-mobile {
+    padding: 0;
+  }
+
   .tour-header {
     font-size: 2.4em;
     line-height: 40px
