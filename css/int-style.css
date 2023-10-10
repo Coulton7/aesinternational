@@ -1815,20 +1815,6 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
     height: 4em;
   }
 
-  .front .search-block-jp {
-    right: 0;
-    top: 11em;
-    position: relative;
-    margin-left: 0;
-  }
-
-  .search-block-jp {
-    right: 0;
-    top: 12em;
-    position: relative;
-    margin-left: -3.25em;
-  }
-
   .sub-menu ul.menu.nav {
     display: block;
   }
@@ -1994,6 +1980,17 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
     top: 3.3em;
     position: absolute;
     z-index: 103;
+  }
+
+  .lang-switch {
+    left: 5%;
+  }
+
+  .front .search-block-jp {
+    right: 0;
+    top: 0em;
+    position: relative;
+    margin-left: 1.25em;
   }
 
   .graphic-slider-img {
