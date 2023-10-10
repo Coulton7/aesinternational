@@ -100,22 +100,19 @@ if(!empty($file_fid)) {
 				</a>
 				<img class= "uppercurve" src="/sites/all/themes/aesbs337/images/logos/wave-upper.svg" alt ="uppercurve"></img>
 				<?php if ($logo): ?>
-					<a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-						<img src="<?php print $file_url ?>" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
-				 	</a>
+				<a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+					<img src="<?php print $file_url ?>" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
+				</a>
 			 	<?php endif; ?>
 			</div>
 
 			<div class="col-sm-10 col-xs-10 fullscreen">
 				<header id="autocollapse" role="banner" class="<?php print $navbar_classes; ?>">
-
 					<div class="<?php print $container_class; ?>">
 						<div class="navbar-header">
-
 							<?php if (!empty($site_name)): ?>
 								<a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
 							<?php endif; ?>
-
 							<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
 								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 									<span class="sr-only"><?php print t('Toggle navigation'); ?></span>
@@ -128,10 +125,8 @@ if(!empty($file_fid)) {
 					</div>
 
 					<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-
 						<div class="navbar-collapse collapse">
 							<div class="container-fluid navbar-container">
-
 								<nav role="navigation">
 									<?php if (!empty($primary_nav)): ?>
 										<?php print render($primary_nav); ?>
@@ -151,21 +146,21 @@ if(!empty($file_fid)) {
 		</div>
 
 		<?php if ($page['navigation_col']): ?>
-			<div class="navigation_col">
-				<div class="action-menu text-center">
-					<div class="col-sm-2 col-xs-2 fullscreen">
-					</div>
-					<div class="col-sm-10 col-sm-offset-2 col-xs-12 no-padding">
+		<div class="navigation_col">
+			<div class="action-menu text-center">
+				<div class="col-sm-2 col-xs-2 fullscreen">
+				</div>
+				<div class="col-sm-10 col-sm-offset-2 col-xs-12 no-padding">
 					<?php print render($page['navigation_col']);?>
 				</div>
-				</div>
 			</div>
+		</div>
 		<?php endif; ?>
 
 		<?php if ($page['vex_banner']):?>
-			<div class="vex-banner">
-				<?php print render($page['vex_banner']);?>
-			</div>
+		<div class="vex-banner">
+			<?php print render($page['vex_banner']);?>
+		</div>
 		<?php endif; ?>
 
 		<div class="preface front__flex-margin">
@@ -201,10 +196,8 @@ if(!empty($file_fid)) {
 
 			<?php if ($page['preface']): ?>
 				<?php print render($page['preface']);?>
-			</div>
+			<?php endif; ?>
 		</div>
-		<?php endif; ?>
-
 
 		<?php if ($page['wavelower']): ?>
 		<div class="row wavelower row-eq-height">
@@ -214,26 +207,24 @@ if(!empty($file_fid)) {
 			</div>
 
 			<div class="col-sm-3 col-xs-12 fullscreen">
-
 				<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"></img>
-
 				<?php print render($page['wavelower']); ?>
-
 			</div>
 		</div>
 		<?php endif; ?>
 	</div>
+</div>
 
 <div class="col-sm-12 fullscreen">
 	<div class="mobile-search">
 		<div class="row-deep">
 		</div>
 	</div>
-			<?php if($page['header']):?>
-				<div class="header">
-					<?php print render($page['header']); ?>
-				</div>
-			<?php endif; ?>
+	<?php if($page['header']):?>
+	<div class="header">
+		<?php print render($page['header']); ?>
+	</div>
+	<?php endif; ?>
 </div>
 
 <div class="main-container <?php print $container_class; ?>">
@@ -257,17 +248,17 @@ if(!empty($file_fid)) {
 
 
 <footer>
-	<?php if (!empty($page['footer'])): ?>
-		<div class="footer <?php print $container_class; ?> footer-background">
-			<?php print render($page['footer']); ?>
-		</div>
-	<?php endif; ?>
+<?php if (!empty($page['footer'])): ?>
+	<div class="footer <?php print $container_class; ?> footer-background">
+		<?php print render($page['footer']); ?>
+	</div>
+<?php endif; ?>
 
-	<?php if ($page['footer_lower']): ?>
-		<div class="footer_lower <?php print $container_class; ?> dark-grey-gradient">
-			<div class="section-shadow">
-				<?php print render($page['footer_lower']);?>
-			</div>
+<?php if ($page['footer_lower']): ?>
+	<div class="footer_lower <?php print $container_class; ?> dark-grey-gradient">
+		<div class="section-shadow">
+			<?php print render($page['footer_lower']);?>
 		</div>
-	<?php endif; ?>
+	</div>
+<?php endif; ?>
 </footer>
