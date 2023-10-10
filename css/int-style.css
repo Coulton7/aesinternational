@@ -1815,6 +1815,13 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
     height: 4em;
   }
 
+  .front .search-block-jp {
+    right: 0;
+    top: 11em;
+    position: relative;
+    margin-left: 0;
+  }
+
   .search-block-jp {
     right: 0;
     top: 9em;
