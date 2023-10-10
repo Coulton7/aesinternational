@@ -192,10 +192,9 @@ if(!empty($file_fid)) {
 
 			</div>
 		</div>
+		<?php endif; ?>
 	</div>
 </div>
-		<?php endif; ?>
-
 		<div class="col-sm-12 fullscreen">
 					<?php if($page['header']):?>
 						<div class="header">
