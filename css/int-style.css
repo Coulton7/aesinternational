@@ -1817,8 +1817,9 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
 
   .search-block-jp {
     right: 0;
-    top: 14em;
+    top: 9em;
     position: relative;
+    margin-left: 0;
   }
 
   .sub-menu ul.menu.nav {
