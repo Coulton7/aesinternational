@@ -1815,6 +1815,12 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
     height: 4em;
   }
 
+  .search-block-jp {
+    right: 0;
+    top: 14em;
+    position: relative;
+  }
+
   .sub-menu ul.menu.nav {
     display: block;
   }
@@ -2044,12 +2050,6 @@ body.navbar-is-fixed-top.navbar-administration .change:after {
 
   .grey-case-banner{
     height: 7em;
-  }
-
-  .search-block-jp {
-    right: 0;
-    top: 14em;
-    position: relative;
   }
 
   .client-services-background {
