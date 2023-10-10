@@ -217,15 +217,13 @@ if(!empty($file_fid)) {
 			</div>
 
 			<div class="col-sm-3 col-xs-12 fullscreen">
-
 				<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"></img>
-
 				<?php print render($page['wavelower']); ?>
-
 			</div>
 		</div>
 		<?php endif; ?>
 	</div>
+</div>
 
 <div class="col-sm-12 fullscreen">
 	<div class="mobile-search">
