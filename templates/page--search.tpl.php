@@ -311,13 +311,15 @@ if(!empty($file_fid)) {
 		</aside>
 		<?php endif; ?>
 
+		<?php if(!empty($page['postscript_mid'])): ?>
 		<section class="<?php if (empty($page['postscript_fir']) && empty($page['postscript_last'])) { print 'col-sm-12'; }
-				else if (empty($page['postscript_fir']) || empty($page['postscript_last'])) { print 'col-sm-8 col-md-9'; }
-				else { print 'col-sm-4 col-md-6'; } ?>">
+			else if (empty($page['postscript_fir']) || empty($page['postscript_last'])) { print 'col-sm-8 col-md-9'; }
+			else { print 'col-sm-4 col-md-6'; } ?>">
 			<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
 				<?php print render($page['postscript_mid']);?>
 			</div>
 		</section>
+		<?php endif; ?>
 
 		<?php if (!empty($page['postscript_last'])): ?>
 		<aside class="col-sm-4 col-md-3" role="complementary">
