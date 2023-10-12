@@ -332,7 +332,7 @@ if(!empty($file_fid)) {
 <?php if (!empty($page['footer_banner'])): ?>
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+		<div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 col-xs-12 no-padding">
 			<div class="footer_banner">
 				<?php print render($page['footer_banner']); ?>
 			</div>
